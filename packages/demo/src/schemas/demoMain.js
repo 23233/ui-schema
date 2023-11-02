@@ -94,6 +94,7 @@ const schemaDemoMain = {
             info: [
                 'Some Info!',
             ],
+            description:"add new description",
             /*enum: [
                 'test 1',
                 'test2',

@@ -39,7 +39,7 @@ export const ValidityHelperText: React.FC<ValidityHelperTextProps> = (
     let displayInfo = '';
     if (infoData) {
         // @ts-ignore
-        const raw = infoData.toJS()
+        const raw = typeof infoData === "string" ? infoData: infoData.toJS()
         if (Array.isArray(raw)){
             displayInfo = raw.join(', ')
         }else{
