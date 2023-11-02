@@ -4,6 +4,9 @@
     "description": "",
     "private": true,
     "main": "index.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
     "scripts": {
         "start": "npm run clean-dist && npm run serve -- demo",
         "docs": "npm run serve -- docs",
