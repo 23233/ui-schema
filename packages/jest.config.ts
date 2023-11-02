@@ -37,6 +37,14 @@ const base: Partial<Config.InitialOptions> = {
         '(tests/.*.mock).(jsx?|tsx?|ts?|js?)$',
     ],
     verbose: true,
+    reporters: [
+        "default",
+        ["jest-html-reporters", {
+            "publicPath": "./html-report",
+            "filename": "report.html",
+            "expand": true
+        }]
+    ]
 }
 
 const config: Config.InitialOptions = {

@@ -21,8 +21,7 @@ describe('LocaleHelperText', () => {
                 <ValidityHelperText
                     schema={createOrderedMap({type: 'string', widget: 'Text'})}
                     errors={createValidatorErrors().addError('demo-err', Map({dummy: true}))}
-                    showValidity
-                />
+                    showValidity={true}/>
             </MockSchemaMetaProvider>
         )
         expect(queryByText('error.demo-err') !== null).toBeTruthy()
@@ -46,6 +45,7 @@ describe('LocaleHelperText', () => {
                 <ValidityHelperText
                     schema={createOrderedMap({t: 'browser'})}
                     browserError={<span>browser-error</span>}
+                    showValidity={true}
                 />
             </MockSchemaMetaProvider>
         )

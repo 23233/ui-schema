@@ -1,7 +1,7 @@
 # env variables
 .env
 .npmrc
-
+html-report
 # default upload dir
 /upload
 
