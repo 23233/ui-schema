@@ -35,8 +35,8 @@ export const ValidityHelperText: React.FC<ValidityHelperTextProps> = (
         showValidity, errors, schema, browserError,
     },
 ) => {
-    const infoData = schema.getIn(["description"]);
-    let displayInfo = '';
+    const infoData = schema.getIn(["description"])
+    let displayInfo = ''
     if (infoData) {
         // @ts-ignore
         const raw = typeof infoData === "string" ? infoData: infoData.toJS()
@@ -47,7 +47,7 @@ export const ValidityHelperText: React.FC<ValidityHelperTextProps> = (
         }
     }
 
-    const hasInfo = displayInfo.length > 0;
+    const hasInfo = displayInfo.length > 0
 
 
     return (
@@ -73,5 +73,5 @@ export const ValidityHelperText: React.FC<ValidityHelperTextProps> = (
                 ).valueSeq()
             ) : null}
         </>
-    ) as unknown as React.ReactElement;
+    ) as unknown as React.ReactElement
 }
