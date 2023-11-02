@@ -34,19 +34,44 @@ export const ValidityHelperText: React.FC<ValidityHelperTextProps> = (
     {
         showValidity, errors, schema, browserError,
     },
-) =>
-    (schema.get('t') === 'browser' && browserError ?
-        <FormHelperText error>
-            {browserError}
-        </FormHelperText> :
-        showValidity && errors && errors.hasError() ?
-            errors.getErrors().keySeq().map((type) =>
-                errors.getError(type).map((err, i) =>
-                    <LocaleHelperText
-                        key={type + '.' + i} schema={schema} error
-                        text={'error.' + type}
-                        context={err}
-                    />,
-                ),
-            ).valueSeq()
-            : null) as unknown as React.ReactElement
+) => {
+    const infoData = schema.getIn(["description"]);
+    let displayInfo = '';
+    if (infoData) {
+        // @ts-ignore
+        const raw = infoData.toJS()
+        if (Array.isArray(raw)){
+            displayInfo = raw.join(', ')
+        }else{
+            displayInfo = raw
+        }
+    }
+
+    const hasInfo = displayInfo.length > 0;
+
+
+    return (
+        <>
+            {hasInfo && (
+                <FormHelperText>
+                    {displayInfo}
+                </FormHelperText>
+            )}
+            {schema.get('t') === 'browser' && browserError ? (
+                <FormHelperText error>
+                    {browserError}
+                </FormHelperText>
+            ) : showValidity && errors && errors.hasError() ? (
+                errors.getErrors().keySeq().map((type) =>
+                    errors.getError(type).map((err, i) =>
+                        <LocaleHelperText
+                            key={type + '.' + i} schema={schema} error
+                            text={'error.' + type}
+                            context={err}
+                        />,
+                    ),
+                ).valueSeq()
+            ) : null}
+        </>
+    ) as unknown as React.ReactElement;
+}
