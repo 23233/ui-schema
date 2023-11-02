@@ -38,11 +38,11 @@
 		"react-uid": "^2.2.0"
 	},
 	"devDependencies": {
-        "@types/react": "^17.0",
-		"@mui/material": "^5.1",
-        "@mui/styles": "^5.1",
 		"@mui/icons-material": "^5.1",
 		"@mui/lab": "^5.0.0-alpha.45",
+		"@mui/material": "^5.1",
+		"@mui/styles": "^5.1",
+		"@types/react": "^17.0",
 		"@udecode/slate-plugins": "~0.75.2",
 		"immutable": "^4.0.0",
 		"react": "^17.0",
@@ -54,10 +54,10 @@
 		"styled-components": "^5.0.0"
 	},
 	"peerDependencies": {
-		"@mui/material": "^5.1",
-        "@mui/styles": "^5.1",
 		"@mui/icons-material": "^5.1",
 		"@mui/lab": "^5.0.0-alpha.45",
+		"@mui/material": "^5.1",
+		"@mui/styles": "^5.1",
 		"@udecode/slate-plugins": "~0.75.2",
 		"@xy-form/ds-material": "~0.0.1",
 		"@xy-form/ui-schema": "~0.0.1",

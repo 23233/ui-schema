@@ -31,14 +31,14 @@
         "__release": "cp package.json build/ && cp package-lock.json build/ && cp README.md build/ && npm publish build"
     },
     "devDependencies": {
-        "immutable": "^4.0.0",
         "@types/react": "^17.0",
+        "immutable": "^4.0.0",
         "react": "^17.0",
         "react-dnd": "^14.0.0"
     },
     "peerDependencies": {
-        "immutable": "^4.0.0",
         "@types/react": "^16.8 || ^17.0 || ^18.0",
+        "immutable": "^4.0.0",
         "react": "^16.8 || ^17.0 || ^18.0",
         "react-dnd": "^14.0.0"
     },
