@@ -38,7 +38,7 @@
         "@types/react": "^17.0",
         "@mui/material": "^5.1",
         "@mui/icons-material": "^5.1",
-        "@xy-form/kit-dnd": "~0.0.6",
+        "@xy-form/kit-dnd": "~0.0.1",
         "immutable": "^4.0.0",
         "react": "^17.0",
         "react-dnd": "^14.0.0",
@@ -47,9 +47,9 @@
     "peerDependencies": {
         "@mui/material": "^5.1",
         "@mui/icons-material": "^5.1",
-        "@xy-form/ds-material": "~0.4.0-alpha",
-        "@xy-form/ui-schema": "~0.4.0-alpha",
-        "@xy-form/kit-dnd": "~0.0.6",
+        "@xy-form/ds-material": "~0.0.1",
+        "@xy-form/ui-schema": "~0.0.1",
+        "@xy-form/kit-dnd": "~0.0.1",
         "immutable": "^4.0.0",
         "react": "^17.0 || ^18.0",
         "react-dnd": "^14.0.0"
