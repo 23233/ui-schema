@@ -1,4 +1,4 @@
-import { ParseRefsContent, StoreSchemaType } from '@ui-schema/ui-schema'
+import { ParseRefsContent, StoreSchemaType } from '@xy-form/ui-schema'
 
 export class SchemaRefPending extends Error {
 }

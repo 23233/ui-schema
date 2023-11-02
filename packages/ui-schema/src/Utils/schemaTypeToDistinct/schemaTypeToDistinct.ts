@@ -1,5 +1,5 @@
 import { List } from 'immutable'
-import { SchemaTypesType } from '@ui-schema/ui-schema'
+import { SchemaTypesType } from '@xy-form/ui-schema'
 
 export const schemaTypeToDistinct = (schemaType: SchemaTypesType, noInputTypes: string[] = ['null']): string | undefined => {
     let distinctInputType: string | undefined

@@ -1,6 +1,6 @@
 # UI-Schema: Dictionary
 
-Translations for the design systems and widgets of [@ui-schema/ui-schema](https://github.com/ui-schema/ui-schema).
+Translations for the design systems and widgets of [@xy-form/ui-schema](https://github.com/ui-schema/ui-schema).
 
 Existing in English (`en`) and German (`de`).
 

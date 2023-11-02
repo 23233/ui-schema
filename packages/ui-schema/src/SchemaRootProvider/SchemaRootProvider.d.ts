@@ -1,5 +1,5 @@
 import React from 'react'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 import { OrderedMap } from 'immutable'
 
 export interface SchemaRootContext {

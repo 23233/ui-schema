@@ -1,7 +1,7 @@
 import { Map, List, OrderedMap } from 'immutable'
-import { ValidatorErrorsType } from '@ui-schema/ui-schema/ValidatorErrors'
-import { JsonSchema } from '@ui-schema/ui-schema/JsonSchema'
-// import { JsonSchema, JsonSchemaKeys, JsonSchemaKeyValue } from '@ui-schema/ui-schema/JsonSchema'
+import { ValidatorErrorsType } from '@xy-form/ui-schema/ValidatorErrors'
+import { JsonSchema } from '@xy-form/ui-schema/JsonSchema'
+// import { JsonSchema, JsonSchemaKeys, JsonSchemaKeyValue } from '@xy-form/ui-schema/JsonSchema'
 
 export type showValidity = boolean
 export type Errors = ValidatorErrorsType

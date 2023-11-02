@@ -1,9 +1,9 @@
 import React  from 'react'
-import { PluginStackInjectProps, PluginStackWrapperProps } from '@ui-schema/ui-schema/PluginStack'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
-import { UIMetaContext } from '@ui-schema/ui-schema/UIMeta'
-import { StoreKeys, WithValue } from '@ui-schema/ui-schema/UIStore'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { PluginStackInjectProps, PluginStackWrapperProps } from '@xy-form/ui-schema/PluginStack'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
+import { UIMetaContext } from '@xy-form/ui-schema/UIMeta'
+import { StoreKeys, WithValue } from '@xy-form/ui-schema/UIStore'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 export type PluginStackRootOrNestedProps = {
     isRoot: true

@@ -24,7 +24,7 @@ import React from "react";
 import {
     UIProvider, UIRootRenderer,
     isInvalid, useUIStore,
-} from "@ui-schema/ui-schema";
+} from "@xy-form/ui-schema";
 
 const CustomFooter = ({someCustomProp}) => {
     // access the editor context, also available e.g.: useSchemaWidgets, useSchemaData

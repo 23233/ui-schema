@@ -1,5 +1,5 @@
 import React from 'react';
-import {NextPluginRendererMemo} from '@ui-schema/ui-schema/PluginStack';
+import {NextPluginRendererMemo} from '@xy-form/ui-schema/PluginStack';
 import {handleIfElseThen} from './handleIfElseThen';
 
 export const ConditionalHandler = (props) => {

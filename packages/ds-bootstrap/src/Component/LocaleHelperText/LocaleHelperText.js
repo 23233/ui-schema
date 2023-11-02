@@ -1,5 +1,5 @@
 import React from 'react';
-import {Trans} from '@ui-schema/ui-schema';
+import {Trans} from '@xy-form/ui-schema';
 
 const LocaleHelperText = ({text, schema, context, className}) => {
     return <div className={className}>

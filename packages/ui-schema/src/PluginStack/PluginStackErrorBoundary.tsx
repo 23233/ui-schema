@@ -1,6 +1,6 @@
 import React from 'react'
-import { ErrorFallbackProps } from '@ui-schema/ui-schema/WidgetsBinding'
-import { StoreKeys } from '@ui-schema/ui-schema/UIStore'
+import { ErrorFallbackProps } from '@xy-form/ui-schema/WidgetsBinding'
+import { StoreKeys } from '@xy-form/ui-schema/UIStore'
 import { List } from 'immutable'
 
 export class PluginStackErrorBoundary extends React.Component<{

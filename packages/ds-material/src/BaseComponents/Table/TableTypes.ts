@@ -1,7 +1,7 @@
-import { onChangeHandler, StoreKeys, StoreSchemaType, Translator, WidgetProps, WithValue } from '@ui-schema/ui-schema'
+import { onChangeHandler, StoreKeys, StoreSchemaType, Translator, WidgetProps, WithValue } from '@xy-form/ui-schema'
 import React from 'react'
 import { List, OrderedMap } from 'immutable'
-import { ListButtonOverwrites } from '@ui-schema/ds-material/Component'
+import { ListButtonOverwrites } from '@xy-form/ds-material/Component'
 
 export interface TableRowProps {
     // unique id of `Table` for labelledBy generation

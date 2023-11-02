@@ -1,6 +1,6 @@
 import { List, OrderedMap } from 'immutable'
-import { checkValueExists, ERROR_NOT_SET, requiredValidator } from '@ui-schema/ui-schema/Validators/RequiredValidator'
-import { createValidatorErrors } from '@ui-schema/ui-schema/ValidatorErrors/ValidatorErrors'
+import { checkValueExists, ERROR_NOT_SET, requiredValidator } from '@xy-form/ui-schema/Validators/RequiredValidator'
+import { createValidatorErrors } from '@xy-form/ui-schema/ValidatorErrors/ValidatorErrors'
 
 describe('checkValueExists', () => {
     test.each([

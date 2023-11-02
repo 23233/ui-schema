@@ -2,14 +2,14 @@
 
 Drag 'n drop enabled widgets and UI-auto generation for the UI-Schema Material-UI design system.
 
-Uses `@ui-schema/kit-dnd` with `react-dnd` to render components based on their data and JSON-Schema/UI-Schema, connects those automatically to the UI-Schema store system.
+Uses `@xy-form/kit-dnd` with `react-dnd` to render components based on their data and JSON-Schema/UI-Schema, connects those automatically to the UI-Schema store system.
 
 Provides a base system for schema-driven, automatically generated, endless nestable, block based grid systems - with drag 'n drop interaction and autowired data connections.
 
 > 🚧 Work in progress, experimental [#160](https://github.com/ui-schema/ui-schema/issues/160)
 >
 > ! atm. only supports `object` as list item,
-> for other types you can use `@ui-schema/kit-dnd` (or any other dnd lib) to create your own widgets
+> for other types you can use `@xy-form/kit-dnd` (or any other dnd lib) to create your own widgets
 
 - [Overview Generic Widgets](/docs/material-dnd/widgets-generic)
 

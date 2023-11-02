@@ -1,5 +1,5 @@
-import { calcIntentPos, CalcDragIntentEvent } from '@ui-schema/kit-dnd/calcIntentPos'
-import { DndIntents, DndDragIntentPos } from '@ui-schema/kit-dnd/KitDnd'
+import { calcIntentPos, CalcDragIntentEvent } from '@xy-form/kit-dnd/calcIntentPos'
+import { DndIntents, DndDragIntentPos } from '@xy-form/kit-dnd/KitDnd'
 
 /**
  * npm run tdd -- -u --testPathPattern=src/calcIntentPos.test.ts

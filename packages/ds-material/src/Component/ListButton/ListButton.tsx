@@ -1,4 +1,4 @@
-import { AccessTooltipIcon } from '@ui-schema/ds-material'
+import { AccessTooltipIcon } from '@xy-form/ds-material'
 import Button, { ButtonProps } from '@mui/material/Button'
 import IconButton, { IconButtonProps } from '@mui/material/IconButton'
 import React from 'react'

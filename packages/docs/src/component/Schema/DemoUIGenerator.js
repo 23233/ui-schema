@@ -4,18 +4,18 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import useTheme from '@mui/material/styles/useTheme';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import {createOrderedMap, UIRootRenderer, createEmptyStore, createStore, storeUpdater, UIMetaProvider, useUIMeta, fromJSOrdered} from '@ui-schema/ui-schema';
-import {isInvalid} from '@ui-schema/ui-schema/ValidityReporter';
-import {UIStoreProvider} from '@ui-schema/ui-schema/UIStore';
+import {createOrderedMap, UIRootRenderer, createEmptyStore, createStore, storeUpdater, UIMetaProvider, useUIMeta, fromJSOrdered} from '@xy-form/ui-schema';
+import {isInvalid} from '@xy-form/ui-schema/ValidityReporter';
+import {UIStoreProvider} from '@xy-form/ui-schema/UIStore';
 import {RichCodeEditor} from '../RichCodeEditor';
 // import LuxonAdapter from '@date-io/luxon';
 // import {MuiPickersUtilsProvider} from '@material-ui/pickers';
-import {KitDndProvider, useOnIntent} from '@ui-schema/kit-dnd';
-import {useOnDirectedMove} from '@ui-schema/material-dnd/useOnDirectedMove';
+import {KitDndProvider, useOnIntent} from '@xy-form/kit-dnd';
+import {useOnDirectedMove} from '@xy-form/material-dnd/useOnDirectedMove';
 import {
     NumberRendererRead, StringRendererRead, TextRendererRead,
     WidgetBooleanRead, WidgetChipsRead, WidgetOptionsRead,
-} from '@ui-schema/ds-material/WidgetsRead';
+} from '@xy-form/ds-material/WidgetsRead';
 import {List, OrderedMap} from 'immutable';
 
 const SchemaJSONEditor = ({schema, setJsonError, setSchema, tabSize, fontSize, richIde, renderChange, theme, maxLines, enableShowAll}) => {

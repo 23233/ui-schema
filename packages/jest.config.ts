@@ -12,17 +12,17 @@ packages.forEach(pkg => {
 })
 const base: Partial<Config.InitialOptions> = {
     /*transformIgnorePatterns: [
-        'node_modules/?!(@ui-schema)',
+        'node_modules/?!(@xy-form)',
     ],*/
     /*transform: {
         '^.+\\.tsx?$': 'ts-jest',
     },*/
     moduleNameMapper: {
-        '^@ui-schema/ui-schema(.*)$': '<rootDir>/ui-schema/src$1',
-        '^@ui-schema/pro(.*)$': '<rootDir>/ui-schema-pro/src$1',
-        '^@ui-schema/ds-bootstrap(.*)$': '<rootDir>/ds-bootstrap/src$1',
-        '^@ui-schema/ds-material(.*)$': '<rootDir>/ds-material/src$1',
-        '^@ui-schema/kit-dnd(.*)$': '<rootDir>/kit-dnd/src$1',
+        '^@xy-form/ui-schema(.*)$': '<rootDir>/ui-schema/src$1',
+        '^@xy-form/pro(.*)$': '<rootDir>/ui-schema-pro/src$1',
+        '^@xy-form/ds-bootstrap(.*)$': '<rootDir>/ds-bootstrap/src$1',
+        '^@xy-form/ds-material(.*)$': '<rootDir>/ds-material/src$1',
+        '^@xy-form/kit-dnd(.*)$': '<rootDir>/kit-dnd/src$1',
     },
     moduleFileExtensions: [
         'ts',
@@ -51,7 +51,7 @@ const config: Config.InitialOptions = {
     ...base,
     // todo: check why `transformIgnorePatterns`, combined with multi-projects/lerna 0.5.3 upgrade, throws `Reentrant plugin detected trying to load ....babel-plugin-jest-hoist/build/index.js`
     /*transformIgnorePatterns: [
-        'node_modules/?!(@ui-schema)',
+        'node_modules/?!(@xy-form)',
     ],*/
     projects: [
         ...packages.map(pkg => ({
@@ -61,7 +61,7 @@ const config: Config.InitialOptions = {
             //moduleDirectories: ['node_modules', '<rootDir>/ui-schema/node_modules', '<rootDir>/ds-material/node_modules'],
             // todo: check why `transformIgnorePatterns`, combined with multi-projects/lerna 0.5.3 upgrade, throws `TypeError: /node_modules/jest-runner-eslint/build/runner/index.js: node_modules/@ampproject/remapping/dist/remapping.umd.js: _remapping(...) is not a function`
             /*transformIgnorePatterns: [
-                'node_modules/?!(@ui-schema)',
+                'node_modules/?!(@xy-form)',
             ],*/
             //testEnvironmentOptions: {},
             testMatch: [

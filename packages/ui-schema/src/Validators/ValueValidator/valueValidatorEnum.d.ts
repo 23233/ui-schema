@@ -1,7 +1,7 @@
 import { List } from 'immutable'
-import { PluginProps } from "@ui-schema/ui-schema/PluginStack/Plugin"
-import { Errors } from '@ui-schema/ui-schema/CommonTypings'
-import { PluginSimple } from '@ui-schema/ui-schema/PluginSimpleStack/PluginSimple'
+import { PluginProps } from "@xy-form/ui-schema/PluginStack/Plugin"
+import { Errors } from '@xy-form/ui-schema/CommonTypings'
+import { PluginSimple } from '@xy-form/ui-schema/PluginSimpleStack/PluginSimple'
 
 export const ERROR_ENUM_MISMATCH = 'enum-mismatch'
 

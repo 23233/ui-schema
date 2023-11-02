@@ -1,13 +1,13 @@
 import React from 'react'
-import { Translator } from '@ui-schema/ui-schema/Translate/makeTranslator'
-import { createEmptyStore } from '@ui-schema/ui-schema/UIStore'
-import { createOrderedMap } from '@ui-schema/ui-schema/Utils/createMap'
-import { UIProvider } from '@ui-schema/ui-schema/UIGenerator'
-import { UIRootRenderer } from '@ui-schema/ui-schema/UIRootRenderer'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
-import { WidgetsBindingFactory } from '@ui-schema/ui-schema/WidgetsBinding'
-import { UIMetaProvider, WidgetRenderer } from '@ui-schema/ui-schema'
-import { relTranslator } from '@ui-schema/ui-schema/Translate/relT'
+import { Translator } from '@xy-form/ui-schema/Translate/makeTranslator'
+import { createEmptyStore } from '@xy-form/ui-schema/UIStore'
+import { createOrderedMap } from '@xy-form/ui-schema/Utils/createMap'
+import { UIProvider } from '@xy-form/ui-schema/UIGenerator'
+import { UIRootRenderer } from '@xy-form/ui-schema/UIRootRenderer'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
+import { WidgetsBindingFactory } from '@xy-form/ui-schema/WidgetsBinding'
+import { UIMetaProvider, WidgetRenderer } from '@xy-form/ui-schema'
+import { relTranslator } from '@xy-form/ui-schema/Translate/relT'
 
 export const MockWidgets: WidgetsBindingFactory = {
     ErrorFallback: () => null,

@@ -1,8 +1,8 @@
-import { UIStoreType, UIStoreUpdaterFn } from '@ui-schema/ui-schema/UIStore'
+import { UIStoreType, UIStoreUpdaterFn } from '@xy-form/ui-schema/UIStore'
 import { List, Map, OrderedMap } from 'immutable'
-import { moveItem } from '@ui-schema/ui-schema/Utils/moveItem'
-import { SchemaTypesType } from '@ui-schema/ui-schema/CommonTypings'
-import { UIStoreActions, UIStoreUpdaterData } from '@ui-schema/ui-schema/UIStoreActions'
+import { moveItem } from '@xy-form/ui-schema/Utils/moveItem'
+import { SchemaTypesType } from '@xy-form/ui-schema/CommonTypings'
+import { UIStoreActions, UIStoreUpdaterData } from '@xy-form/ui-schema/UIStoreActions'
 
 export const storeActionReducers = <S extends UIStoreType = UIStoreType, D extends UIStoreUpdaterData = UIStoreUpdaterData, A extends UIStoreActions<S, D> = UIStoreActions<S, D>>(
     action: A

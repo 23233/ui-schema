@@ -1,5 +1,5 @@
 import React from 'react';
-import {TransTitle, Trans, beautifyKey} from '@ui-schema/ui-schema';
+import {TransTitle, Trans, beautifyKey} from '@xy-form/ui-schema';
 import {useUID} from 'react-uid';
 import {List, Map} from 'immutable';
 import {ValidityHelperText} from '../../Component/LocaleHelperText/LocaleHelperText';

@@ -1,4 +1,4 @@
-import {createOrderedMap} from '@ui-schema/ui-schema';
+import {createOrderedMap} from '@xy-form/ui-schema';
 
 const schemaDemoMain = {
     type: 'object',
@@ -94,7 +94,7 @@ const schemaDemoMain = {
             info: [
                 'Some Info!',
             ],
-            description:"add new description",
+            description:"You need to fill in your nickname here, which is a pseudonym",
             /*enum: [
                 'test 1',
                 'test2',

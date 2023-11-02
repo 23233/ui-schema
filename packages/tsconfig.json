@@ -20,64 +20,64 @@
         "noImplicitAny": false,
         "noUnusedParameters": true,
         "paths": {
-            "@ui-schema/ds-bootstrap": [
+            "@xy-form/ds-bootstrap": [
                 "ds-bootstrap/src"
             ],
-            "@ui-schema/ds-bootstrap/*": [
+            "@xy-form/ds-bootstrap/*": [
                 "ds-bootstrap/src/*"
             ],
-            "@ui-schema/ds-material": [
+            "@xy-form/ds-material": [
                 "ds-material/src"
             ],
-            "@ui-schema/ds-material/*": [
+            "@xy-form/ds-material/*": [
                 "ds-material/src/*"
             ],
-            "@ui-schema/kit-dnd": [
+            "@xy-form/kit-dnd": [
                 "kit-dnd/src"
             ],
-            "@ui-schema/kit-dnd/*": [
+            "@xy-form/kit-dnd/*": [
                 "kit-dnd/src/*"
             ],
-            "@ui-schema/material-pickers": [
+            "@xy-form/material-pickers": [
                 "material-pickers/src"
             ],
-            "@ui-schema/material-pickers/*": [
+            "@xy-form/material-pickers/*": [
                 "material-pickers/src/*"
             ],
-            "@ui-schema/material-slate": [
+            "@xy-form/material-slate": [
                 "material-slate/src"
             ],
-            "@ui-schema/material-slate/*": [
+            "@xy-form/material-slate/*": [
                 "material-slate/src/*"
             ],
-            "@ui-schema/material-editorjs": [
+            "@xy-form/material-editorjs": [
                 "material-editorjs/src"
             ],
-            "@ui-schema/material-editorjs/*": [
+            "@xy-form/material-editorjs/*": [
                 "material-editorjs/src/*"
             ],
-            "@ui-schema/material-dnd": [
+            "@xy-form/material-dnd": [
                 "material-dnd/src"
             ],
-            "@ui-schema/material-dnd/*": [
+            "@xy-form/material-dnd/*": [
                 "material-dnd/src/*"
             ],
-            "@ui-schema/ui-schema": [
+            "@xy-form/ui-schema": [
                 "ui-schema/src"
             ],
-            "@ui-schema/ui-schema/*": [
+            "@xy-form/ui-schema/*": [
                 "ui-schema/src/*"
             ],
-            "@ui-schema/pro": [
+            "@xy-form/pro": [
                 "ui-schema-pro/src"
             ],
-            "@ui-schema/pro/*": [
+            "@xy-form/pro/*": [
                 "ui-schema-pro/src/*"
             ],
-            "@ui-schema/dictionary": [
+            "@xy-form/dictionary": [
                 "dictionary/src"
             ],
-            "@ui-schema/dictionary/*": [
+            "@xy-form/dictionary/*": [
                 "dictionary/src/*"
             ]
         }

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { WidgetProps } from '@ui-schema/ui-schema'
+import { WidgetProps } from '@xy-form/ui-schema'
 import { SwitchProps } from '@mui/material/Switch'
 
 export function BoolRenderer(

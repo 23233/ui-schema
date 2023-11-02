@@ -1,7 +1,7 @@
 import React from 'react'
-import { useUIStoreActions } from '@ui-schema/ui-schema/UIStoreActions'
-import { getDisplayName } from '@ui-schema/ui-schema/Utils/memo'
-import { StoreKeys, useUIStore, ExtractValueOverwriteProps, WithValidity } from '@ui-schema/ui-schema/UIStore'
+import { useUIStoreActions } from '@xy-form/ui-schema/UIStoreActions'
+import { getDisplayName } from '@xy-form/ui-schema/Utils/memo'
+import { StoreKeys, useUIStore, ExtractValueOverwriteProps, WithValidity } from '@xy-form/ui-schema/UIStore'
 
 export const extractValidity = <P extends WithValidity & { storeKeys: StoreKeys }>(Component: React.ComponentType<P>): React.ComponentType<Omit<P, keyof WithValidity> & ExtractValueOverwriteProps> => {
     const ExtractValidity = (p: Omit<P, keyof WithValidity> & ExtractValueOverwriteProps) => {

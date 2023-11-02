@@ -43,9 +43,9 @@ import {
     /* not needed to add, is registered in `pluginStack`
         SchemaGridHandler, SchemaGridItem,
     */
-} from "@ui-schema/ds-material/Grid";
-import {pluginStack} from "@ui-schema/ds-material/pluginStack";
-import {validators} from "@ui-schema/ui-schema/Validators/validators";
+} from "@xy-form/ds-material/Grid";
+import {pluginStack} from "@xy-form/ds-material/pluginStack";
+import {validators} from "@xy-form/ui-schema/Validators/validators";
 
 const widgets = {
     RootRenderer,

@@ -3,7 +3,7 @@
 Component and helpers for even more advanced usages.
 
 ```bash
-npm i --save @ui-schema/pro
+npm i --save @xy-form/pro
 ```
 
 ## UIStorePro
@@ -15,7 +15,7 @@ See the dev-demo [source code](https://github.com/ui-schema/ui-schema/tree/maste
 Checkout the [example video](https://ui-schema.bemit.codes/UISchemaPro-History-Demo.mp4).
 
 ```jsx
-import {toHistory, useStorePro} from '@ui-schema/pro/UIStorePro'
+import {toHistory, useStorePro} from '@xy-form/pro/UIStorePro'
 
 const DemoComponent = ({schema}) => {
     const {

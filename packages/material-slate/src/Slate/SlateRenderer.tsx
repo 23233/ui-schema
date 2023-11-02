@@ -7,15 +7,15 @@ import {
     Descendant,
 } from 'slate'
 import { withHistory } from 'slate-history'
-import { WidgetProps, WithValue } from '@ui-schema/ui-schema'
-import { memo } from '@ui-schema/ui-schema/Utils/memo'
-import { ElementMapperType } from '@ui-schema/material-slate/SlateElements/ElementMapper'
-import { RenderElementProps } from '@ui-schema/material-slate/Slate/SlateTypings'
-import { withPlugins, withPluginsType } from '@ui-schema/material-slate/Slate/slatePlugins'
-import { SlateToolbarBalloon } from '@ui-schema/material-slate/Slate/SlateToolbarBalloon'
-import { SlateToolbarHead } from '@ui-schema/material-slate/Slate/SlateToolbarHead'
-import { pluginOptions } from '@ui-schema/material-slate/Slate/pluginOptions'
-import { isSlateEmpty } from '@ui-schema/material-slate/Slate/useSlate'
+import { WidgetProps, WithValue } from '@xy-form/ui-schema'
+import { memo } from '@xy-form/ui-schema/Utils/memo'
+import { ElementMapperType } from '@xy-form/material-slate/SlateElements/ElementMapper'
+import { RenderElementProps } from '@xy-form/material-slate/Slate/SlateTypings'
+import { withPlugins, withPluginsType } from '@xy-form/material-slate/Slate/slatePlugins'
+import { SlateToolbarBalloon } from '@xy-form/material-slate/Slate/SlateToolbarBalloon'
+import { SlateToolbarHead } from '@xy-form/material-slate/Slate/SlateToolbarHead'
+import { pluginOptions } from '@xy-form/material-slate/Slate/pluginOptions'
+import { isSlateEmpty } from '@xy-form/material-slate/Slate/useSlate'
 
 export type BulletedListElement = {
     type: string

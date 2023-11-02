@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 // - `C` = custom `SchemaRootProvider` context additions
 export interface UIRootRendererProps<C extends {} = { [k: string]: any }> {

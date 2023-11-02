@@ -3,30 +3,30 @@ import AppTheme from './layout/AppTheme'
 import Dashboard from './dashboard/Dashboard'
 import Grid, { GridSpacing } from '@mui/material/Grid'
 import Paper from '@mui/material/Paper'
-import { MuiWidgetBinding, SchemaGridHandler, SelectChips, widgets } from '@ui-schema/ds-material'
+import { MuiWidgetBinding, SchemaGridHandler, SelectChips, widgets } from '@xy-form/ds-material'
 import {
     createOrderedMap, createStore,
     GroupRendererProps,
     UIMetaProvider, UIStoreProvider,
     useUIMeta, WidgetType,
     UIStoreActions, UIStoreType, injectPluginStack, isInvalid, StoreSchemaType, ReferencingHandler, ExtractStorePlugin, CombiningHandler, DefaultHandler, DependentHandler, ConditionalHandler, PluginSimpleStack, ValidityReporter,
-} from '@ui-schema/ui-schema'
-import { schemaTypeToDistinct } from '@ui-schema/ui-schema/Utils/schemaTypeToDistinct'
+} from '@xy-form/ui-schema'
+import { schemaTypeToDistinct } from '@xy-form/ui-schema/Utils/schemaTypeToDistinct'
 import { browserT } from '../t'
-import { storeUpdater } from '@ui-schema/ui-schema/storeUpdater'
+import { storeUpdater } from '@xy-form/ui-schema/storeUpdater'
 import { OrderedMap } from 'immutable'
 import { MuiSchemaDebug } from './component/MuiSchemaDebug'
-import { UIMetaReadContextType } from '@ui-schema/ui-schema/UIMetaReadContext'
+import { UIMetaReadContextType } from '@xy-form/ui-schema/UIMetaReadContext'
 import {
     NumberRendererRead, StringRendererRead, TextRendererRead,
     WidgetBooleanRead, WidgetChipsRead,
-} from '@ui-schema/ds-material/WidgetsRead'
+} from '@xy-form/ds-material/WidgetsRead'
 import Button from '@mui/material/Button'
 import Box from '@mui/material/Box'
-import { SortPlugin } from '@ui-schema/ui-schema/Plugins/SortPlugin'
-import { InheritKeywords } from '@ui-schema/ui-schema/Plugins/InheritKeywords'
-import { GridContainer } from '@ui-schema/ds-material/GridContainer'
-import { WidgetOptionsRead } from '@ui-schema/ds-material/WidgetsRead/WidgetOptionsRead'
+import { SortPlugin } from '@xy-form/ui-schema/Plugins/SortPlugin'
+import { InheritKeywords } from '@xy-form/ui-schema/Plugins/InheritKeywords'
+import { GridContainer } from '@xy-form/ds-material/GridContainer'
+import { WidgetOptionsRead } from '@xy-form/ds-material/WidgetsRead/WidgetOptionsRead'
 
 // custom `GroupRenderer` that supports `is-read and display-dense`
 const GroupRenderer: React.ComponentType<GroupRendererProps> = ({schema, children, noGrid}) => {

@@ -15,8 +15,8 @@ The `t` prop of `UIMetaProvider` and `UIGenerator` supports complex translators 
 to support just the `t` keyword:
 
 ```jsx harmony
-import {relTranslator} from '@ui-schema/ui-schema/Translate/relT';
-import {UIMetaProvider} from '@ui-schema/ui-schema/UIMeta';
+import {relTranslator} from '@xy-form/ui-schema/Translate/relT';
+import {UIMetaProvider} from '@xy-form/ui-schema/UIMeta';
 
 <UIMetaProvider t={relTranslator}/>
 ```
@@ -24,9 +24,9 @@ import {UIMetaProvider} from '@ui-schema/ui-schema/UIMeta';
 to support custom translators and the `t` keyword:
 
 ```jsx harmony
-import {relT} from '@ui-schema/ui-schema/Translate/relT';
-import {Translator} from '@ui-schema/ui-schema/Translate/makeTranslator';
-import {UIMetaProvider} from '@ui-schema/ui-schema/UIMeta';
+import {relT} from '@xy-form/ui-schema/Translate/relT';
+import {Translator} from '@xy-form/ui-schema/Translate/makeTranslator';
+import {UIMetaProvider} from '@xy-form/ui-schema/UIMeta';
 
 /**
  * @var {Translator} translate
@@ -78,8 +78,8 @@ Second example `DemoEnumWidget` is translating a widgets enum values, supporting
 ```jsx harmony
 import React from "react";
 import {Map, List} from "immutable";
-import {Trans, beautifyKey} from '@ui-schema/ui-schema';
-import {getTranslatableEnum} from '@ui-schema/ui-schema/Translate';
+import {Trans, beautifyKey} from '@xy-form/ui-schema';
+import {getTranslatableEnum} from '@xy-form/ui-schema/Translate';
 
 const DemoWidget = ({schema, storeKeys}) => {
     return <Trans
@@ -112,7 +112,7 @@ The above example can be used to translate anything, as titles are often used an
 
 ```jsx harmony
 import React from "react";
-import {TransTitle} from '@ui-schema/ui-schema/Translate/TransTitle';
+import {TransTitle} from '@xy-form/ui-schema/Translate/TransTitle';
 
 const DemoWidget = ({schema, storeKeys}) => {
     return <TransTitle
@@ -133,7 +133,7 @@ Each design-system includes helper component for error translations, this way yo
 ```jsx harmony
 import React from "react";
 import FormHelperText from "@mui/material/FormHelperText";
-import {Trans} from '@ui-schema/ui-schema/Translate/Trans';
+import {Trans} from '@xy-form/ui-schema/Translate/Trans';
 
 const LocaleHelperText = ({text, schema, context}) => {
     return <FormHelperText>
@@ -159,8 +159,8 @@ import React from "react";
 import {
     createMap, UIGenerator,
     ERROR_NOT_SET,
-} from "@ui-schema/ui-schema";
-import {makeTranslator} from "@ui-schema/ui-schema/Translate/makeTranslator";
+} from "@xy-form/ui-schema";
+import {makeTranslator} from "@xy-form/ui-schema/Translate/makeTranslator";
 
 const dictionary = createMap({
     error: {
@@ -245,21 +245,21 @@ For `enum` values the `enum` sub-key is used together with an own `ttEnum` for t
 
 Some widgets are using labels by default, also default error messages are existing, those should be translated for each usage.
 
-Checkout the `@ui-schema/dictionary` [sources](https://github.com/ui-schema/ui-schema/tree/master/packages/dictionary) to see the used/needed translations, or simply use it directly!
+Checkout the `@xy-form/dictionary` [sources](https://github.com/ui-schema/ui-schema/tree/master/packages/dictionary) to see the used/needed translations, or simply use it directly!
 
 > Created another language? A pull request to share it with us would be awesome!
 
 ```bash
-npm i --save @ui-schema/dictionary
+npm i --save @xy-form/dictionary
 ```
 
 ```jsx
 import React from 'react';
 import AccountBox from '@mui/icons-material/AccountBox';
-import {createMap} from '@ui-schema/ui-schema/Utils/createMap'
-import {makeTranslator} from '@ui-schema/ui-schema/Translate/makeTranslator';
-import * as en from '@ui-schema/dictionary/en'
-import * as de from '@ui-schema/dictionary/de'
+import {createMap} from '@xy-form/ui-schema/Utils/createMap'
+import {makeTranslator} from '@xy-form/ui-schema/Translate/makeTranslator';
+import * as en from '@xy-form/dictionary/en'
+import * as de from '@xy-form/dictionary/de'
 
 // for material-ui only icons which are set manually through schema are needed to add here
 const icons = {

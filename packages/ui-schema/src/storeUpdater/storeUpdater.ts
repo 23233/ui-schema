@@ -2,10 +2,10 @@ import {
     StoreKeys, UIStoreType,
     prependKey, addNestKey,
     UIStoreStateData, UIStoreUpdaterFn,
-} from '@ui-schema/ui-schema/UIStore'
-import { scopeUpdaterValues, scopeUpdaterInternals, scopeUpdaterValidity } from '@ui-schema/ui-schema/storeScopeUpdater'
-import { UIStoreAction, UIStoreActions, UIStoreUpdaterData } from '@ui-schema/ui-schema/UIStoreActions'
-import { storeActionReducers } from '@ui-schema/ui-schema/storeUpdater'
+} from '@xy-form/ui-schema/UIStore'
+import { scopeUpdaterValues, scopeUpdaterInternals, scopeUpdaterValidity } from '@xy-form/ui-schema/storeScopeUpdater'
+import { UIStoreAction, UIStoreActions, UIStoreUpdaterData } from '@xy-form/ui-schema/UIStoreActions'
+import { storeActionReducers } from '@xy-form/ui-schema/storeUpdater'
 
 // todo: unify this type and the `setter` in `ScopeUpdaterMapType`
 export type ScopeOnChangeHandler<S extends UIStoreType = UIStoreType, D extends UIStoreUpdaterData = UIStoreUpdaterData, A = UIStoreActions<S, D>> = (

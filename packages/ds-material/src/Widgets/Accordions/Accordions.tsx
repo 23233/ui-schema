@@ -5,16 +5,16 @@ import {
     StoreKeyType, StoreSchemaType, WidgetProps, ValidatorErrorsType, WithValidity,
     TransTitle, PluginStack, memo,
     extractValidity, StoreKeys,
-} from '@ui-schema/ui-schema'
-import { isInvalid } from '@ui-schema/ui-schema/ValidityReporter'
-import { ValidityHelperText } from '@ui-schema/ds-material/Component/LocaleHelperText'
+} from '@xy-form/ui-schema'
+import { isInvalid } from '@xy-form/ui-schema/ValidityReporter'
+import { ValidityHelperText } from '@xy-form/ds-material/Component/LocaleHelperText'
 import Accordion, { AccordionProps } from '@mui/material/Accordion'
 import Box from '@mui/material/Box'
 import AccordionSummary from '@mui/material/AccordionSummary'
 import AccordionDetails from '@mui/material/AccordionDetails'
 import Typography, { TypographyProps } from '@mui/material/Typography'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
 
 export interface AccordionStackBaseProps {
     isOpen: boolean

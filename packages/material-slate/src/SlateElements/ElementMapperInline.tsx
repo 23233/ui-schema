@@ -1,7 +1,7 @@
-import { RenderElementProps } from '@ui-schema/material-slate/Slate/SlateTypings'
-import { mappingBasicInline } from '@ui-schema/material-slate/SlateElements/mappingBasicInline'
-import { editorIsEnabled } from '@ui-schema/material-slate/Slate/editorIsEnabled'
-import { ElementMapperType } from '@ui-schema/material-slate/SlateElements/ElementMapper'
+import { RenderElementProps } from '@xy-form/material-slate/Slate/SlateTypings'
+import { mappingBasicInline } from '@xy-form/material-slate/SlateElements/mappingBasicInline'
+import { editorIsEnabled } from '@xy-form/material-slate/Slate/editorIsEnabled'
+import { ElementMapperType } from '@xy-form/material-slate/SlateElements/ElementMapper'
 
 export interface ElementMapping {
     [k: string]: (props: RenderElementProps) => JSX.Element

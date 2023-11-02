@@ -1,7 +1,7 @@
 import React from 'react'
-import { DndValueList } from '@ui-schema/kit-dnd/KitDnd'
+import { DndValueList } from '@xy-form/kit-dnd/KitDnd'
 import { DraggableAny } from './DraggableAny'
-import { DraggableRendererProps, useDraggable } from '@ui-schema/kit-dnd/useDraggable'
+import { DraggableRendererProps, useDraggable } from '@xy-form/kit-dnd/useDraggable'
 
 export interface DraggableAreaProps {
     list: DndValueList | undefined

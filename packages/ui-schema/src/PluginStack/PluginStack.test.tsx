@@ -6,10 +6,10 @@ import { it, expect, describe } from '@jest/globals'
 import { render } from '@testing-library/react'
 // @ts-ignore
 import { toBeInTheDocument, toHaveClass } from '@testing-library/jest-dom/matchers'
-import { NextPluginRenderer, NextPluginRendererMemo, PluginStack } from '@ui-schema/ui-schema/PluginStack/PluginStack'
-import { createOrderedMap } from '@ui-schema/ui-schema/Utils/createMap/createMap'
+import { NextPluginRenderer, NextPluginRendererMemo, PluginStack } from '@xy-form/ui-schema/PluginStack/PluginStack'
+import { createOrderedMap } from '@xy-form/ui-schema/Utils/createMap/createMap'
 import { List } from 'immutable'
-import { WidgetRenderer } from '@ui-schema/ui-schema'
+import { WidgetRenderer } from '@xy-form/ui-schema'
 
 expect.extend({toBeInTheDocument, toHaveClass})
 

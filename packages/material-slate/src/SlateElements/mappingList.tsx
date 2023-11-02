@@ -1,6 +1,6 @@
-import { pluginOptions } from '@ui-schema/material-slate/Slate/pluginOptions'
+import { pluginOptions } from '@xy-form/material-slate/Slate/pluginOptions'
 import React from 'react'
-import { ElementMapping } from '@ui-schema/material-slate/SlateElements/ElementMapper'
+import { ElementMapping } from '@xy-form/material-slate/SlateElements/ElementMapper'
 
 export const mappingList: ElementMapping = {
     // eslint-disable-next-line react/display-name

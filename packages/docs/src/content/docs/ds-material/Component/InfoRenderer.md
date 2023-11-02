@@ -5,7 +5,7 @@ A component that shows custom information to a user for a schema.
 First add it to the widgetsBinding:
 
 ```js
-import {widgets} from '@ui-schema/ds-material';
+import {widgets} from '@xy-form/ds-material';
 
 const customWidgets = {...widgets}
 customWidgets.InfoRenderer = InfoRenderer
@@ -58,9 +58,9 @@ Example usage:
 
 ```typescript jsx
 import { React } from 'react'
-import { WidgetProps, WithScalarValue } from '@ui-schema/ui-schema'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
-import { InfoRenderer } from '@ui-schema/ds-material/Component/InfoRenderer'
+import { WidgetProps, WithScalarValue } from '@xy-form/ui-schema'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
+import { InfoRenderer } from '@xy-form/ds-material/Component/InfoRenderer'
 
 export const Widget: React.ComponentType<WidgetProps<MuiWidgetBinding> & WithScalarValue> = (
     {

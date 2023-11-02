@@ -12,7 +12,7 @@ Read-only widgets for standard `string` (single/multiline) and `number` types, w
 ```js
 import {
     NumberRendererRead, StringRendererRead, TextRendererRead,
-} from '@ui-schema/ds-material/WidgetsRead'
+} from '@xy-form/ds-material/WidgetsRead'
 
 const widgets = {
     types: {

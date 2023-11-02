@@ -24,7 +24,7 @@ Widgets for select input, either as 'select 1 from n' or 'select n from n'.
 ```js
 import {
     Select, SelectMulti
-} from "@ui-schema/ds-material/Widgets/Select";
+} from "@xy-form/ds-material/Widgets/Select";
 
 const widgets = {
     custom: {
@@ -53,7 +53,7 @@ const widgets = {
 ```js
 import {
     Select, SelectMulti
-} from "@ui-schema/ds-bootstrap/Widgets/Select";
+} from "@xy-form/ds-bootstrap/Widgets/Select";
 
 const widgets = {
     custom: {

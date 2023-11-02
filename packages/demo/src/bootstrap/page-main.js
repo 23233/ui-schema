@@ -2,12 +2,12 @@ import React from 'react';
 import {Dashboard} from './Dashboard';
 import {schemaTestBts, dataDemoMain} from '../schemas/demoBts';
 import {schemaGrid} from '../schemas/demoGrid';
-import {widgets} from '@ui-schema/ds-bootstrap';
-import {UIGenerator, isInvalid, createOrderedMap, createStore} from '@ui-schema/ui-schema';
+import {widgets} from '@xy-form/ds-bootstrap';
+import {UIGenerator, isInvalid, createOrderedMap, createStore} from '@xy-form/ui-schema';
 import {browserT} from '../t';
 import {BtsSchemaDebug} from '../component/BtsSchemaDebug';
 import clsx from 'clsx';
-import {storeUpdater} from '@ui-schema/ui-schema/storeUpdater';
+import {storeUpdater} from '@xy-form/ui-schema/storeUpdater';
 
 const DemoGrid = () => {
     const [store, setStore] = React.useState(() => createStore(createOrderedMap({})));

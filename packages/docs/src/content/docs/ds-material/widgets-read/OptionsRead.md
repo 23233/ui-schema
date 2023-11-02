@@ -10,7 +10,7 @@ Read-only widgets for `oneOf` and `enum`-keyword based widgets, works with the [
 ## Components
 
 ```js
-import {WidgetOptionsRead} from '@ui-schema/ds-material/WidgetsRead'
+import {WidgetOptionsRead} from '@xy-form/ds-material/WidgetsRead'
 
 const widgets = {
     custom: {

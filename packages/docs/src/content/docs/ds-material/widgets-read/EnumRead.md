@@ -10,7 +10,7 @@ Read-only widgets for `enum`-keyword based widgets, works with the [UIMetaReadCo
 ## Components
 
 ```js
-import {WidgetEnumRead} from '@ui-schema/ds-material/WidgetsRead'
+import {WidgetEnumRead} from '@xy-form/ds-material/WidgetsRead'
 
 const widgets = {
     custom: {

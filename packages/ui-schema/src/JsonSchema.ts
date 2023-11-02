@@ -1,4 +1,4 @@
-import { UISchema } from '@ui-schema/ui-schema/UISchema'
+import { UISchema } from '@xy-form/ui-schema/UISchema'
 
 export interface SchemasDraft04 {
     number: {

@@ -7,10 +7,10 @@ import {
     validateAdditionalItems,
     ERROR_DUPLICATE_ITEMS,
     arrayValidator,
-} from '@ui-schema/ui-schema/Validators/ArrayValidator'
-import { createOrderedMap } from '@ui-schema/ui-schema/Utils'
-import { ERROR_WRONG_TYPE } from '@ui-schema/ui-schema/Validators/TypeValidator'
-import { createValidatorErrors } from '@ui-schema/ui-schema/ValidatorErrors'
+} from '@xy-form/ui-schema/Validators/ArrayValidator'
+import { createOrderedMap } from '@xy-form/ui-schema/Utils'
+import { ERROR_WRONG_TYPE } from '@xy-form/ui-schema/Validators/TypeValidator'
+import { createValidatorErrors } from '@xy-form/ui-schema/ValidatorErrors'
 
 describe('validateArrayContent', () => {
     test.each([

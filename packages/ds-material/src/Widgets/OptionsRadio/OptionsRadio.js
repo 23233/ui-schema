@@ -4,9 +4,9 @@ import FormLabel from '@mui/material/FormLabel';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import RadioGroup from '@mui/material/RadioGroup';
 import Radio from '@mui/material/Radio';
-import {TransTitle, Trans} from '@ui-schema/ui-schema/Translate';
-import {ValidityHelperText} from '@ui-schema/ds-material/Component/LocaleHelperText';
-import {useOptionsFromSchema} from '@ui-schema/ds-material/Utils'
+import {TransTitle, Trans} from '@xy-form/ui-schema/Translate';
+import {ValidityHelperText} from '@xy-form/ds-material/Component/LocaleHelperText';
+import {useOptionsFromSchema} from '@xy-form/ds-material/Utils'
 
 const OptionsRadio = ({
                           schema, value, onChange, storeKeys, showValidity, valid, required, errors,

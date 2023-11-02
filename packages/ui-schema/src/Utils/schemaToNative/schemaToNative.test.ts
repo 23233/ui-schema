@@ -1,6 +1,6 @@
-import { mapSchema } from "@ui-schema/ui-schema/Utils/schemaToNative/schemaToNative"
+import { mapSchema } from "@xy-form/ui-schema/Utils/schemaToNative/schemaToNative"
 import { Map } from "immutable"
-import { createMap } from "@ui-schema/ui-schema/Utils"
+import { createMap } from "@xy-form/ui-schema/Utils"
 
 describe('mapSchema', () => {
     test.each([

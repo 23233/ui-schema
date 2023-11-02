@@ -10,7 +10,7 @@ Read-only widgets for the `oneOf`-based `Chips`, works with the [UIMetaReadConte
 ## Components
 
 ```js
-import {WidgetChipsRead} from '@ui-schema/ds-material/WidgetsRead'
+import {WidgetChipsRead} from '@xy-form/ds-material/WidgetsRead'
 
 const widgets = {
     custom: {

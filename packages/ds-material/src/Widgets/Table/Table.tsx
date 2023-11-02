@@ -1,11 +1,11 @@
 import React from 'react'
 import { List } from 'immutable'
-import { memo, WidgetProps } from '@ui-schema/ui-schema'
-import { TableRenderer } from '@ui-schema/ds-material/BaseComponents/Table/TableRenderer'
-import { TableFooter } from '@ui-schema/ds-material/BaseComponents/Table/TableFooter'
-import { TableHeader } from '@ui-schema/ds-material/BaseComponents/Table/TableHeader'
-import { TableRowRenderer } from '@ui-schema/ds-material/BaseComponents/Table/TableRowRenderer'
-import { TableRendererExtractorProps } from '@ui-schema/ds-material/BaseComponents'
+import { memo, WidgetProps } from '@xy-form/ui-schema'
+import { TableRenderer } from '@xy-form/ds-material/BaseComponents/Table/TableRenderer'
+import { TableFooter } from '@xy-form/ds-material/BaseComponents/Table/TableFooter'
+import { TableHeader } from '@xy-form/ds-material/BaseComponents/Table/TableHeader'
+import { TableRowRenderer } from '@xy-form/ds-material/BaseComponents/Table/TableRowRenderer'
+import { TableRendererExtractorProps } from '@xy-form/ds-material/BaseComponents'
 
 const TableHeaderMemo = memo(TableHeader)
 const TableRowRendererMemo = memo(TableRowRenderer)

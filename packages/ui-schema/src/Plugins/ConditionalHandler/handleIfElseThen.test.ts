@@ -1,7 +1,7 @@
 import { Map } from 'immutable'
-import { createOrderedMap } from '@ui-schema/ui-schema/Utils/createMap/createMap'
-import { handleIfElseThen } from '@ui-schema/ui-schema/Plugins/ConditionalHandler/handleIfElseThen'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { createOrderedMap } from '@xy-form/ui-schema/Utils/createMap/createMap'
+import { handleIfElseThen } from '@xy-form/ui-schema/Plugins/ConditionalHandler/handleIfElseThen'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 /**
  * npm test -- --testPathPattern=ConditionalHandler --watch --watchman --coverage=false

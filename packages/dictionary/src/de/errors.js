@@ -14,8 +14,8 @@ import {
     ERROR_MIN_CONTAINS,
     ERROR_MAX_CONTAINS,
     ERROR_ADDITIONAL_PROPERTIES,
-} from '@ui-schema/ui-schema/Validators';
-import {typeToString} from '@ui-schema/dictionary/Utils/typeToString';
+} from '@xy-form/ui-schema/Validators';
+import {typeToString} from '@xy-form/dictionary/Utils/typeToString';
 
 export const errors = {
     [ERROR_NOT_SET]: 'Bitte fülle das Feld aus',

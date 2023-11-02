@@ -1,8 +1,8 @@
 import React from 'react'
 import { DraggableBlock } from './DraggableBlock'
-import { DndValueList } from '@ui-schema/kit-dnd/KitDnd'
+import { DndValueList } from '@xy-form/kit-dnd/KitDnd'
 import { DraggableArea } from './DraggableArea'
-import { DraggableRendererProps } from '@ui-schema/kit-dnd/useDraggable'
+import { DraggableRendererProps } from '@xy-form/kit-dnd/useDraggable'
 
 export interface DraggableAnyProps {
     list?: DndValueList

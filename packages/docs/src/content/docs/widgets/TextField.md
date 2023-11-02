@@ -26,10 +26,10 @@ Widgets for native HTML text inputs, usable for `string` (single/multiline), `nu
 ```js
 import {
     TextRenderer, NumberRenderer, StringRenderer
-} from "@ui-schema/ds-material/Widgets/TextField";
+} from "@xy-form/ds-material/Widgets/TextField";
 import {
     TextIconRenderer, NumberIconRenderer, StringIconRenderer
-} from "@ui-schema/ds-material/Widgets/TextFieldIcon";
+} from "@xy-form/ds-material/Widgets/TextFieldIcon";
 
 const widgets = {
     types: {
@@ -51,7 +51,7 @@ const widgets = {
     - `variant`
     - `margin`
     - `dense` if `true` applies size `small`
-    - `shrink` to `true` to always have the label up, e.g. native-date may look wrong otherwise in some browsers (use @ui-schema/material-pickers for best date/time support)
+    - `shrink` to `true` to always have the label up, e.g. native-date may look wrong otherwise in some browsers (use @xy-form/material-pickers for best date/time support)
 - `formats`
     - supports browser based translations for format mismatch, schema key: `t: 'browser''` (will be moved to another way)
 - `info`
@@ -122,7 +122,7 @@ const dicEN = createMap({
 ```js
 import {
     TextRenderer, NumberRenderer, StringRenderer
-} from "@ui-schema/ds-bootstrap/Widgets/TextField";
+} from "@xy-form/ds-bootstrap/Widgets/TextField";
 
 const widgets = {
     types: {

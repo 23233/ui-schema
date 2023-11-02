@@ -1,7 +1,7 @@
 import React from 'react'
-import {getNextPlugin} from '@ui-schema/ui-schema/PluginStack'
-import {Trans} from '@ui-schema/ui-schema/Translate/Trans';
-import {useSchemaNetworkRef} from '@ui-schema/ui-schema/Plugins/ReferencingHandler';
+import {getNextPlugin} from '@xy-form/ui-schema/PluginStack'
+import {Trans} from '@xy-form/ui-schema/Translate/Trans';
+import {useSchemaNetworkRef} from '@xy-form/ui-schema/Plugins/ReferencingHandler';
 
 const RefLoader = ({Plugin, currentPluginIndex, ...props}) => {
     let {schema, schemaRef, isVirtual} = props

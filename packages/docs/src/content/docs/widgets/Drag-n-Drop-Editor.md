@@ -32,12 +32,12 @@ For a block/draggable schema:
 With replacing `DraggableBlock` and `DraggableRootContent` you can intercept and replace the initial-droppable zones and wrappers of the draggable blocks.
 
 ```js
-import {widgets} from '@ui-schema/ds-material';
-import {BlockPanel} from '@ui-schema/material-dnd/DraggableBlock/BlockPanel';
-import {DroppableRootContent} from '@ui-schema/material-dnd/DroppableRoot/DroppableRootContent';
-import {DroppableRootMultiple} from '@ui-schema/material-dnd/Widgets/DroppableRootMultiple';
-import {DroppableRootSingle} from '@ui-schema/material-dnd/Widgets/DroppableRootSingle';
-import {DroppablePanel} from '@ui-schema/material-dnd/Widgets/DroppablePanel';
+import {widgets} from '@xy-form/ds-material';
+import {BlockPanel} from '@xy-form/material-dnd/DraggableBlock/BlockPanel';
+import {DroppableRootContent} from '@xy-form/material-dnd/DroppableRoot/DroppableRootContent';
+import {DroppableRootMultiple} from '@xy-form/material-dnd/Widgets/DroppableRootMultiple';
+import {DroppableRootSingle} from '@xy-form/material-dnd/Widgets/DroppableRootSingle';
+import {DroppablePanel} from '@xy-form/material-dnd/Widgets/DroppablePanel';
 
 const customWidgets = {...widgets};
 
@@ -136,7 +136,7 @@ export const schema = createOrderedMap({
 ### Material-UI
 
 ```bash
-npm i --save @ui-schema/material-dnd react-dnd
+npm i --save @xy-form/material-dnd react-dnd
 ```
 
 Supports extra keywords:

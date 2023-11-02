@@ -1,5 +1,5 @@
-import { PluginProps } from '@ui-schema/ui-schema/PluginStack/Plugin'
-import { WithValue } from '@ui-schema/ui-schema/UIStore'
+import { PluginProps } from '@xy-form/ui-schema/PluginStack/Plugin'
+import { WithValue } from '@xy-form/ui-schema/UIStore'
 
 export interface PluginSimple {
     handle: (props: Partial<PluginProps & WithValue>) => Partial<PluginProps & WithValue>

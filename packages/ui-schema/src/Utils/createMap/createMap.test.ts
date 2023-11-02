@@ -1,4 +1,4 @@
-import { createMap, createOrderedMap } from "@ui-schema/ui-schema/Utils/createMap"
+import { createMap, createOrderedMap } from "@xy-form/ui-schema/Utils/createMap"
 import { List, Map, OrderedMap } from "immutable"
 
 describe('createMap', () => {

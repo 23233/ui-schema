@@ -1,5 +1,5 @@
 import React from "react";
-import {Trans, useUIMeta} from "@ui-schema/ui-schema";
+import {Trans, useUIMeta} from "@xy-form/ui-schema";
 
 const Icon = ({onClick, label, iconName, btnSize}) => {
     const {t} = useUIMeta();

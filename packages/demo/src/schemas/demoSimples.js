@@ -1,4 +1,4 @@
-import {createOrderedMap} from '@ui-schema/ui-schema';
+import {createOrderedMap} from '@xy-form/ui-schema';
 
 export const schemaNull = createOrderedMap({
     type: 'object',

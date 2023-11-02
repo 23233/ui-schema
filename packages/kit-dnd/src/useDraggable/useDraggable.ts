@@ -1,4 +1,4 @@
-import { DataKeys, ItemSpec, useKitDnd } from '@ui-schema/kit-dnd'
+import { DataKeys, ItemSpec, useKitDnd } from '@xy-form/kit-dnd'
 import { List } from 'immutable'
 import React from 'react'
 import { Identifier } from 'dnd-core'

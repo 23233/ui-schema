@@ -1,6 +1,6 @@
-import { PluginProps } from '@ui-schema/ui-schema/PluginStack/Plugin'
-import { PluginSimple } from '@ui-schema/ui-schema/PluginSimpleStack/PluginSimple'
-import { Errors } from '@ui-schema/ui-schema/CommonTypings'
+import { PluginProps } from '@xy-form/ui-schema/PluginStack/Plugin'
+import { PluginSimple } from '@xy-form/ui-schema/PluginSimpleStack/PluginSimple'
+import { Errors } from '@xy-form/ui-schema/CommonTypings'
 
 export const ERROR_CONST_MISMATCH = 'const-mismatch'
 

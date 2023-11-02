@@ -1,7 +1,7 @@
 import React from 'react'
 import { Element, NodeEntry, Range } from 'slate'
 import { RenderLeafProps } from 'slate-react'
-import { editorEnableOnly } from '@ui-schema/material-slate/Slate/SlateRenderer'
+import { editorEnableOnly } from '@xy-form/material-slate/Slate/SlateRenderer'
 
 // todo: remove those typings when correctly overwriting the slate typings
 

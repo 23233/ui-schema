@@ -1,8 +1,8 @@
 import React from 'react'
-import { Translator } from '@ui-schema/ui-schema/Translate/makeTranslator'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
-import { getDisplayName } from '@ui-schema/ui-schema/Utils/memo'
-import { WidgetsBindingFactory } from '@ui-schema/ui-schema/WidgetsBinding'
+import { Translator } from '@xy-form/ui-schema/Translate/makeTranslator'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
+import { getDisplayName } from '@xy-form/ui-schema/Utils/memo'
+import { WidgetsBindingFactory } from '@xy-form/ui-schema/WidgetsBinding'
 
 // @ts-ignore
 const UIMetaContextObj = React.createContext<UIMetaContext>({})

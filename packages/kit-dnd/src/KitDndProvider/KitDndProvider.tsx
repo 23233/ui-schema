@@ -1,5 +1,5 @@
 import React from 'react'
-import { ItemSpec, OnMovedEvent } from '@ui-schema/kit-dnd/KitDnd'
+import { ItemSpec, OnMovedEvent } from '@xy-form/kit-dnd/KitDnd'
 
 export type onMovedType<C extends HTMLElement = HTMLElement, S extends ItemSpec = ItemSpec, E extends OnMovedEvent<C, S> = OnMovedEvent<C, S>> = (details: E) => void
 

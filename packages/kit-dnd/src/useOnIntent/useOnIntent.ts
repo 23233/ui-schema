@@ -1,8 +1,8 @@
 import React from 'react'
-import { checkIsOtherTarget } from '@ui-schema/kit-dnd/Utils/checkIsOtherTarget'
-import { calcIntentPos, CalcDragIntentEvent, CalcDragIntentOptions } from '@ui-schema/kit-dnd/calcIntentPos'
-import { DataKeys, DndDragIntentKeys, DndDragIntentPos, ItemSpec, OnMovedEvent } from '@ui-schema/kit-dnd/KitDnd'
-import { calcIntentDataKeys } from '@ui-schema/kit-dnd/calcIntentDataKeys'
+import { checkIsOtherTarget } from '@xy-form/kit-dnd/Utils/checkIsOtherTarget'
+import { calcIntentPos, CalcDragIntentEvent, CalcDragIntentOptions } from '@xy-form/kit-dnd/calcIntentPos'
+import { DataKeys, DndDragIntentKeys, DndDragIntentPos, ItemSpec, OnMovedEvent } from '@xy-form/kit-dnd/KitDnd'
+import { calcIntentDataKeys } from '@xy-form/kit-dnd/calcIntentDataKeys'
 
 export type OnIntentOptions = CalcDragIntentOptions
 

@@ -8,10 +8,10 @@ import {
     // @ts-ignore
 } from '@testing-library/jest-dom/matchers'
 import { List, Map } from 'immutable'
-import { UIStore, createStore, StoreKeys, UIStoreType } from '@ui-schema/ui-schema/UIStore'
-import { doExtractValues } from '@ui-schema/ui-schema/UIStore'
-import { isEqualObject } from '@ui-schema/ui-schema/Utils/isEqualObject'
-import { fromJSOrdered } from '@ui-schema/ui-schema/Utils/createMap'
+import { UIStore, createStore, StoreKeys, UIStoreType } from '@xy-form/ui-schema/UIStore'
+import { doExtractValues } from '@xy-form/ui-schema/UIStore'
+import { isEqualObject } from '@xy-form/ui-schema/Utils/isEqualObject'
+import { fromJSOrdered } from '@xy-form/ui-schema/Utils/createMap'
 
 expect.extend({toBeInTheDocument, toHaveClass})
 

@@ -1,5 +1,5 @@
 import { List, Map, Record } from 'immutable'
-import { addNestKey, StoreKeys, UIStoreInternalsType, UIStoreType } from '@ui-schema/ui-schema/UIStore'
+import { addNestKey, StoreKeys, UIStoreInternalsType, UIStoreType } from '@xy-form/ui-schema/UIStore'
 
 export type ExtractValueOverwriteProps = { showValidity?: boolean }
 

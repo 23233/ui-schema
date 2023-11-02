@@ -1,10 +1,10 @@
-import { extractValue, memo, StoreSchemaType, WidgetProps, WithOnChange, WithValue } from '@ui-schema/ui-schema'
+import { extractValue, memo, StoreSchemaType, WidgetProps, WithOnChange, WithValue } from '@xy-form/ui-schema'
 import React from 'react'
 import { Map, OrderedMap } from 'immutable'
-import { DndBlock, useBlocks } from '@ui-schema/material-dnd/DragDropBlockProvider'
-import { DndListItemComponentProps } from '@ui-schema/material-dnd/DndListRenderer'
-import { DraggableRendererProps } from '@ui-schema/kit-dnd/useDraggable'
-import { matchBlock } from '@ui-schema/material-dnd/DndBlocksRenderer/matchBlock'
+import { DndBlock, useBlocks } from '@xy-form/material-dnd/DragDropBlockProvider'
+import { DndListItemComponentProps } from '@xy-form/material-dnd/DndListRenderer'
+import { DraggableRendererProps } from '@xy-form/kit-dnd/useDraggable'
+import { matchBlock } from '@xy-form/material-dnd/DndBlocksRenderer/matchBlock'
 
 export interface DndBlocksRendererItemProps extends Pick<WidgetProps, 'storeKeys' | 'required'> {
     block: DndBlock

@@ -26,7 +26,7 @@ For best performance in non-scalar widgets use the [HOCs](https://reactjs.org/do
 General typings of the store:
 
 ```typescript jsx
-import { UIStoreType } from '@ui-schema/ui-schema/UIStore'
+import { UIStoreType } from '@xy-form/ui-schema/UIStore'
 ```
 
 ## UIStoreProvider
@@ -54,7 +54,7 @@ Example creating the provider:
 
 ```js
 import React from "react";
-import {UIStoreProvider} from "@ui-schema/ui-schema";
+import {UIStoreProvider} from "@xy-form/ui-schema";
 
 const CustomProvider = ({store, onChange, children}) => {
     return <UIStoreProvider
@@ -68,7 +68,7 @@ const CustomProvider = ({store, onChange, children}) => {
 
 ```js
 import React from "react";
-import {isInvalid, useUIStore, useUIStoreActions} from "@ui-schema/ui-schema";
+import {isInvalid, useUIStore, useUIStoreActions} from "@xy-form/ui-schema";
 
 const Comp = ({storeKeys, ...props}) => {
     const {store} = useUIStore();
@@ -91,8 +91,8 @@ const Comp = ({storeKeys, ...props}) => {
 
 ```js
 import React from "react";
-import {memo} from "@ui-schema/ui-schema/Utils/memo";
-import {extractValue} from "@ui-schema/ui-schema/UIStore";
+import {memo} from "@xy-form/ui-schema/Utils/memo";
+import {extractValue} from "@xy-form/ui-schema/UIStore";
 
 // `extractValue` uses `storeKeys` to get the `value`/`internalValue` from the store
 // it also injects `onChange` and `showValidity`, allowing to overwrite `showValidity` from `props`
@@ -111,8 +111,8 @@ const Comp = extractValue(
 Creates the initial store out of passed in values.
 
 ```js
-import {createStore} from '@ui-schema/ui-schema/UIStore'
-import {createOrderedMap} from '@ui-schema/ui-schema/Utils/createMap'
+import {createStore} from '@xy-form/ui-schema/UIStore'
+import {createOrderedMap} from '@xy-form/ui-schema/Utils/createMap'
 
 const [data, setStore] = React.useState(() => createStore(createOrderedMap(initialData)));
 ```
@@ -122,7 +122,7 @@ const [data, setStore] = React.useState(() => createStore(createOrderedMap(initi
 Creates an empty store out of the schema type.
 
 ```js
-import {createEmptyStore} from '@ui-schema/ui-schema/UIStore'
+import {createEmptyStore} from '@xy-form/ui-schema/UIStore'
 
 const [data, setStore] = React.useState(() => createEmptyStore(schema.get('type')/* as string */));
 ```
@@ -143,9 +143,9 @@ Does not return anything.
 
 ```js
 import React from 'react';
-import {UIGenerator, createOrderedMap, createStore} from '@ui-schema/ui-schema';
-import {storeUpdater} from '@ui-schema/ui-schema/storeUpdater';
-import {widgets} from '@ui-schema/ds-material';
+import {UIGenerator, createOrderedMap, createStore} from '@xy-form/ui-schema';
+import {storeUpdater} from '@xy-form/ui-schema/storeUpdater';
+import {widgets} from '@xy-form/ds-material';
 
 const Demo = () => {
     const [store, setStore] = React.useState(() => createStore(createOrderedMap({})));
@@ -178,7 +178,7 @@ Returns a function which must receive the current store, it will return the upda
 See example above on how to use it, additionally you can intercept the prevStore and nextStore through wrapping the function in logic.
 
 ```js
-import {storeUpdater} from '@ui-schema/ui-schema/storeUpdater';
+import {storeUpdater} from '@xy-form/ui-schema/storeUpdater';
 ```
 
 ## Store Actions
@@ -193,7 +193,7 @@ Each action requires:
 - `scopes`: `string[]`, which scope to update, uses singular: `value`, `valid`, `internal`
 
 ```typescript jsx
-import { UIStoreUpdaterData, UIStoreAction, UIStoreActionScoped } from '@ui-schema/ui-schema/UIStoreActions'
+import { UIStoreUpdaterData, UIStoreAction, UIStoreActionScoped } from '@xy-form/ui-schema/UIStoreActions'
 
 const baseAction: UIStoreAction & UIStoreActionScoped = {
     type: 'some-custom-action',

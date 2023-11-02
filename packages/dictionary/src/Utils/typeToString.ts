@@ -1,4 +1,4 @@
-import { SchemaTypesType } from '@ui-schema/ui-schema'
+import { SchemaTypesType } from '@xy-form/ui-schema'
 import { List } from 'immutable'
 
 export const typeToString = (type: SchemaTypesType): string => typeof type === 'string' ? type :

@@ -7,7 +7,7 @@ This ui renderer has multiple levels of performance optimization:
 - [immutables](https://immutable-js.github.io/immutable-js/) as internal store
     - does not apply to `widgets`, storing memoized components in immutable are a problem
 - [memoization](https://reactjs.org/docs/hooks-reference.html#usememo) of multiple components which work on the context
-    - use [memo](/docs/core-utils#memo--isequal), which compares immutable correctly (in `@ui-schema/ui-schema`, not the one in `react`)
+    - use [memo](/docs/core-utils#memo--isequal), which compares immutable correctly (in `@xy-form/ui-schema`, not the one in `react`)
 - no html re-rendering of unchanged scopes
     - **normally**: e.g. `onChange` updates the hook `useUI`, thus typing in inputs lags
         - within the core this hook is used to access the context
@@ -22,7 +22,7 @@ This ui renderer has multiple levels of performance optimization:
         - *all rendering widgets are wrapped like that*
     - if you introduce a hook in a widget it is advised that the producing HTML components are also made "dump"
         - pure without using a hook that relies on the onChange of the SchemaUIStore context
-        - e.g. wrap the component with `extractValue`, `extractValidity` and `memo` (all exported by `@ui-schema/ui-schema`)
+        - e.g. wrap the component with `extractValue`, `extractValidity` and `memo` (all exported by `@xy-form/ui-schema`)
         - `useUIMeta` can be used safely without introducing re-rendering
         - `useUIConfig` can be used safely without introducing re-rendering (most likely, check your implementation)
         - this way only the widget whose `value` was changing is re-rendering.

@@ -1,5 +1,5 @@
 import {List} from 'immutable';
-import {schemaTypeIs, schemaTypeIsNumeric} from '@ui-schema/ui-schema';
+import {schemaTypeIs, schemaTypeIsNumeric} from '@xy-form/ui-schema';
 
 const ERROR_NOT_SET = 'required-not-set';
 

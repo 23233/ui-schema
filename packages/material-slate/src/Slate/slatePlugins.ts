@@ -21,9 +21,9 @@ import {
     isBlockAboveEmpty,
     isSelectionAtBlockStart,
 } from '@udecode/slate-plugins'
-import { editorEnableOnly, SlateHocType } from '@ui-schema/material-slate/Slate/SlateRenderer'
-import { headingTypes, pluginOptions } from '@ui-schema/material-slate/Slate/pluginOptions'
-import { withShortcuts } from '@ui-schema/material-slate/Slate/withShortcuts'
+import { editorEnableOnly, SlateHocType } from '@xy-form/material-slate/Slate/SlateRenderer'
+import { headingTypes, pluginOptions } from '@xy-form/material-slate/Slate/pluginOptions'
+import { withShortcuts } from '@xy-form/material-slate/Slate/withShortcuts'
 
 const resetBlockTypesCommonRule = {
     types: ['blockquote', 'todo_li'],

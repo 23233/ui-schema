@@ -1,5 +1,5 @@
 import {List, Map, Record} from 'immutable';
-import {createValidatorErrors} from '@ui-schema/ui-schema/ValidatorErrors';
+import {createValidatorErrors} from '@xy-form/ui-schema/ValidatorErrors';
 
 export const ERROR_MIN_LENGTH = 'min-length';
 export const ERROR_MAX_LENGTH = 'max-length';

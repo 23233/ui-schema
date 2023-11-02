@@ -24,11 +24,11 @@ Widgets for multiple options, either as 'select 1 from n' or 'select n from n'.
 ```js
 import {
     OptionsRadio
-} from "@ui-schema/ds-material/Widgets/OptionsRadio";
+} from "@xy-form/ds-material/Widgets/OptionsRadio";
 
 import {
     OptionsCheck
-} from "@ui-schema/ds-material/Widgets/OptionsCheck";
+} from "@xy-form/ds-material/Widgets/OptionsCheck";
 
 const widgets = {
     custom: {
@@ -56,10 +56,10 @@ const widgets = {
 ```js
 import {
     OptionsRadio
-} from "@ui-schema/ds-bootstrap/Widgets/OptionsRadio";
+} from "@xy-form/ds-bootstrap/Widgets/OptionsRadio";
 import {
     OptionsCheck
-} from "@ui-schema/ds-bootstrap/Widgets/OptionsCheck";
+} from "@xy-form/ds-bootstrap/Widgets/OptionsCheck";
 
 const widgets = {
     custom: {

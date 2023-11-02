@@ -1,7 +1,7 @@
 import {List, Map, Record} from 'immutable';
-import {createValidatorErrors} from '@ui-schema/ui-schema/ValidatorErrors';
-import {validateSchema} from '@ui-schema/ui-schema/validateSchema';
-import {ERROR_NOT_SET, checkValueExists} from '@ui-schema/ui-schema/Validators/RequiredValidator';
+import {createValidatorErrors} from '@xy-form/ui-schema/ValidatorErrors';
+import {validateSchema} from '@xy-form/ui-schema/validateSchema';
+import {ERROR_NOT_SET, checkValueExists} from '@xy-form/ui-schema/Validators/RequiredValidator';
 
 export const ERROR_ADDITIONAL_PROPERTIES = 'additional-properties';
 

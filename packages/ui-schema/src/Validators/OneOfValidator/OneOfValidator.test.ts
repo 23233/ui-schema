@@ -1,6 +1,6 @@
-import { createOrderedMap } from '@ui-schema/ui-schema/Utils'
-import { validateOneOf } from '@ui-schema/ui-schema/Validators/OneOfValidator'
-import { StoreSchemaType } from '@ui-schema/ui-schema'
+import { createOrderedMap } from '@xy-form/ui-schema/Utils'
+import { validateOneOf } from '@xy-form/ui-schema/Validators/OneOfValidator'
+import { StoreSchemaType } from '@xy-form/ui-schema'
 
 /**
  * npm run tdd -- -u --testPathPattern=src/Validators/OneOfValidator/OneOfValidator.test.ts

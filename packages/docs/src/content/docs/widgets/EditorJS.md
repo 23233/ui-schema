@@ -21,7 +21,7 @@ Rich text editor based on DraftJS with the styles like any other Material-UI Tex
 > got some performance issues because of the initial `onReady` event of EditorJS, which isn't React render-flow compatible
 
 ```bash
-npm i --save @ui-schema/material-editorjs react-editor-js @editorjs/editorjs @editorjs/paragraph
+npm i --save @xy-form/material-editorjs react-editor-js @editorjs/editorjs @editorjs/paragraph
 ```
 
 - special keywords:
@@ -30,8 +30,8 @@ npm i --save @ui-schema/material-editorjs react-editor-js @editorjs/editorjs @ed
 
 ```jsx
 import React from 'react';
-import {widgets} from '@ui-schema/ds-material';
-import {EditorJSWidget} from '@ui-schema/material-editorjs/Widgets/EditorJSWidget';
+import {widgets} from '@xy-form/ds-material';
+import {EditorJSWidget} from '@xy-form/material-editorjs/Widgets/EditorJSWidget';
 import Paragraph from '@editorjs/paragraph'
 
 const tools = {paragraph: Paragraph};

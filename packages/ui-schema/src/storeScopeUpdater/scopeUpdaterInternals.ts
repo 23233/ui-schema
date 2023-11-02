@@ -1,7 +1,7 @@
-import { addNestKey } from '@ui-schema/ui-schema/UIStore'
-import { ScopeOnChangeHandler } from '@ui-schema/ui-schema/storeUpdater'
-import { updateStoreScope } from '@ui-schema/ui-schema/storeScopeUpdater'
-import { storeBuildScopeTree } from '@ui-schema/ui-schema/storeBuildScopeTree'
+import { addNestKey } from '@xy-form/ui-schema/UIStore'
+import { ScopeOnChangeHandler } from '@xy-form/ui-schema/storeUpdater'
+import { updateStoreScope } from '@xy-form/ui-schema/storeScopeUpdater'
+import { storeBuildScopeTree } from '@xy-form/ui-schema/storeBuildScopeTree'
 
 export const scopeUpdaterInternals: ScopeOnChangeHandler = (store, storeKeys, newValue) => {
     //if (typeof oldValue === 'undefined') {

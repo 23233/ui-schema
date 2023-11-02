@@ -1,7 +1,7 @@
 import React from 'react'
-import { getDisplayName } from '@ui-schema/ui-schema/Utils/memo'
-import { StoreKeys, useUIStore, WithValue, ExtractValueOverwriteProps } from '@ui-schema/ui-schema/UIStore'
-import { UIStoreActions, useUIStoreActions } from '@ui-schema/ui-schema/UIStoreActions'
+import { getDisplayName } from '@xy-form/ui-schema/Utils/memo'
+import { StoreKeys, useUIStore, WithValue, ExtractValueOverwriteProps } from '@xy-form/ui-schema/UIStore'
+import { UIStoreActions, useUIStoreActions } from '@xy-form/ui-schema/UIStoreActions'
 
 export function extractValue<A = UIStoreActions, P extends Partial<WithValue<A>> & { storeKeys: StoreKeys } = Partial<WithValue<A>> & { storeKeys: StoreKeys }>(
     Component: React.ComponentType<P>

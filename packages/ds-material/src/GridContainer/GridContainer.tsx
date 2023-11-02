@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from '@mui/material/Grid'
-import { PluginStackWrapperProps } from '@ui-schema/ui-schema'
+import { PluginStackWrapperProps } from '@xy-form/ui-schema'
 
 export interface GridContainerProps {
     spacing?: number

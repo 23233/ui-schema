@@ -1,7 +1,7 @@
 import React from 'react';
-import {getNextPlugin, NextPluginRendererMemo} from '@ui-schema/ui-schema/PluginStack';
-import {useUIStore} from '@ui-schema/ui-schema/UIStore';
-import {mergeSchema} from '@ui-schema/ui-schema/Utils/mergeSchema';
+import {getNextPlugin, NextPluginRendererMemo} from '@xy-form/ui-schema/PluginStack';
+import {useUIStore} from '@xy-form/ui-schema/UIStore';
+import {mergeSchema} from '@xy-form/ui-schema/Utils/mergeSchema';
 import {List, Map} from 'immutable';
 
 const DependentRenderer = ({dependencies, dependentSchemas, dependentRequired, ...props}) => {

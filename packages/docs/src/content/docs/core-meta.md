@@ -18,7 +18,7 @@ Saves additional functions and meta-data for all renderers & generators.
 
 ```js
 import React from "react";
-import {useUIMeta} from "@ui-schema/ui-schema";
+import {useUIMeta} from "@xy-form/ui-schema";
 
 const Comp = () => {
     const {widgets} = useUIMeta();
@@ -32,7 +32,7 @@ const Comp = () => {
 
 ```js
 import React from "react";
-import {withUIMeta, memo} from "@ui-schema/ui-schema";
+import {withUIMeta, memo} from "@xy-form/ui-schema";
 
 const Comp = withUIMeta(
     memo(
@@ -56,9 +56,9 @@ import {
     UIMetaProvider, UIStoreProvider,
     useUIMeta,
     UIStoreActions, UIStoreType, onChangeHandler, StoreSchemaType,
-} from '@ui-schema/ui-schema'
-import { UIRootRenderer } from '@ui-schema/ui-schema/UIRootRenderer'
-import { UIMetaReadContextType } from '@ui-schema/ui-schema/UIMetaReadContext'
+} from '@xy-form/ui-schema'
+import { UIRootRenderer } from '@xy-form/ui-schema/UIRootRenderer'
+import { UIMetaReadContextType } from '@xy-form/ui-schema/UIMetaReadContext'
 
 const ReadableWritableEditor: React.ComponentType<{
     onChange: onChangeHandler

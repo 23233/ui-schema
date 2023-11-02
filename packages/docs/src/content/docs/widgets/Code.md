@@ -5,7 +5,7 @@ Widgets for code editing, design-system implementation.
 [![supports Material-UI Binding](https://img.shields.io/badge/Material-green?labelColor=1a237e&color=0d47a1&logoColor=ffffff&style=flat-square&logo=mui)](#material-ui)
 
 >
-> 🚧 (deprecated) docs for `<=v0.4.0-alpha.0` of `@ui-schema/material-code` for CodeMirror, see [Material: Code](/docs/material-code/material-code) and [Kit: CodeMirror](/docs/kit-codemirror/kit-codemirror) for replacements
+> 🚧 (deprecated) docs for `<=v0.4.0-alpha.0` of `@xy-form/material-code` for CodeMirror, see [Material: Code](/docs/material-code/material-code) and [Kit: CodeMirror](/docs/kit-codemirror/kit-codemirror) for replacements
 >
 
 - type: `string`, `array`
@@ -22,7 +22,7 @@ Widgets for code editing, design-system implementation.
 Code editor with syntax highlighting using codemirror:
 
 ```bash
-npm i --save @ui-schema/material-code react-codemirror2 codemirror
+npm i --save @xy-form/material-code react-codemirror2 codemirror
 ```
 
 - special keywords:
@@ -58,8 +58,8 @@ In this example, the CSS is loaded with `lazySingletonStyleTag`, to be able to i
 ```js
 import React from 'react';
 
-import {UIGenerator} from "@ui-schema/ui-schema";
-import {WidgetCodeProvider, WidgetCodeContextType} from "@ui-schema/material-code";
+import {UIGenerator} from "@xy-form/ui-schema";
+import {WidgetCodeProvider, WidgetCodeContextType} from "@xy-form/material-code";
 
 import "codemirror/mode/css/css";
 import "codemirror/mode/javascript/javascript";

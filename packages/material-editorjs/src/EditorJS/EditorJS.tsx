@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactEditorJs from 'react-editor-js'
 import EditorJSType, { API, OutputData, EditorConfig } from '@editorjs/editorjs'
-import { StoreKeys, StoreSchemaType, WithValue } from '@ui-schema/ui-schema'
-import { extractValue } from '@ui-schema/ui-schema/UIStore'
+import { StoreKeys, StoreSchemaType, WithValue } from '@xy-form/ui-schema'
+import { extractValue } from '@xy-form/ui-schema/UIStore'
 import { List, Map, OrderedMap } from 'immutable'
-import { fromJSOrdered } from '@ui-schema/ui-schema/Utils/createMap/createMap'
+import { fromJSOrdered } from '@xy-form/ui-schema/Utils/createMap/createMap'
 
 export interface EditorJSProps {
     uid: string

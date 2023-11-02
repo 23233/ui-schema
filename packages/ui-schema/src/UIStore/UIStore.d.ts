@@ -1,6 +1,6 @@
 import { OrderedMap, Map, List, RecordOf } from 'immutable'
-import { SchemaTypesType } from '@ui-schema/ui-schema/CommonTypings'
-import { UIStoreActions, UIStoreUpdaterData } from '@ui-schema/ui-schema/UIStoreActions'
+import { SchemaTypesType } from '@xy-form/ui-schema/CommonTypings'
+import { UIStoreActions, UIStoreUpdaterData } from '@xy-form/ui-schema/UIStoreActions'
 
 export type Values<V> = List<V> | string | number | boolean | Map<string, V> | OrderedMap<string, V>
 export type ValuesJS = any[] | string | number | boolean | Object

@@ -5,7 +5,7 @@
 See [localization text-transform](/docs/localization#text-transform), this is the base function for beautifying.
 
 ```js
-import {beautify} from '@ui-schema/ui-schema/Utils/beautify'
+import {beautify} from '@xy-form/ui-schema/Utils/beautify'
 ```
 
 ## createMap
@@ -13,7 +13,7 @@ import {beautify} from '@ui-schema/ui-schema/Utils/beautify'
 Deep change directly from `{}` or `[]` to `Map`/`List` structures:
 
 ```js
-import {createMap} from '@ui-schema/ui-schema/Utils/createMap'
+import {createMap} from '@xy-form/ui-schema/Utils/createMap'
 
 let dataMap = createMap({});
 ```
@@ -23,7 +23,7 @@ let dataMap = createMap({});
 Deep change directly from `{}` or `[]` to `OrderedMap`/`List` structures:
 
 ```js
-import {createOrderedMap} from '@ui-schema/ui-schema/Utils/createMap'
+import {createOrderedMap} from '@xy-form/ui-schema/Utils/createMap'
 
 let dataMap = createOrderedMap({});
 ```
@@ -34,7 +34,7 @@ Function to deep change an object into an ordered map, will change the objects p
 
 ```js
 import {OrderedMap} from 'immutable'
-import {fromJSOrdered} from '@ui-schema/ui-schema/Utils/fromJSOrdered'
+import {fromJSOrdered} from '@xy-form/ui-schema/Utils/fromJSOrdered'
 
 let dataMap = new OrderedMap(fromJSOrdered({}));
 ```
@@ -44,7 +44,7 @@ let dataMap = new OrderedMap(fromJSOrdered({}));
 Hook for performance optimizing when using dynamically creates immutables like `storeKeys` inside `React.useEffect`/`React.useCallback` etc.
 
 ```js
-import {useImmutable} from '@ui-schema/ui-schema/Utils/useImmutable'
+import {useImmutable} from '@xy-form/ui-schema/Utils/useImmutable'
 
 const Comp = () => {
     const currentStoreKeys = useImmutable(storeKeys)
@@ -64,9 +64,9 @@ const Comp = () => {
 Hook for executing onChange handlers after a delay or after the user ended editing - using a separately state, which is kept in-sync on downstream updates.
 
 ```typescript jsx
-import { useDebounceValue } from '@ui-schema/ui-schema/Utils/useDebounceValue'
-import { WithScalarValue } from '@ui-schema/ui-schema/UIStore'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
+import { useDebounceValue } from '@xy-form/ui-schema/Utils/useDebounceValue'
+import { WithScalarValue } from '@xy-form/ui-schema/UIStore'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
 
 const Comp: React.ComponentType<WidgetProps & WithScalarValue> = (
     {onChange, storeKeys, schema, required, value},
@@ -110,7 +110,7 @@ Helper for moving an item inside a `List`/`array`, useful for moving up/down ins
 > **better use [store actions](/docs/core-store#store-actions) instead!**
 
 ```js
-import {useImmutable} from '@ui-schema/ui-schema/Utils/useImmutable'
+import {useImmutable} from '@xy-form/ui-schema/Utils/useImmutable'
 
 // moving "up" in an sortable list
 onChange({
@@ -146,7 +146,7 @@ ImmutableJS compatible `React.memo` memoization/equality checker.
 
 ```js
 import React from 'react';
-import {isEqual, memo} from '@ui-schema/ui-schema';
+import {isEqual, memo} from '@xy-form/ui-schema';
 
 // `Comp` will only re-render when the props changes, compares immutable maps and lists correctly.
 const Comp = memo(props => {
@@ -182,7 +182,7 @@ Supports merging of these keywords, only does something if existing on `b`:
 Sorts `string` and `number` values inside a `List` in `asc` order, useful for better "is-same-as-initial" when seleting enum values:
 
 ```js
-import {sortScalarList} from '@ui-schema/ui-schema/Utils/sortScalarList';
+import {sortScalarList} from '@xy-form/ui-schema/Utils/sortScalarList';
 
 onChange({
     storeKeys,

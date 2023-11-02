@@ -1,6 +1,6 @@
 import React from 'react';
-import {applyPluginStack} from '@ui-schema/ui-schema/applyPluginStack';
-import {useImmutable} from '@ui-schema/ui-schema/Utils/useImmutable';
+import {applyPluginStack} from '@xy-form/ui-schema/applyPluginStack';
+import {useImmutable} from '@xy-form/ui-schema/Utils/useImmutable';
 
 const ObjectGroupBase = ({schema, children, onSchema}) => {
     const currentSchema = useImmutable(schema)

@@ -1,6 +1,6 @@
 import { List } from 'immutable'
-import { SchemaTypesType } from '@ui-schema/ui-schema/CommonTypings'
-import { schemaTypeIsNumeric } from '@ui-schema/ui-schema/Utils/schemaTypeIs'
+import { SchemaTypesType } from '@xy-form/ui-schema/CommonTypings'
+import { schemaTypeIsNumeric } from '@xy-form/ui-schema/Utils/schemaTypeIs'
 
 const numberKeys = List(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', ',', '-'])
 

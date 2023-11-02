@@ -2,8 +2,8 @@ import React from 'react'
 import { Transforms } from 'slate'
 import Checkbox from '@mui/material/Checkbox'
 import { ReactEditor, useSlateStatic, useReadOnly } from 'slate-react'
-import { pluginOptions } from '@ui-schema/material-slate/Slate/pluginOptions'
-import { ElementMapping } from '@ui-schema/material-slate/SlateElements/ElementMapper'
+import { pluginOptions } from '@xy-form/material-slate/Slate/pluginOptions'
+import { ElementMapping } from '@xy-form/material-slate/SlateElements/ElementMapper'
 
 export const mappingAdvanced: ElementMapping = {
     // eslint-disable-next-line react/display-name

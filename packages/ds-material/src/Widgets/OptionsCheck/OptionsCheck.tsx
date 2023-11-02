@@ -5,13 +5,13 @@ import FormGroup from '@mui/material/FormGroup'
 import FormControlLabel from '@mui/material/FormControlLabel'
 import Checkbox from '@mui/material/Checkbox'
 import { List } from 'immutable'
-import { TransTitle, Trans, extractValue, memo, WidgetProps, StoreKeys, WithValue, StoreSchemaType } from '@ui-schema/ui-schema'
+import { TransTitle, Trans, extractValue, memo, WidgetProps, StoreKeys, WithValue, StoreSchemaType } from '@xy-form/ui-schema'
 import { useUID } from 'react-uid'
-import { ValidityHelperText } from '@ui-schema/ds-material/Component/LocaleHelperText'
-import { sortScalarList } from '@ui-schema/ui-schema/Utils/sortScalarList'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
+import { ValidityHelperText } from '@xy-form/ds-material/Component/LocaleHelperText'
+import { sortScalarList } from '@xy-form/ui-schema/Utils/sortScalarList'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
 import { SwitchBaseProps } from '@mui/material/internal/SwitchBase'
-import { OptionValueSchema, useOptionsFromSchema } from '@ui-schema/ds-material/Utils'
+import { OptionValueSchema, useOptionsFromSchema } from '@xy-form/ds-material/Utils'
 
 const OptionCheck: React.ComponentType<{
     disabled?: boolean

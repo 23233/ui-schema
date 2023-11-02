@@ -10,7 +10,7 @@ Read-only widget for standard `boolean` type, works with the [UIMetaReadContextT
 ## Components
 
 ```js
-import {WidgetBooleanRead} from '@ui-schema/ds-material/WidgetsRead'
+import {WidgetBooleanRead} from '@xy-form/ds-material/WidgetsRead'
 
 const widgets = {
     types: {

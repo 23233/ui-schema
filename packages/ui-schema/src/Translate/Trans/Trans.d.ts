@@ -1,6 +1,6 @@
 import React from 'react'
-import { translation, TranslatorContext } from '@ui-schema/ui-schema/Translate/makeTranslator'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { translation, TranslatorContext } from '@xy-form/ui-schema/Translate/makeTranslator'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 export interface TransProps {
     text: string

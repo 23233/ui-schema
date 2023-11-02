@@ -1,7 +1,7 @@
-import { WidgetOptionsRead, WidgetOptionsReadProps } from '@ui-schema/ds-material/WidgetsRead/WidgetOptionsRead'
+import { WidgetOptionsRead, WidgetOptionsReadProps } from '@xy-form/ds-material/WidgetsRead/WidgetOptionsRead'
 import React from 'react'
-import { WidgetProps, WithScalarValue } from '@ui-schema/ui-schema'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
+import { WidgetProps, WithScalarValue } from '@xy-form/ui-schema'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
 
 /**
  * @deprecated use `WidgetOptionsRead` instead

@@ -11,9 +11,9 @@ import { highlightSelectionMatches, searchKeymap } from '@codemirror/search'
 import { closeBrackets, autocompletion, closeBracketsKeymap, completionKeymap } from '@codemirror/autocomplete'
 import { lintKeymap } from '@codemirror/lint'
 import { Compartment, EditorState } from '@codemirror/state'
-import { useEditorTheme } from '@ui-schema/material-code/useEditorTheme'
-import { useHighlightStyle } from '@ui-schema/material-code/useHighlightStyle'
-import { CodeMirrorComponentProps, CodeMirror, CodeMirrorProps } from '@ui-schema/kit-codemirror/CodeMirror'
+import { useEditorTheme } from '@xy-form/material-code/useEditorTheme'
+import { useHighlightStyle } from '@xy-form/material-code/useHighlightStyle'
+import { CodeMirrorComponentProps, CodeMirror, CodeMirrorProps } from '@xy-form/kit-codemirror/CodeMirror'
 
 export const CustomCodeMirror: React.FC<CodeMirrorComponentProps> = (
     {

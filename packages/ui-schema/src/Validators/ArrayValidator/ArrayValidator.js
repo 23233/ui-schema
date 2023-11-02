@@ -1,7 +1,7 @@
 import {List, Map} from 'immutable';
-import {validateSchema} from '@ui-schema/ui-schema/validateSchema';
-import {createValidatorErrors} from '@ui-schema/ui-schema/ValidatorErrors';
-import {ERROR_WRONG_TYPE} from '@ui-schema/ui-schema/Validators/TypeValidator';
+import {validateSchema} from '@xy-form/ui-schema/validateSchema';
+import {createValidatorErrors} from '@xy-form/ui-schema/ValidatorErrors';
+import {ERROR_WRONG_TYPE} from '@xy-form/ui-schema/Validators/TypeValidator';
 
 export const ERROR_DUPLICATE_ITEMS = 'duplicate-items';
 export const ERROR_NOT_FOUND_CONTAINS = 'not-found-contains';

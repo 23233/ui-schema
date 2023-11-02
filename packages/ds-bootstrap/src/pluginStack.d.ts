@@ -1,4 +1,4 @@
-import { PluginType } from '@ui-schema/ui-schema/PluginStack/Plugin'
+import { PluginType } from '@xy-form/ui-schema/PluginStack/Plugin'
 
 /**
  * Plugin stack contains:

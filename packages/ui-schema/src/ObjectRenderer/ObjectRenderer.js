@@ -1,6 +1,6 @@
 import React from 'react';
-import {memo} from '@ui-schema/ui-schema/Utils/memo';
-import {PluginStack} from '@ui-schema/ui-schema/PluginStack';
+import {memo} from '@xy-form/ui-schema/Utils/memo';
+import {PluginStack} from '@xy-form/ui-schema/PluginStack';
 
 const ObjectRendererBase = (
     {

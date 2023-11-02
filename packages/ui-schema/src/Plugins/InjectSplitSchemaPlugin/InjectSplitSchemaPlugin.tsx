@@ -1,8 +1,8 @@
 import React from 'react'
-import { getNextPlugin, PluginProps } from '@ui-schema/ui-schema/PluginStack'
-import { useSchemaRoot } from '@ui-schema/ui-schema/SchemaRootProvider'
-import { StoreSchemaType } from '@ui-schema/ui-schema'
-import { escapePointer } from '@ui-schema/ui-schema/JSONPointer/escapePointer'
+import { getNextPlugin, PluginProps } from '@xy-form/ui-schema/PluginStack'
+import { useSchemaRoot } from '@xy-form/ui-schema/SchemaRootProvider'
+import { StoreSchemaType } from '@xy-form/ui-schema'
+import { escapePointer } from '@xy-form/ui-schema/JSONPointer/escapePointer'
 import { Map } from 'immutable'
 
 export interface InjectSplitSchemaRootContext {

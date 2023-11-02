@@ -1,13 +1,13 @@
-import {validateType, ERROR_WRONG_TYPE} from '@ui-schema/ui-schema/Validators/TypeValidator';
-import {ERROR_PATTERN, validatePattern} from '@ui-schema/ui-schema/Validators/PatternValidator';
-import {validateMinMax} from '@ui-schema/ui-schema/Validators/MinMaxValidator';
-import {ERROR_CONST_MISMATCH, ERROR_ENUM_MISMATCH, validateConst, validateEnum} from '@ui-schema/ui-schema/Validators/ValueValidator';
-import {ERROR_MULTIPLE_OF, validateMultipleOf} from '@ui-schema/ui-schema/Validators/MultipleOfValidator';
-import {validateContains} from '@ui-schema/ui-schema/Validators/ArrayValidator';
-import {ERROR_NOT_SET} from '@ui-schema/ui-schema/Validators/RequiredValidator';
-import {validateObject} from '@ui-schema/ui-schema/Validators/ObjectValidator';
-import {createValidatorErrors} from '@ui-schema/ui-schema/ValidatorErrors';
-import {validateOneOf} from '@ui-schema/ui-schema/Validators/OneOfValidator';
+import {validateType, ERROR_WRONG_TYPE} from '@xy-form/ui-schema/Validators/TypeValidator';
+import {ERROR_PATTERN, validatePattern} from '@xy-form/ui-schema/Validators/PatternValidator';
+import {validateMinMax} from '@xy-form/ui-schema/Validators/MinMaxValidator';
+import {ERROR_CONST_MISMATCH, ERROR_ENUM_MISMATCH, validateConst, validateEnum} from '@xy-form/ui-schema/Validators/ValueValidator';
+import {ERROR_MULTIPLE_OF, validateMultipleOf} from '@xy-form/ui-schema/Validators/MultipleOfValidator';
+import {validateContains} from '@xy-form/ui-schema/Validators/ArrayValidator';
+import {ERROR_NOT_SET} from '@xy-form/ui-schema/Validators/RequiredValidator';
+import {validateObject} from '@xy-form/ui-schema/Validators/ObjectValidator';
+import {createValidatorErrors} from '@xy-form/ui-schema/ValidatorErrors';
+import {validateOneOf} from '@xy-form/ui-schema/Validators/OneOfValidator';
 
 /**
  * Return false when valid and string/List for an error

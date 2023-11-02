@@ -18,11 +18,11 @@ import {
     PortalBody,
     useBalloonShow, useBalloonMove,
 } from '@udecode/slate-plugins'
-import { IcSuperscript } from '@ui-schema/material-slate/Icons/IcSuperscript'
-import { IcSubscript } from '@ui-schema/material-slate/Icons/IcSubscript'
-import { ToolbarMark } from '@ui-schema/material-slate/Slate/SlateToolbarButtons'
-import { editorEnableOnly } from '@ui-schema/material-slate/Slate/SlateRenderer'
-import { editorIsEnabled } from '@ui-schema/material-slate/Slate/editorIsEnabled'
+import { IcSuperscript } from '@xy-form/material-slate/Icons/IcSuperscript'
+import { IcSubscript } from '@xy-form/material-slate/Icons/IcSubscript'
+import { ToolbarMark } from '@xy-form/material-slate/Slate/SlateToolbarButtons'
+import { editorEnableOnly } from '@xy-form/material-slate/Slate/SlateRenderer'
+import { editorIsEnabled } from '@xy-form/material-slate/Slate/editorIsEnabled'
 
 export interface SlateToolbarProps {
     direction?: 'top' | 'bottom' | undefined

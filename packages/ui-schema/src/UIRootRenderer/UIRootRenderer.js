@@ -1,8 +1,8 @@
 import React from 'react';
 import {List} from 'immutable';
-import {PluginStack} from '@ui-schema/ui-schema/PluginStack';
-import {memo} from '@ui-schema/ui-schema/Utils/memo';
-import {useUIMeta} from '@ui-schema/ui-schema/UIMeta';
+import {PluginStack} from '@xy-form/ui-schema/PluginStack';
+import {memo} from '@xy-form/ui-schema/Utils/memo';
+import {useUIMeta} from '@xy-form/ui-schema/UIMeta';
 
 /**
  * @type {function({rootRenderer: *, ...}): *}

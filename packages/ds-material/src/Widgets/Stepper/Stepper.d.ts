@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { WidgetProps } from '@ui-schema/ui-schema'
+import { WidgetProps } from '@xy-form/ui-schema'
 
 export function Step<P extends WidgetProps>(props: P): React.ReactElement<P>
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import {List} from 'immutable';
-import {memo} from '@ui-schema/ui-schema/Utils/memo';
-import {useUIMeta} from '@ui-schema/ui-schema/UIMeta';
-import {createValidatorErrors} from '@ui-schema/ui-schema/ValidatorErrors';
-import {useUIConfig} from '@ui-schema/ui-schema/UIStore';
-import {useImmutable} from '@ui-schema/ui-schema/Utils/useImmutable';
-import {PluginStackErrorBoundary} from '@ui-schema/ui-schema/PluginStack';
+import {memo} from '@xy-form/ui-schema/Utils/memo';
+import {useUIMeta} from '@xy-form/ui-schema/UIMeta';
+import {createValidatorErrors} from '@xy-form/ui-schema/ValidatorErrors';
+import {useUIConfig} from '@xy-form/ui-schema/UIStore';
+import {useImmutable} from '@xy-form/ui-schema/Utils/useImmutable';
+import {PluginStackErrorBoundary} from '@xy-form/ui-schema/PluginStack';
 
 const errorContainer = createValidatorErrors()
 

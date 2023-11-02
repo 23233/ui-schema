@@ -28,17 +28,17 @@ import {
     isInvalid, createOrderedMap,
     createStore, storeUpdater, useUIStore,
     UIStoreProvider, injectPluginStack,
-} from '@ui-schema/ui-schema';
-import {GridContainer} from '@ui-schema/ds-material/GridContainer';
+} from '@xy-form/ui-schema';
+import {GridContainer} from '@xy-form/ds-material/GridContainer';
 import {RichCodeEditor, themes} from '../RichCodeEditor';
 import {Markdown} from '../Markdown';
 import PageNotFound from '../../page/PageNotFound';
 import {schemas} from '../../schemas/_list';
 // import LuxonAdapter from '@date-io/luxon';
 // import {MuiPickersUtilsProvider} from '@material-ui/pickers';
-import {createEmptyStore} from '@ui-schema/ui-schema/UIStore';
-import {KitDndProvider, useOnIntent} from '@ui-schema/kit-dnd';
-import {useOnDirectedMove} from '@ui-schema/material-dnd/useOnDirectedMove';
+import {createEmptyStore} from '@xy-form/ui-schema/UIStore';
+import {KitDndProvider, useOnIntent} from '@xy-form/kit-dnd';
+import {useOnDirectedMove} from '@xy-form/material-dnd/useOnDirectedMove';
 
 const IconInput = ({
                        verticalSplit, title,

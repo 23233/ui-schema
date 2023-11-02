@@ -1,6 +1,6 @@
 import React from 'react'
 import {Map} from 'immutable'
-import {createOrderedMap} from '@ui-schema/ui-schema/Utils/createMap';
+import {createOrderedMap} from '@xy-form/ui-schema/Utils/createMap';
 
 export const PROGRESS_NONE = false
 export const PROGRESS_START = 'start'

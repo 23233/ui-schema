@@ -1,6 +1,6 @@
 import React from 'react'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
-import { WithValue } from '@ui-schema/ui-schema/UIStore'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
+import { WithValue } from '@xy-form/ui-schema/UIStore'
 
 export interface VirtualWidgetsMapping {
     default: null | React.ComponentType<WidgetProps>

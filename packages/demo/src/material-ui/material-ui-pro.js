@@ -6,7 +6,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import {ImmutableEditor, themeMaterial} from 'react-immutable-editor';
 import Dashboard from './dashboard/Dashboard';
-import {widgets} from '@ui-schema/ds-material';
+import {widgets} from '@xy-form/ds-material';
 import {browserT} from '../t';
 import {MuiSchemaDebug} from './component/MuiSchemaDebug';
 import {schemaDemoReferencingRecursive} from '../schemas/demoReferencing';
@@ -16,13 +16,13 @@ import IcHistory from '@mui/icons-material/History'
 import IcRedo from '@mui/icons-material/Redo'
 import IcUndo from '@mui/icons-material/Undo'
 import useTheme from '@mui/material/styles/useTheme';
-import {isInvalid} from '@ui-schema/ui-schema/ValidityReporter/isInvalid';
-import {fromJSOrdered} from '@ui-schema/ui-schema/Utils/createMap';
-import {createStore, UIStoreProvider} from '@ui-schema/ui-schema/UIStore';
-import {toHistory, useStorePro} from '@ui-schema/pro/UIStorePro';
-import {UIMetaProvider} from '@ui-schema/ui-schema/UIMeta';
-import {GridContainer} from '@ui-schema/ds-material/GridContainer';
-import {injectPluginStack} from '@ui-schema/ui-schema/applyPluginStack';
+import {isInvalid} from '@xy-form/ui-schema/ValidityReporter/isInvalid';
+import {fromJSOrdered} from '@xy-form/ui-schema/Utils/createMap';
+import {createStore, UIStoreProvider} from '@xy-form/ui-schema/UIStore';
+import {toHistory, useStorePro} from '@xy-form/pro/UIStorePro';
+import {UIMetaProvider} from '@xy-form/ui-schema/UIMeta';
+import {GridContainer} from '@xy-form/ds-material/GridContainer';
+import {injectPluginStack} from '@xy-form/ui-schema/applyPluginStack';
 
 const customWidgets = {...widgets};
 customWidgets.custom = {

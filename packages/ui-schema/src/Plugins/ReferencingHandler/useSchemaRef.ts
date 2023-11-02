@@ -1,7 +1,7 @@
-import { parseRefs, SchemaRefsPending, useSchemaNetworkRef } from '@ui-schema/ui-schema/Plugins/ReferencingHandler'
+import { parseRefs, SchemaRefsPending, useSchemaNetworkRef } from '@xy-form/ui-schema/Plugins/ReferencingHandler'
 import React from 'react'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
-import { SchemaRootContext } from '@ui-schema/ui-schema/SchemaRootProvider'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
+import { SchemaRootContext } from '@xy-form/ui-schema/SchemaRootProvider'
 
 export const useSchemaRef = (
     maybeRootSchema: StoreSchemaType | undefined,

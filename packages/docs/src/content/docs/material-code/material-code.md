@@ -17,7 +17,7 @@ Code editor widgets using CodeMirror, for UI-Schema and Material-UI.
 ## Install
 
 ```bash
-npm install --save @ui-schema/ds-material @ui-schema/material-code @ui-schema/kit-codemirror @codemirror/state @codemirror/view @codemirror/language
+npm install --save @xy-form/ds-material @xy-form/material-code @xy-form/kit-codemirror @codemirror/state @codemirror/view @codemirror/language
 ```
 
 **Uses CodeMirror v6 since `0.4.0-beta.0`.**
@@ -44,7 +44,7 @@ Code editor theming, built using the current MUI theming context, makes it look 
 - `readOnly`: when true, doesn't apply focus / interactive styles
 
 ```typescript jsx
-import { useEditorTheme } from '@ui-schema/material-code/useEditorTheme'
+import { useEditorTheme } from '@xy-form/material-code/useEditorTheme'
 
 // in a component:
 const {onChange} = props
@@ -56,7 +56,7 @@ const theme = useEditorTheme(typeof onChange === 'undefined')
 Syntax highlighting theming, built using the current MUI theming context, *not yet that optimized*.
 
 ```typescript jsx
-import { useHighlightStyle } from '@ui-schema/material-code/useHighlightStyle'
+import { useHighlightStyle } from '@xy-form/material-code/useHighlightStyle'
 
 // in a component:
 const highlightStyle = useHighlightStyle()
@@ -79,9 +79,9 @@ import { highlightSelectionMatches, searchKeymap } from '@codemirror/search'
 import { closeBrackets, autocompletion, closeBracketsKeymap, completionKeymap } from '@codemirror/autocomplete'
 import { lintKeymap } from '@codemirror/lint'
 import { Compartment, EditorState } from '@codemirror/state'
-import { CodeMirrorComponentProps, CodeMirror, CodeMirrorProps } from '@ui-schema/kit-codemirror/CodeMirror'
-import { useEditorTheme } from '@ui-schema/material-code/useEditorTheme'
-import { useHighlightStyle } from '@ui-schema/material-code/useHighlightStyle'
+import { CodeMirrorComponentProps, CodeMirror, CodeMirrorProps } from '@xy-form/kit-codemirror/CodeMirror'
+import { useEditorTheme } from '@xy-form/material-code/useEditorTheme'
+import { useHighlightStyle } from '@xy-form/material-code/useHighlightStyle'
 
 export const CustomCodeMirror: React.FC<CodeMirrorComponentProps> = (
     {
@@ -149,16 +149,16 @@ import React from 'react'
 import {
     WidgetsBindingFactory,
     WidgetProps, WithScalarValue, memo, WithValue, StoreKeyType,
-} from '@ui-schema/ui-schema'
-import { MuiWidgetsBindingCustom, MuiWidgetsBindingTypes, widgets } from '@ui-schema/ds-material/widgetsBinding'
+} from '@xy-form/ui-schema'
+import { MuiWidgetsBindingCustom, MuiWidgetsBindingTypes, widgets } from '@xy-form/ds-material/widgetsBinding'
 import Button from '@mui/material/Button'
 import { json } from '@codemirror/lang-json'
 import { javascript } from '@codemirror/lang-javascript'
 import { html } from '@codemirror/lang-html'
 import { css } from '@codemirror/lang-css'
-import { extractValue } from '@ui-schema/ui-schema/UIStore'
-import { WidgetCode } from '@ui-schema/material-code'
-import { WidgetCodeSelectable } from '@ui-schema/material-code/WidgetCodeSelectable'
+import { extractValue } from '@xy-form/ui-schema/UIStore'
+import { WidgetCode } from '@xy-form/material-code'
+import { WidgetCodeSelectable } from '@xy-form/material-code/WidgetCodeSelectable'
 import { CustomCodeMirror } from './CustomCodeMirror'
 
 export const CustomWidgetCode: React.ComponentType<WidgetProps & WithScalarValue> = (props) => {

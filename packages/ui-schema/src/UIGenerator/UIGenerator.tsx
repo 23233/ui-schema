@@ -1,8 +1,8 @@
 import React from 'react'
-import { UIStoreProvider, UIStoreContext } from '@ui-schema/ui-schema/UIStore'
-import { UIMetaContext, UIMetaProvider } from '@ui-schema/ui-schema/UIMeta'
-import { UIRootRenderer, UIRootRendererProps } from '@ui-schema/ui-schema/UIRootRenderer'
-import { UIStoreActionsContext } from '@ui-schema/ui-schema/UIStoreActions'
+import { UIStoreProvider, UIStoreContext } from '@xy-form/ui-schema/UIStore'
+import { UIMetaContext, UIMetaProvider } from '@xy-form/ui-schema/UIMeta'
+import { UIRootRenderer, UIRootRendererProps } from '@xy-form/ui-schema/UIRootRenderer'
+import { UIStoreActionsContext } from '@xy-form/ui-schema/UIStoreActions'
 
 /**
  * Main Component to create a schema based UI generator

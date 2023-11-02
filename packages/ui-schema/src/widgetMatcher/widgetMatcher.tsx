@@ -1,10 +1,10 @@
 import React from 'react'
-import { ObjectRenderer } from '@ui-schema/ui-schema/ObjectRenderer'
-import { WidgetOverrideType, WidgetType } from '@ui-schema/ui-schema/Widget'
-import { WidgetsBindingFactory, WidgetsBindingLooseComponents } from '@ui-schema/ui-schema/WidgetsBinding'
-import { VirtualWidgetRenderer } from '@ui-schema/ui-schema/WidgetRenderer/VirtualWidgetRenderer'
-import { schemaTypeToDistinct } from '@ui-schema/ui-schema/Utils/schemaTypeToDistinct'
-import { SchemaTypesType } from '@ui-schema/ui-schema'
+import { ObjectRenderer } from '@xy-form/ui-schema/ObjectRenderer'
+import { WidgetOverrideType, WidgetType } from '@xy-form/ui-schema/Widget'
+import { WidgetsBindingFactory, WidgetsBindingLooseComponents } from '@xy-form/ui-schema/WidgetsBinding'
+import { VirtualWidgetRenderer } from '@xy-form/ui-schema/WidgetRenderer/VirtualWidgetRenderer'
+import { schemaTypeToDistinct } from '@xy-form/ui-schema/Utils/schemaTypeToDistinct'
+import { SchemaTypesType } from '@xy-form/ui-schema'
 
 export interface NoWidgetProps {
     scope: string

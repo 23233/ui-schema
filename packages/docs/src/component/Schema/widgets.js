@@ -1,6 +1,6 @@
 import React from 'react';
-import {Step, Stepper} from '@ui-schema/ds-material';
-import {widgets} from '@ui-schema/ds-material/widgetsBinding';
+import {Step, Stepper} from '@xy-form/ds-material';
+import {widgets} from '@xy-form/ds-material/widgetsBinding';
 import Loadable from 'react-loadable';
 import {
     Color, ColorDialog,
@@ -11,22 +11,22 @@ import {
     ColorSliderStatic, ColorStatic,
     ColorCircleStatic, ColorTwitterStatic,
     ColorSketchStatic, ColorSketchDialog,
-} from '@ui-schema/material-color';
-import {memo} from '@ui-schema/ui-schema/Utils/memo';
-import {extractValue} from '@ui-schema/ui-schema/UIStore';
+} from '@xy-form/material-color';
+import {memo} from '@xy-form/ui-schema/Utils/memo';
+import {extractValue} from '@xy-form/ui-schema/UIStore';
 import {LoadingCircular} from '@control-ui/kit/Loading/LoadingCircular';
-import {NumberRendererCell, StringRendererCell, TextRendererCell} from '@ui-schema/ds-material/Widgets/TextFieldCell';
-import {Table} from '@ui-schema/ds-material/Widgets/Table';
-import {DragDropBlockSelector} from '@ui-schema/material-dnd/DragDropBlockSelector';
-import {SelectChips} from '@ui-schema/ds-material/Widgets/SelectChips';
-import {WidgetColorful} from '@ui-schema/material-colorful'
+import {NumberRendererCell, StringRendererCell, TextRendererCell} from '@xy-form/ds-material/Widgets/TextFieldCell';
+import {Table} from '@xy-form/ds-material/Widgets/Table';
+import {DragDropBlockSelector} from '@xy-form/material-dnd/DragDropBlockSelector';
+import {SelectChips} from '@xy-form/ds-material/Widgets/SelectChips';
+import {WidgetColorful} from '@xy-form/material-colorful'
 import {
     HexColorPicker,
     HslaColorPicker,
     RgbaColorPicker,
     RgbaStringColorPicker,
 } from 'react-colorful'
-import {emailValidator} from '@ui-schema/ui-schema';
+import {emailValidator} from '@xy-form/ui-schema';
 
 const ColorfulHex = (props) => <WidgetColorful ColorfulPicker={HexColorPicker} {...props}/>
 const ColorfulHslaBase = (props) => <WidgetColorful ColorfulPicker={HslaColorPicker} {...props}/>
@@ -112,15 +112,15 @@ customWidgets.custom = {
         loading: () => <LoadingCircular title={'Loading Code Widget'}/>,
     }),
     /*DateTime: Loadable({
-        loader: () => import('@ui-schema/material-pickers').then(r => r.DateTimePicker),
+        loader: () => import('@xy-form/material-pickers').then(r => r.DateTimePicker),
         loading: () => <LoadingCircular title={'Loading DateTime Widget'}/>,
     }),
     Date: Loadable({
-        loader: () => import('@ui-schema/material-pickers').then(r => r.DatePicker),
+        loader: () => import('@xy-form/material-pickers').then(r => r.DatePicker),
         loading: () => <LoadingCircular title={'Loading Date Widget'}/>,
     }),
     Time: Loadable({
-        loader: () => import('@ui-schema/material-pickers').then(r => r.TimePicker),
+        loader: () => import('@xy-form/material-pickers').then(r => r.TimePicker),
         loading: () => <LoadingCircular title={'Loading Time Widget'}/>,
     }),*/
     EditorJS: Loadable({
@@ -128,15 +128,15 @@ customWidgets.custom = {
         loading: () => <LoadingCircular title={'Loading EditorJS'}/>,
     }),
     SortableList: Loadable({
-        loader: () => import('@ui-schema/material-dnd/Widgets/SortableList').then(r => r.SortableList),
+        loader: () => import('@xy-form/material-dnd/Widgets/SortableList').then(r => r.SortableList),
         loading: () => <LoadingCircular title={'Loading drag \'n drop'}/>,
     }),
     DragDropArea: Loadable({
-        loader: () => import('@ui-schema/material-dnd/Widgets/DragDropArea').then(r => r.DragDropArea),
+        loader: () => import('@xy-form/material-dnd/Widgets/DragDropArea').then(r => r.DragDropArea),
         loading: () => <LoadingCircular title={'Loading drag \'n drop'}/>,
     }),
     DropArea: Loadable({
-        loader: () => import('@ui-schema/material-dnd/Widgets/DropArea').then(r => r.DropArea),
+        loader: () => import('@xy-form/material-dnd/Widgets/DropArea').then(r => r.DropArea),
         loading: () => <LoadingCircular title={'Loading drag \'n drop'}/>,
     }),
 };

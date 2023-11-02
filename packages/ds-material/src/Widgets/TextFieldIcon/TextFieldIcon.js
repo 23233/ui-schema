@@ -1,7 +1,7 @@
 import React from 'react';
 import InputAdornment from '@mui/material/InputAdornment';
-import {NumberRenderer, StringRenderer, TextRenderer} from '@ui-schema/ds-material/Widgets/TextField';
-import {Trans} from '@ui-schema/ui-schema';
+import {NumberRenderer, StringRenderer, TextRenderer} from '@xy-form/ds-material/Widgets/TextField';
+import {Trans} from '@xy-form/ui-schema';
 
 const useComputeIcon = (schema, baseInputProps) => {
     const icon = schema.getIn(['view', 'icon']);

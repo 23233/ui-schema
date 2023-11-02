@@ -7,15 +7,15 @@ import { render } from '@testing-library/react'
 // @ts-ignore
 import { toBeInTheDocument, toHaveClass } from '@testing-library/jest-dom/matchers'
 import { WidgetRenderer } from './WidgetRenderer'
-import { createOrderedMap } from '@ui-schema/ui-schema/Utils/createMap/createMap'
-import { VirtualWidgetsMapping, WidgetProps } from '@ui-schema/ui-schema'
-import { VirtualArrayRenderer } from '@ui-schema/ui-schema/WidgetRenderer/VirtualWidgetRenderer'
-import { ObjectRenderer } from '@ui-schema/ui-schema/ObjectRenderer/ObjectRenderer'
+import { createOrderedMap } from '@xy-form/ui-schema/Utils/createMap/createMap'
+import { VirtualWidgetsMapping, WidgetProps } from '@xy-form/ui-schema'
+import { VirtualArrayRenderer } from '@xy-form/ui-schema/WidgetRenderer/VirtualWidgetRenderer'
+import { ObjectRenderer } from '@xy-form/ui-schema/ObjectRenderer/ObjectRenderer'
 import { List } from 'immutable'
-import { ExtractStorePlugin } from '@ui-schema/ui-schema/Plugins/ExtractStorePlugin'
-import { createStore, UIStoreProvider } from '@ui-schema/ui-schema/UIStore'
-import { UIMetaProvider } from '@ui-schema/ui-schema/UIMeta'
-import { relTranslator } from '@ui-schema/ui-schema/Translate/relT/relT'
+import { ExtractStorePlugin } from '@xy-form/ui-schema/Plugins/ExtractStorePlugin'
+import { createStore, UIStoreProvider } from '@xy-form/ui-schema/UIStore'
+import { UIMetaProvider } from '@xy-form/ui-schema/UIMeta'
+import { relTranslator } from '@xy-form/ui-schema/Translate/relT/relT'
 
 expect.extend({toBeInTheDocument, toHaveClass})
 

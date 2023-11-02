@@ -1,4 +1,4 @@
-import { SchemaTypesType } from '@ui-schema/ui-schema/CommonTypings'
+import { SchemaTypesType } from '@xy-form/ui-schema/CommonTypings'
 
 export const schemaTypeIs = (isType: SchemaTypesType, expectedType: string): boolean => {
     return Boolean(typeof isType !== 'undefined' && (typeof isType === 'string' ? isType === expectedType : isType.includes(expectedType)))

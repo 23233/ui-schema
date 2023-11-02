@@ -1,9 +1,9 @@
 import React from 'react'
-import { Trans } from '@ui-schema/ui-schema/Translate'
-import { isRootSchema, SchemaRootContext, SchemaRootProvider, useSchemaRoot } from '@ui-schema/ui-schema/SchemaRootProvider'
-import { useSchemaRef } from '@ui-schema/ui-schema/Plugins/ReferencingHandler'
-import { NextPluginRendererMemo, PluginProps } from '@ui-schema/ui-schema/PluginStack'
-import { getSchemaId } from '@ui-schema/ui-schema/Utils/getSchema'
+import { Trans } from '@xy-form/ui-schema/Translate'
+import { isRootSchema, SchemaRootContext, SchemaRootProvider, useSchemaRoot } from '@xy-form/ui-schema/SchemaRootProvider'
+import { useSchemaRef } from '@xy-form/ui-schema/Plugins/ReferencingHandler'
+import { NextPluginRendererMemo, PluginProps } from '@xy-form/ui-schema/PluginStack'
+import { getSchemaId } from '@xy-form/ui-schema/Utils/getSchema'
 
 export const ReferencingHandler = <P extends PluginProps & { rootContext?: { [k: string]: any } }>({rootContext, ...props}: P): React.ReactElement => {
     const {schema: baseSchema, isVirtual} = props

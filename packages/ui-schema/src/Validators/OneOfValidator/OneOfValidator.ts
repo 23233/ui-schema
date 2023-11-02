@@ -1,7 +1,7 @@
 import { List } from 'immutable'
-import { validateSchema } from '@ui-schema/ui-schema/validateSchema'
-import { createValidatorErrors } from '@ui-schema/ui-schema/ValidatorErrors'
-import { PluginSimple, StoreSchemaType } from '@ui-schema/ui-schema'
+import { validateSchema } from '@xy-form/ui-schema/validateSchema'
+import { createValidatorErrors } from '@xy-form/ui-schema/ValidatorErrors'
+import { PluginSimple, StoreSchemaType } from '@xy-form/ui-schema'
 
 export const ERROR_ONE_OF_INVALID = 'one-of-is-invalid'
 

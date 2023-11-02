@@ -1,9 +1,9 @@
 import React from 'react'
 import Grid, { GridSize } from '@mui/material/Grid'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
-import { getNextPlugin, PluginProps } from '@ui-schema/ui-schema/PluginStack'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
+import { getNextPlugin, PluginProps } from '@xy-form/ui-schema/PluginStack'
 import { OrderedMap } from 'immutable'
-import { GroupRendererProps } from '@ui-schema/ui-schema'
+import { GroupRendererProps } from '@xy-form/ui-schema'
 import { GridSpacing } from '@mui/material/Grid/Grid'
 
 export const SchemaGridItem: React.ComponentType<React.PropsWithChildren<{

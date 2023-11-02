@@ -3,9 +3,9 @@
 Thin-wrapper for CodeMirror v6 to use as React Component, with hooks and stuff to build more advanced editors easily.
 
 ```bash
-npm install --save @ui-schema/kit-codemirror @codemirror/state @codemirror/view
+npm install --save @xy-form/kit-codemirror @codemirror/state @codemirror/view
 
-# doesn't require any other module of `@ui-schema`
+# doesn't require any other module of `@xy-form`
 ```
 
 >
@@ -36,7 +36,7 @@ The `CodeMirror` component serves as read-to-use ReactJS integration.
 import React from 'react'
 import { lineNumbers } from '@codemirror/view'
 import { syntaxHighlighting, defaultHighlightStyle } from '@codemirror/language'
-import { CodeMirrorComponentProps, CodeMirrorOnChange, CodeMirror, CodeMirrorProps } from '@ui-schema/kit-codemirror/CodeMirror'
+import { CodeMirrorComponentProps, CodeMirrorOnChange, CodeMirror, CodeMirrorProps } from '@xy-form/kit-codemirror/CodeMirror'
 
 export const CustomCodeMirror: React.FC<{}> = () => {
     const [value, setValue] = React.useState('')
@@ -101,8 +101,8 @@ Simple hook-style codemirror extension, already included in the `CodeMirror` com
 import React from 'react'
 import { EditorView } from '@codemirror/view'
 import { Compartment, Extension } from '@codemirror/state'
-import { useCodeMirror } from '@ui-schema/kit-codemirror/useCodeMirror'
-import { useEditorClasses } from '@ui-schema/kit-codemirror/useEditorClasses'
+import { useCodeMirror } from '@xy-form/kit-codemirror/useCodeMirror'
+import { useEditorClasses } from '@xy-form/kit-codemirror/useEditorClasses'
 
 const CodeEditor = () => {
     // refs for extensions need to be created before the extension

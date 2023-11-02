@@ -1,9 +1,9 @@
 import React from 'react'
 import IconButton from '@mui/material/IconButton'
 import Delete from '@mui/icons-material/Delete'
-import { onChangeHandler, StoreKeys, StoreSchemaType, Trans, WidgetProps } from '@ui-schema/ui-schema'
-import { AccessTooltipIcon } from '@ui-schema/ds-material/Component/Tooltip'
-import { TableRowProps } from '@ui-schema/ds-material'
+import { onChangeHandler, StoreKeys, StoreSchemaType, Trans, WidgetProps } from '@xy-form/ui-schema'
+import { AccessTooltipIcon } from '@xy-form/ds-material/Component/Tooltip'
+import { TableRowProps } from '@xy-form/ds-material'
 import { Map } from 'immutable'
 
 export interface TableRowActionDeleteProps {

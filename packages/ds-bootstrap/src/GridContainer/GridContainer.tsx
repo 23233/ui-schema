@@ -1,6 +1,6 @@
 import React from 'react'
 import clsx from 'clsx'
-import { PluginStackWrapperProps } from '@ui-schema/ui-schema'
+import { PluginStackWrapperProps } from '@xy-form/ui-schema'
 
 export interface GridContainerProps {
     className?: string

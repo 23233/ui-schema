@@ -1,5 +1,5 @@
-import { createMap } from '@ui-schema/ui-schema'
-import { getGridClasses } from '@ui-schema/ds-bootstrap/Grid'
+import { createMap } from '@xy-form/ui-schema'
+import { getGridClasses } from '@xy-form/ds-bootstrap/Grid'
 
 describe('getGridClasses', () => {
     test('return type', () => {

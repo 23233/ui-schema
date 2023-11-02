@@ -12,7 +12,7 @@ React components as Plugins, e.g. work schema-driven, creating functionality aro
 
 ```typescript jsx
 // typing:
-import { PluginProps, PluginType } from "@ui-schema/ui-schema/PluginStack/Plugin"
+import { PluginProps, PluginType } from "@xy-form/ui-schema/PluginStack/Plugin"
 ```
 
 ### Simple Plugins
@@ -25,7 +25,7 @@ Executed inside the widget plugin [`PluginSimpleStack`](#pluginsimplestack).
 
 ```typescript
 // typing:
-import { PluginSimple } from "@ui-schema/ui-schema/PluginSimpleStack"
+import { PluginSimple } from "@xy-form/ui-schema/PluginSimpleStack"
 ```
 
 ## PluginStack
@@ -121,11 +121,11 @@ Very basic `object` widget that renders two different property schemas in custom
 In production/for-others it should be a bit more flexible, e.g. handling additional or different namings of properties.
 
 ```typescript jsx
-import { memo } from '@ui-schema/ui-schema/Utils/memo'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
-import { StoreKeys, extractValue, WithValue } from '@ui-schema/ui-schema/UIStore'
-import { PluginStack } from '@ui-schema/ui-schema/PluginStack'
+import { memo } from '@xy-form/ui-schema/Utils/memo'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
+import { StoreKeys, extractValue, WithValue } from '@xy-form/ui-schema/UIStore'
+import { PluginStack } from '@xy-form/ui-schema/PluginStack'
 
 const UnitCalcDummyBase: React.ComponentType<WidgetProps & WithValue> = (
     {
@@ -201,10 +201,10 @@ Since `0.4.0-alpha.1`, this function also applies [`memo`](/docs/core-utils#memo
 ```typescript jsx
 import React from 'react'
 import Grid from '@mui/material/Grid'
-import { createOrderedMap } from '@ui-schema/ui-schema/Utils/createMap'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
-import { StringRenderer } from '@ui-schema/ds-material/Widgets/TextField'
-import { applyPluginStack } from '@ui-schema/ui-schema/applyPluginStack'
+import { createOrderedMap } from '@xy-form/ui-schema/Utils/createMap'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
+import { StringRenderer } from '@xy-form/ds-material/Widgets/TextField'
+import { applyPluginStack } from '@xy-form/ui-schema/applyPluginStack'
 
 // using `applyPluginStack`, this widget is fully typed
 // with the actual props of the widget component `StringRenderer`
@@ -282,8 +282,8 @@ This function also applies [`memo`](/docs/core-utils#memo--isequal) to the final
 
 ```typescript jsx
 import React from 'react'
-import { GridContainer } from '@ui-schema/ds-material/GridContainer'
-import { applyPluginStack } from '@ui-schema/ui-schema/applyPluginStack'
+import { GridContainer } from '@xy-form/ds-material/GridContainer'
+import { applyPluginStack } from '@xy-form/ui-schema/applyPluginStack'
 
 // wire up:
 const GridStack = injectPluginStack(GridContainer)
@@ -319,7 +319,7 @@ Executes the simple plugins, one after another.
 Can be used to build own / further simple plugin stacks:
 
 ```javascript
-import {handlePluginSimpleStack} from '@ui-schema/ui-schema/PluginSimpleStack'
+import {handlePluginSimpleStack} from '@xy-form/ui-schema/PluginSimpleStack'
 
 export const PluginSimpleStack = ({currentPluginIndex, ...props}) => {
     const next = currentPluginIndex + 1;
@@ -333,7 +333,7 @@ export const PluginSimpleStack = ({currentPluginIndex, ...props}) => {
 Example Binding:
 
 ```javascript
-import {PluginSimpleStack} from '@ui-schema/ui-schema';
+import {PluginSimpleStack} from '@xy-form/ui-schema';
 
 const widgets = {
     pluginStack: [
@@ -384,7 +384,7 @@ Creating a plugin like:
 
 ```js
 import React from "react";
-import {NextPluginRenderer, getNextPlugin} from "@ui-schema/ui-schema/PluginStack";
+import {NextPluginRenderer, getNextPlugin} from "@xy-form/ui-schema/PluginStack";
 
 const NewPlugin = ({currentPluginIndex, ...props}) => {
     // doing some logic

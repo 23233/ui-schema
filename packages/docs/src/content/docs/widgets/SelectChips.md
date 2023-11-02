@@ -20,7 +20,7 @@ Widgets for select input for muli-selection.
 > not included in standard `widgetsBinding`
 
 ```js
-import {SelectChips} from "@ui-schema/ds-material/Widgets/SelectChips";
+import {SelectChips} from "@xy-form/ds-material/Widgets/SelectChips";
 
 const widgets = {
     custom: {

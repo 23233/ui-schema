@@ -7,8 +7,8 @@ import {OptionsRadio} from './Widgets/OptionsRadio';
 import {SimpleList} from './Widgets/SimpleList';
 import {RootRenderer, GroupRenderer} from './Grid';
 import {pluginStack} from './pluginStack';
-import {WidgetRenderer} from '@ui-schema/ui-schema/WidgetRenderer';
-import {validators} from '@ui-schema/ui-schema/Validators/validators';
+import {WidgetRenderer} from '@xy-form/ui-schema/WidgetRenderer';
+import {validators} from '@xy-form/ui-schema/Validators/validators';
 
 const MyFallbackComponent = ({type, widget}) => (
     <div>

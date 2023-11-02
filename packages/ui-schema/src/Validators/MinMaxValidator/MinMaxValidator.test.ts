@@ -1,11 +1,11 @@
 import { OrderedMap, List, Map } from 'immutable'
 import {
     validateMinMax, minMaxValidator, ERROR_MAX_LENGTH, ERROR_MIN_LENGTH,
-} from '@ui-schema/ui-schema/Validators/MinMaxValidator'
-import { createMap, createOrderedMap } from '@ui-schema/ui-schema/Utils'
-import { JsonSchema } from '@ui-schema/ui-schema/JsonSchema'
-import { UISchema } from '@ui-schema/ui-schema/UISchema'
-import { createValidatorErrors } from '@ui-schema/ui-schema/ValidatorErrors/ValidatorErrors'
+} from '@xy-form/ui-schema/Validators/MinMaxValidator'
+import { createMap, createOrderedMap } from '@xy-form/ui-schema/Utils'
+import { JsonSchema } from '@xy-form/ui-schema/JsonSchema'
+import { UISchema } from '@xy-form/ui-schema/UISchema'
+import { createValidatorErrors } from '@xy-form/ui-schema/ValidatorErrors/ValidatorErrors'
 
 describe('validateMinMax', () => {
     type validateMinMaxTest = [

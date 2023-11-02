@@ -1,15 +1,15 @@
 import React from 'react'
 import {
     WidgetProps, WithScalarValue, memo, WithValue, StoreKeyType,
-} from '@ui-schema/ui-schema'
+} from '@xy-form/ui-schema'
 import Button from '@mui/material/Button'
 import { json } from '@codemirror/lang-json'
 import { javascript } from '@codemirror/lang-javascript'
 import { html } from '@codemirror/lang-html'
 import { css } from '@codemirror/lang-css'
-import { extractValue } from '@ui-schema/ui-schema/UIStore'
-import { WidgetCode } from '@ui-schema/material-code'
-import { WidgetCodeSelectable } from '@ui-schema/material-code/WidgetCodeSelectable'
+import { extractValue } from '@xy-form/ui-schema/UIStore'
+import { WidgetCode } from '@xy-form/material-code'
+import { WidgetCodeSelectable } from '@xy-form/material-code/WidgetCodeSelectable'
 import { CustomCodeMirror } from './CustomCodeMirror'
 
 export const CustomWidgetCode: React.ComponentType<WidgetProps & WithScalarValue> = (props) => {

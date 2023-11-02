@@ -1,8 +1,8 @@
 import React from 'react'
-import { pluginOptions } from '@ui-schema/material-slate/Slate/pluginOptions'
+import { pluginOptions } from '@xy-form/material-slate/Slate/pluginOptions'
 import Typography from '@mui/material/Typography'
 import makeStyles from "@mui/styles/makeStyles"
-import { ElementMapping } from '@ui-schema/material-slate/SlateElements/ElementMapper'
+import { ElementMapping } from '@xy-form/material-slate/SlateElements/ElementMapper'
 import { Theme } from '@mui/material/styles/createTheme'
 
 const useStyles = makeStyles<Theme>(theme => ({

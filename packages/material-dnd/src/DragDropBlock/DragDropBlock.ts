@@ -1,4 +1,4 @@
-import { DndBlock } from '@ui-schema/material-dnd/DragDropBlockProvider'
+import { DndBlock } from '@xy-form/material-dnd/DragDropBlockProvider'
 import React from 'react'
 
 export interface DragDropBlockSelectorProps {

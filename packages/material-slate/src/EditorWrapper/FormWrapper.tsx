@@ -5,9 +5,9 @@ import { Theme } from '@mui/material/styles/createTheme'
 import FormControl from '@mui/material/FormControl'
 import InputLabel from '@mui/material/InputLabel'
 import { inputClasses } from '@mui/material/Input'
-import { TransTitle, WidgetProps } from '@ui-schema/ui-schema'
-import { ValidityHelperText } from '@ui-schema/ds-material'
-import { MarkdownLabel } from '@ui-schema/material-slate/EditorWrapper/MarkdownLabel'
+import { TransTitle, WidgetProps } from '@xy-form/ui-schema'
+import { ValidityHelperText } from '@xy-form/ds-material'
+import { MarkdownLabel } from '@xy-form/material-slate/EditorWrapper/MarkdownLabel'
 
 export const useFormEditorStyles = makeStyles<Theme, { dense: boolean, focused: boolean }, 'wrapper' | 'editor'>(theme => ({
     wrapper: {

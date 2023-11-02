@@ -280,8 +280,8 @@ UI Schema extends JSON Schema with special only-UI keywords, take a look at each
 
 Typings:
 
-- [`import {JsonSchema} from '@ui-schema/ui-schema'`](https://github.com/ui-schema/ui-schema/blob/master/packages/ui-schema/src/JsonSchema.d.ts)
-- [`import {UISchema} from '@ui-schema/ui-schema'`](https://github.com/ui-schema/ui-schema/blob/master/packages/ui-schema/src/UISchema.d.ts)
+- [`import {JsonSchema} from '@xy-form/ui-schema'`](https://github.com/ui-schema/ui-schema/blob/master/packages/ui-schema/src/JsonSchema.d.ts)
+- [`import {UISchema} from '@xy-form/ui-schema'`](https://github.com/ui-schema/ui-schema/blob/master/packages/ui-schema/src/UISchema.d.ts)
 
 Vocabularies (**not up to date**):
 

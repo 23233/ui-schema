@@ -1,4 +1,4 @@
-import { isEqual } from '@ui-schema/ui-schema/Utils/isEqual'
+import { isEqual } from '@xy-form/ui-schema/Utils/isEqual'
 import { List, Map } from 'immutable'
 
 describe('isEqual', () => {

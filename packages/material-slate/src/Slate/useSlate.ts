@@ -1,5 +1,5 @@
 import React, { FocusEventHandler } from 'react'
-import { WidgetProps } from '@ui-schema/ui-schema'
+import { WidgetProps } from '@xy-form/ui-schema'
 import { List, OrderedMap } from 'immutable'
 
 export type SlateImmutableType = List<OrderedMap<'children', List<OrderedMap<'text' | 'children', string | List<any>>>>>

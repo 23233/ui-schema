@@ -1,4 +1,4 @@
-import {relT} from '@ui-schema/ui-schema/Translate/relT';
+import {relT} from '@xy-form/ui-schema/Translate/relT';
 import {Map} from 'immutable';
 
 /**

@@ -1,7 +1,7 @@
 import React from 'react'
-import { getNextPlugin, PluginProps } from '@ui-schema/ui-schema/PluginStack'
-import { useSchemaCombine } from '@ui-schema/ui-schema/Plugins/CombiningHandler/useSchemaCombine'
-import { WithValue } from '@ui-schema/ui-schema/UIStore'
+import { getNextPlugin, PluginProps } from '@xy-form/ui-schema/PluginStack'
+import { useSchemaCombine } from '@xy-form/ui-schema/Plugins/CombiningHandler/useSchemaCombine'
+import { WithValue } from '@xy-form/ui-schema/UIStore'
 
 export const CombiningHandler: React.ComponentType<PluginProps & Partial<WithValue>> = (props) => {
     const {schema: baseSchema, value, currentPluginIndex} = props

@@ -3,8 +3,8 @@ import {
     List, Map, Record,
     RecordOf,
 } from 'immutable'
-import { createEmptyStore, onChangeHandler, UIStoreType } from '@ui-schema/ui-schema/UIStore'
-import { storeUpdater } from '@ui-schema/ui-schema/storeUpdater'
+import { createEmptyStore, onChangeHandler, UIStoreType } from '@xy-form/ui-schema/UIStore'
+import { storeUpdater } from '@xy-form/ui-schema/storeUpdater'
 
 export type redoHistory = (steps?: number) => void
 export type undoHistory = (steps?: number) => void

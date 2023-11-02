@@ -1,5 +1,5 @@
 import React from 'react';
-import {useUIMeta} from '@ui-schema/ui-schema/UIMeta';
+import {useUIMeta} from '@xy-form/ui-schema/UIMeta';
 
 /**
  * Translation component, supports dot strings, dictionary can be mixed strings, string functions and function components as translation

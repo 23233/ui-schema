@@ -6,8 +6,8 @@ import { it, expect, describe } from '@jest/globals'
 import { render } from '@testing-library/react'
 // @ts-ignore
 import { toBeInTheDocument, toHaveClass } from '@testing-library/jest-dom/matchers'
-import { createOrderedMap } from '@ui-schema/ui-schema/Utils/createMap/createMap'
-import { VirtualWidgetRenderer, VirtualWidgetsMapping } from '@ui-schema/ui-schema/WidgetRenderer/VirtualWidgetRenderer'
+import { createOrderedMap } from '@xy-form/ui-schema/Utils/createMap/createMap'
+import { VirtualWidgetRenderer, VirtualWidgetsMapping } from '@xy-form/ui-schema/WidgetRenderer/VirtualWidgetRenderer'
 import { List, OrderedMap } from 'immutable'
 
 expect.extend({toBeInTheDocument, toHaveClass})

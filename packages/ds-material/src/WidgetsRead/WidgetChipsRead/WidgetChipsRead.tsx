@@ -1,12 +1,12 @@
 import React from 'react'
-import { beautifyKey, extractValue, memo, StoreSchemaType, Trans, tt, WidgetProps, WithValue } from '@ui-schema/ui-schema'
-import { ValidityHelperText } from '@ui-schema/ds-material/Component/LocaleHelperText'
+import { beautifyKey, extractValue, memo, StoreSchemaType, Trans, tt, WidgetProps, WithValue } from '@xy-form/ui-schema'
+import { ValidityHelperText } from '@xy-form/ds-material/Component/LocaleHelperText'
 import Chip from '@mui/material/Chip'
 import Box from '@mui/material/Box'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
 import { List, Map, OrderedMap } from 'immutable'
-import { TitleBoxRead } from '@ui-schema/ds-material/Component/TitleBoxRead'
-import { UIMetaReadContextType } from '@ui-schema/ui-schema/UIMetaReadContext'
+import { TitleBoxRead } from '@xy-form/ds-material/Component/TitleBoxRead'
+import { UIMetaReadContextType } from '@xy-form/ui-schema/UIMetaReadContext'
 import Typography from '@mui/material/Typography'
 
 export const WidgetChipsReadBase: React.ComponentType<WidgetProps<MuiWidgetBinding> & UIMetaReadContextType & WithValue> = (

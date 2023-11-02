@@ -12,13 +12,13 @@ Widget plugins which work with **default JSON-Schema keywords**:
 
 | Plugin                                                  | Package              | Handles                                                          | Added Props | Status       |
 |:--------------------------------------------------------| :---                 |:-----------------------------------------------------------------| :---        |:-------------|
-| [DefaultHandler](#defaulthandler)                       | @ui-schema/ui-schema | keyword `default`                                                | - | ✔            |
-| [ValidityReporter](#validityreporter)                   | @ui-schema/ui-schema | setting validity changes                                         | - | ✔            |
-| [DependentHandler](#dependenthandler)                   | @ui-schema/ui-schema | keywords `dependencies`, `dependentSchemas`, `dependentRequired` | - | ✔            |
-| [ConditionalHandler](#conditionalhandler)               | @ui-schema/ui-schema | keywords `allOf`, `if`, `else`, `then`, `not`                    | - | ✔            |
-| [CombiningHandler](#combininghandler)                   | @ui-schema/ui-schema | keyword `allOf`                                                  | - | ✔            |
-| [ReferencingHandler](#referencinghandler)               | @ui-schema/ui-schema | keywords `$defs`, `$anchor`, `$id`, `$ref` ...                   | ... | ✔            |
-| [ReferencingNetworkHandler](#referencingnetworkhandler) | @ui-schema/ui-schema | keywords `$ref`                                                  | ... | ✔            |
+| [DefaultHandler](#defaulthandler)                       | @xy-form/ui-schema | keyword `default`                                                | - | ✔            |
+| [ValidityReporter](#validityreporter)                   | @xy-form/ui-schema | setting validity changes                                         | - | ✔            |
+| [DependentHandler](#dependenthandler)                   | @xy-form/ui-schema | keywords `dependencies`, `dependentSchemas`, `dependentRequired` | - | ✔            |
+| [ConditionalHandler](#conditionalhandler)               | @xy-form/ui-schema | keywords `allOf`, `if`, `else`, `then`, `not`                    | - | ✔            |
+| [CombiningHandler](#combininghandler)                   | @xy-form/ui-schema | keyword `allOf`                                                  | - | ✔            |
+| [ReferencingHandler](#referencinghandler)               | @xy-form/ui-schema | keywords `$defs`, `$anchor`, `$id`, `$ref` ...                   | ... | ✔            |
+| [ReferencingNetworkHandler](#referencingnetworkhandler) | @xy-form/ui-schema | keywords `$ref`                                                  | ... | ✔            |
 
 > see [full (non-validator) plugin list](#plugin-list)
 
@@ -26,17 +26,17 @@ Widget plugins which work with **default JSON-Schema keywords**:
 
 | Plugin                                      | Package              | Validity Fn.       | Handles                                                         | Added Props                   |
 |:--------------------------------------------|:---------------------|:-------------------|:----------------------------------------------------------------|:------------------------------|
-| minMaxValidator                             | @ui-schema/ui-schema | validateMinMax     | min/max validity                                                | `valid`, `errors`             |
-| typeValidator                               | @ui-schema/ui-schema | validateType       | keyword `type`                                                  | `valid`, `errors`             |
-| valueValidatorConst                         | @ui-schema/ui-schema | validateConst      | keywords `const`                                                | `valid`, `errors`             |
-| valueValidatorEnum                          | @ui-schema/ui-schema | validateEnum       | keywords `enum`                                                 | `valid`, `errors`             |
-| [multipleOfValidator](#multipleofvalidator) | @ui-schema/ui-schema | validateMultipleOf | keywords `type:number,integer`, `multipleOf`                    | `valid`, `errors`             |
-| [patternValidator](#patternvalidator)       | @ui-schema/ui-schema | validatePattern    | keywords `type:string`, `pattern`                               | `valid`, `errors`             |
-| oneOfValidator                              | @ui-schema/ui-schema | validateOneOf      | keywords `type:*`, `oneOf`                                      | `valid`, `errors`             |
-| arrayValidator                              | @ui-schema/ui-schema |                    | `type:array`                                                    | `valid`, `errors`             |
-| objectValidator                             | @ui-schema/ui-schema |                    | `type:object`, keywords `additionalProperties`, `propertyNames` | `valid`, `errors`             |
-| requiredValidator                           | @ui-schema/ui-schema | checkValueExists   | keywords `type:object`, `required`                              | `valid`, `errors`, `required` |
-| emailValidator                              | @ui-schema/ui-schema |                    | keywords `type:object`, `required`                              | `valid`, `errors`             |
+| minMaxValidator                             | @xy-form/ui-schema | validateMinMax     | min/max validity                                                | `valid`, `errors`             |
+| typeValidator                               | @xy-form/ui-schema | validateType       | keyword `type`                                                  | `valid`, `errors`             |
+| valueValidatorConst                         | @xy-form/ui-schema | validateConst      | keywords `const`                                                | `valid`, `errors`             |
+| valueValidatorEnum                          | @xy-form/ui-schema | validateEnum       | keywords `enum`                                                 | `valid`, `errors`             |
+| [multipleOfValidator](#multipleofvalidator) | @xy-form/ui-schema | validateMultipleOf | keywords `type:number,integer`, `multipleOf`                    | `valid`, `errors`             |
+| [patternValidator](#patternvalidator)       | @xy-form/ui-schema | validatePattern    | keywords `type:string`, `pattern`                               | `valid`, `errors`             |
+| oneOfValidator                              | @xy-form/ui-schema | validateOneOf      | keywords `type:*`, `oneOf`                                      | `valid`, `errors`             |
+| arrayValidator                              | @xy-form/ui-schema |                    | `type:array`                                                    | `valid`, `errors`             |
+| objectValidator                             | @xy-form/ui-schema |                    | `type:object`, keywords `additionalProperties`, `propertyNames` | `valid`, `errors`             |
+| requiredValidator                           | @xy-form/ui-schema | checkValueExists   | keywords `type:object`, `required`                              | `valid`, `errors`, `required` |
+| emailValidator                              | @xy-form/ui-schema |                    | keywords `type:object`, `required`                              | `valid`, `errors`             |
 
 - sub-schema validation/array validation is done by `validateSchema`
 
@@ -46,7 +46,7 @@ Using default validators:
 import {
     PluginSimpleStack, validators,
     ValidityReporter
-} from '@ui-schema/ui-schema';
+} from '@xy-form/ui-schema';
 
 const widgets = {
     pluginStack: [
@@ -81,7 +81,7 @@ Default multi-language support:
 }
 ```
 
-Results in the translation: `Input is invalid, must be a valid zip code`, `Eingabe nicht korrekt, benötigt eine gültige PLZ` for `@ui-schema/dictionary`.
+Results in the translation: `Input is invalid, must be a valid zip code`, `Eingabe nicht korrekt, benötigt eine gültige PLZ` for `@xy-form/dictionary`.
 
 ## Plugin List
 
@@ -99,7 +99,7 @@ Results in the translation: `Input is invalid, must be a valid zip code`, `Einga
 ### DefaultHandler
 
 ```js
-import {DefaultHandler} from '@ui-schema/ui-schema/Plugins/DefaultHandler';
+import {DefaultHandler} from '@xy-form/ui-schema/Plugins/DefaultHandler';
 ````
 
 Applies the `default` keyword and handles persistence of "has-done-default", turn of default handling with the prop `doNotDefault={true}` in `UIConfigContext`/`UIStoreProvider`.
@@ -126,7 +126,7 @@ Does not reset the flag when the widget unmounts, thus does not re-apply default
 ### ValidityReporter
 
 ```js
-import {ValidityReporter, isInvalid} from '@ui-schema/ui-schema/ValidityReporter';
+import {ValidityReporter, isInvalid} from '@xy-form/ui-schema/ValidityReporter';
 ````
 
 Submits the validity of each widget up to the state hoisted component when it changes.
@@ -165,7 +165,7 @@ The `errors` property is an instance of this type.
 
 ```js
 import {Map} from "immutable"
-import {createValidatorErrors, ERROR_NOT_SET} from "@ui-schema/ui-schema"
+import {createValidatorErrors, ERROR_NOT_SET} from "@xy-form/ui-schema"
 
 errors = errors.addError(ERROR_NOT_SET)
 
@@ -195,7 +195,7 @@ tmpError.addErrors(errors) // add the errors of e.g. another validation function
 #### validateSchema
 
 ```js
-import {validateSchema} from '@ui-schema/ui-schema/validateSchema';
+import {validateSchema} from '@xy-form/ui-schema/validateSchema';
 ```
 
 Exports the validation functions used by the plugins for usage outside of the render tree.
@@ -218,7 +218,7 @@ Supports `not` keyword for any validation, see [spec.](https://json-schema.org/u
 ### DependentHandler
 
 ```js
-import {DependentHandler} from '@ui-schema/ui-schema/Plugins/DependentHandler';
+import {DependentHandler} from '@xy-form/ui-schema/Plugins/DependentHandler';
 ````
 
 Enables on-the-fly sub-schema rendering based on single property data and schema, see also [ConditionalHandler](#conditionalhandler).
@@ -282,7 +282,7 @@ Specifications:
 ### ConditionalHandler
 
 ```js
-import {ConditionalHandler} from '@ui-schema/ui-schema/Plugins/ConditionalHandler';
+import {ConditionalHandler} from '@xy-form/ui-schema/Plugins/ConditionalHandler';
 ````
 
 Enables on-the-fly sub-schema rendering based on current objects data.
@@ -480,7 +480,7 @@ const schemaWConditional = createOrderedMap({
 ### CombiningHandler
 
 ```js
-import {CombiningHandler} from '@ui-schema/ui-schema/Plugins/CombiningHandler';
+import {CombiningHandler} from '@xy-form/ui-schema/Plugins/CombiningHandler';
 ````
 
 Combining schemas from within one schema with:
@@ -720,8 +720,8 @@ Uses a separate style schema and merges it into the matching data schema.
 Adding the plugin to default widget binding, using Typescript:
 
 ```typescript jsx
-import { widgets } from '@ui-schema/ds-material'
-import { InjectSplitSchemaPlugin, InjectSplitSchemaRootContext } from '@ui-schema/ui-schema/Plugins/InjectSplitSchemaPlugin'
+import { widgets } from '@xy-form/ds-material'
+import { InjectSplitSchemaPlugin, InjectSplitSchemaRootContext } from '@xy-form/ui-schema/Plugins/InjectSplitSchemaPlugin'
 
 const customWidgets = {...widgets}
 const pluginStack = [...customWidgets.pluginStack]
@@ -809,7 +809,7 @@ Also check the `UIStore.extractValues(storeKeys)` function for custom extraction
 Inherit keywords from the `parentSchema` to all `schema`:
 
 ```typescript
-import { InheritKeywords } from '@ui-schema/ui-schema/Plugins/InheritKeywords'
+import { InheritKeywords } from '@xy-form/ui-schema/Plugins/InheritKeywords'
 
 const widgets = {
     ...widgets,
@@ -823,8 +823,8 @@ const widgets = {
 Control when to inherit:
 
 ```typescript
-import { InheritKeywords } from '@ui-schema/ui-schema/Plugins/InheritKeywords'
-import { schemaTypeToDistinct } from '@ui-schema/ui-schema/Utils/schemaTypeToDistinct'
+import { InheritKeywords } from '@xy-form/ui-schema/Plugins/InheritKeywords'
+import { schemaTypeToDistinct } from '@xy-form/ui-schema/Utils/schemaTypeToDistinct'
 
 const widgets = {
     ...widgets,
@@ -844,7 +844,7 @@ const widgets = {
 Sorts the `schema.properties` if `schema.sortOrder` exists, appends all non-sorted properties to the end.
 
 ```typescript
-import { SortPlugin } from '@ui-schema/ui-schema/Plugins/SortPlugin'
+import { SortPlugin } from '@xy-form/ui-schema/Plugins/SortPlugin'
 
 const widgets = {
     ...widgets,

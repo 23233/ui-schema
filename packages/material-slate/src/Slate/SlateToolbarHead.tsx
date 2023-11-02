@@ -11,10 +11,10 @@ import IcListTodo from '@mui/icons-material/BallotOutlined'
 import {
     HeadingToolbar,
 } from '@udecode/slate-plugins'
-import { pluginOptions } from '@ui-schema/material-slate/Slate/pluginOptions'
-import { ToolbarAlign, ToolbarCodeBlock, ToolbarElement, ToolbarList } from '@ui-schema/material-slate/Slate/SlateToolbarButtons'
-import { editorEnableOnly } from '@ui-schema/material-slate/Slate/SlateRenderer'
-import { editorIsEnabled } from '@ui-schema/material-slate/Slate/editorIsEnabled'
+import { pluginOptions } from '@xy-form/material-slate/Slate/pluginOptions'
+import { ToolbarAlign, ToolbarCodeBlock, ToolbarElement, ToolbarList } from '@xy-form/material-slate/Slate/SlateToolbarButtons'
+import { editorEnableOnly } from '@xy-form/material-slate/Slate/SlateRenderer'
+import { editorIsEnabled } from '@xy-form/material-slate/Slate/editorIsEnabled'
 
 export const SlateToolbarHead: React.ComponentType<{
     enableOnly?: editorEnableOnly

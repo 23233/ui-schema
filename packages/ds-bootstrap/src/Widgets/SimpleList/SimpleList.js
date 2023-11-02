@@ -1,8 +1,8 @@
 import React from 'react';
-import {TransTitle, extractValue, memo, PluginStack} from '@ui-schema/ui-schema';
+import {TransTitle, extractValue, memo, PluginStack} from '@xy-form/ui-schema';
 import {List} from 'immutable';
 import {ValidityHelperText} from '../../Component/LocaleHelperText/LocaleHelperText';
-import {IconPlus, IconMinus} from '@ui-schema/ds-bootstrap/Component/Icons/Icons';
+import {IconPlus, IconMinus} from '@xy-form/ds-bootstrap/Component/Icons/Icons';
 
 const SimpleList = extractValue(memo(({
                                           storeKeys, schema, value, onChange,

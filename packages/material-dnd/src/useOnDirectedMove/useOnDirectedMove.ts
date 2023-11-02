@@ -1,8 +1,8 @@
 import { List, Map } from 'immutable'
-import { addNestKey, DndIntents, moveDraggedValue, onIntentFactory, onMovedType, PathKey } from '@ui-schema/kit-dnd'
+import { addNestKey, DndIntents, moveDraggedValue, onIntentFactory, onMovedType, PathKey } from '@xy-form/kit-dnd'
 import React from 'react'
-import { onChangeHandler, StoreKeys } from '@ui-schema/ui-schema'
-import { DragDropSpec } from '@ui-schema/material-dnd/DragDropSpec'
+import { onChangeHandler, StoreKeys } from '@xy-form/ui-schema'
+import { DragDropSpec } from '@xy-form/material-dnd/DragDropSpec'
 
 export const useOnDirectedMove = <C extends HTMLElement = HTMLElement, S extends DragDropSpec = DragDropSpec>(
     onIntent: onIntentFactory<C, S>,

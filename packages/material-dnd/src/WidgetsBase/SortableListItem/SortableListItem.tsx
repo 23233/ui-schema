@@ -1,4 +1,4 @@
-import { memo, PluginStack, TransTitle } from '@ui-schema/ui-schema'
+import { memo, PluginStack, TransTitle } from '@xy-form/ui-schema'
 import React from 'react'
 import IconButton from '@mui/material/IconButton'
 import Box from '@mui/material/Box'
@@ -6,11 +6,11 @@ import Paper from '@mui/material/Paper'
 import Typography, { TypographyProps } from '@mui/material/Typography'
 import IcDrag from '@mui/icons-material/DragHandle'
 import IcDelete from '@mui/icons-material/Delete'
-import { DndListItemComponentProps } from '@ui-schema/material-dnd/DndListRenderer'
+import { DndListItemComponentProps } from '@xy-form/material-dnd/DndListRenderer'
 import { List } from 'immutable'
-import { DraggableRendererProps, useDraggable } from '@ui-schema/kit-dnd/useDraggable'
-import { DragDropSpec } from '@ui-schema/material-dnd/DragDropSpec'
-import { handleMouseMoveInDraggable } from '@ui-schema/material-dnd/handleMouseMoveInDraggable'
+import { DraggableRendererProps, useDraggable } from '@xy-form/kit-dnd/useDraggable'
+import { DragDropSpec } from '@xy-form/material-dnd/DragDropSpec'
+import { handleMouseMoveInDraggable } from '@xy-form/material-dnd/handleMouseMoveInDraggable'
 
 export const SortableListItemBase = <C extends HTMLElement = HTMLElement, S extends DragDropSpec = DragDropSpec>(
     {

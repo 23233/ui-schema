@@ -1,4 +1,4 @@
-import { prependKey, StoreKeys, UIStoreStateData, UIStoreType } from '@ui-schema/ui-schema/UIStore'
+import { prependKey, StoreKeys, UIStoreStateData, UIStoreType } from '@xy-form/ui-schema/UIStore'
 
 export type ScopeOnChangeHandlerInternal = <S extends UIStoreType>(
     store: S,

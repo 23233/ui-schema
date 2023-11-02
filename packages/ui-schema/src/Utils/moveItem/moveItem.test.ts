@@ -1,4 +1,4 @@
-import { moveItem } from '@ui-schema/ui-schema/Utils/moveItem/moveItem'
+import { moveItem } from '@xy-form/ui-schema/Utils/moveItem/moveItem'
 import { List } from 'immutable'
 
 describe('moveItem', () => {

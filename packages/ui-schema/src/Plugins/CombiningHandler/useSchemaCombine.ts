@@ -1,6 +1,6 @@
-import { handleIfElseThen } from '@ui-schema/ui-schema/Plugins/ConditionalHandler'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
-import { mergeSchema } from '@ui-schema/ui-schema/Utils/mergeSchema'
+import { handleIfElseThen } from '@xy-form/ui-schema/Plugins/ConditionalHandler'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
+import { mergeSchema } from '@xy-form/ui-schema/Utils/mergeSchema'
 import { List, Map, OrderedMap } from 'immutable'
 import React from 'react'
 

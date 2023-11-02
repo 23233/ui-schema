@@ -12,30 +12,30 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
-import {Step, Stepper, widgets} from '@ui-schema/ds-material';
+import {Step, Stepper, widgets} from '@xy-form/ds-material';
 import {
     isInvalid, createOrderedMap, createMap,
     createStore, createEmptyStore,
     UIMetaProvider, UIRootRenderer, UIStoreProvider, storeUpdater,
-} from '@ui-schema/ui-schema';
+} from '@xy-form/ui-schema';
 import {MuiSchemaDebug} from './component/MuiSchemaDebug';
 import {browserT} from '../t';
 import {schemaLists} from '../schemas/demoLists';
 import {schemaNumberSlider} from '../schemas/demoNumberSlider';
 import {DummyRenderer} from './component/MuiMainDummy';
 import {useDummy} from '../component/MainDummy';
-import {UIApiProvider} from '@ui-schema/ui-schema/UIApi';
-// import {ReferencingNetworkHandler} from '@ui-schema/ui-schema/Plugins/ReferencingHandler';
+import {UIApiProvider} from '@xy-form/ui-schema/UIApi';
+// import {ReferencingNetworkHandler} from '@xy-form/ui-schema/Plugins/ReferencingHandler';
 import {schemaDemoTable, schemaDemoTableAdvanced, schemaDemoTableMap, schemaDemoTableMapBig} from '../schemas/demoTable';
-import {Table} from '@ui-schema/ds-material/Widgets/Table';
-import {NumberRendererCell, StringRendererCell, TextRendererCell} from '@ui-schema/ds-material/Widgets/TextFieldCell';
-import {TableAdvanced} from '@ui-schema/ds-material/Widgets/TableAdvanced';
+import {Table} from '@xy-form/ds-material/Widgets/Table';
+import {NumberRendererCell, StringRendererCell, TextRendererCell} from '@xy-form/ds-material/Widgets/TextFieldCell';
+import {TableAdvanced} from '@xy-form/ds-material/Widgets/TableAdvanced';
 import {List, OrderedMap} from 'immutable';
-import {PluginStack} from '@ui-schema/ui-schema/PluginStack';
-import {applyPluginStack} from '@ui-schema/ui-schema/applyPluginStack';
-import {StringRenderer} from '@ui-schema/ds-material/Widgets/TextField';
-import {InfoRenderer} from '@ui-schema/ds-material/Component/InfoRenderer';
-import {SelectChips} from '@ui-schema/ds-material/Widgets/SelectChips';
+import {PluginStack} from '@xy-form/ui-schema/PluginStack';
+import {applyPluginStack} from '@xy-form/ui-schema/applyPluginStack';
+import {StringRenderer} from '@xy-form/ds-material/Widgets/TextField';
+import {InfoRenderer} from '@xy-form/ds-material/Component/InfoRenderer';
+import {SelectChips} from '@xy-form/ds-material/Widgets/SelectChips';
 
 const customWidgets = {...widgets}
 const pluginStack = [...customWidgets.pluginStack]

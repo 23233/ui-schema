@@ -1,9 +1,9 @@
-import { RenderElementProps, RenderMapperProps } from '@ui-schema/material-slate/Slate/SlateTypings'
-import { mappingBasic } from '@ui-schema/material-slate/SlateElements/mappingBasic'
-import { mappingBasicInline } from '@ui-schema/material-slate/SlateElements/mappingBasicInline'
-import { mappingList } from '@ui-schema/material-slate/SlateElements/mappingList'
-import { mappingAdvanced } from '@ui-schema/material-slate/SlateElements/mappingAdvanced'
-import { editorIsEnabled } from '@ui-schema/material-slate/Slate/editorIsEnabled'
+import { RenderElementProps, RenderMapperProps } from '@xy-form/material-slate/Slate/SlateTypings'
+import { mappingBasic } from '@xy-form/material-slate/SlateElements/mappingBasic'
+import { mappingBasicInline } from '@xy-form/material-slate/SlateElements/mappingBasicInline'
+import { mappingList } from '@xy-form/material-slate/SlateElements/mappingList'
+import { mappingAdvanced } from '@xy-form/material-slate/SlateElements/mappingAdvanced'
+import { editorIsEnabled } from '@xy-form/material-slate/Slate/editorIsEnabled'
 
 export interface ElementMapping {
     [k: string]: (props: RenderElementProps) => JSX.Element

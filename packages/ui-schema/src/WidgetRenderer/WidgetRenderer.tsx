@@ -1,11 +1,11 @@
 import React from 'react'
-import { useImmutable } from '@ui-schema/ui-schema/Utils'
-import { widgetMatcher, NoWidgetProps } from '@ui-schema/ui-schema/widgetMatcher'
+import { useImmutable } from '@xy-form/ui-schema/Utils'
+import { widgetMatcher, NoWidgetProps } from '@xy-form/ui-schema/widgetMatcher'
 import { List } from 'immutable'
-import { PluginProps } from '@ui-schema/ui-schema/PluginStack/Plugin'
-import { PluginStackProps } from '@ui-schema/ui-schema/PluginStack'
-import { WithValue } from '@ui-schema/ui-schema/UIStore'
-import { SchemaTypesType } from '@ui-schema/ui-schema/CommonTypings'
+import { PluginProps } from '@xy-form/ui-schema/PluginStack/Plugin'
+import { PluginStackProps } from '@xy-form/ui-schema/PluginStack'
+import { WithValue } from '@xy-form/ui-schema/UIStore'
+import { SchemaTypesType } from '@xy-form/ui-schema/CommonTypings'
 
 export interface WidgetRendererProps extends Omit<PluginProps, 'currentPluginIndex'>, WithValue {
     WidgetOverride?: PluginStackProps['WidgetOverride']

@@ -1,6 +1,6 @@
 import React from 'react'
-import {getSchemaId} from '@ui-schema/ui-schema/Utils/getSchema';
-import {memo} from '@ui-schema/ui-schema/Utils/memo';
+import {getSchemaId} from '@xy-form/ui-schema/Utils/getSchema';
+import {memo} from '@xy-form/ui-schema/Utils/memo';
 
 export const isRootSchema = (schema) => {
     const id = getSchemaId(schema)

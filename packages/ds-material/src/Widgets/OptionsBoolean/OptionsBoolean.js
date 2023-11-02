@@ -1,8 +1,8 @@
 import React from 'react';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
-import {TransTitle} from '@ui-schema/ui-schema/Translate/TransTitle';
-import {ValidityHelperText} from '@ui-schema/ds-material/Component';
+import {TransTitle} from '@xy-form/ui-schema/Translate/TransTitle';
+import {ValidityHelperText} from '@xy-form/ds-material/Component';
 
 export const BoolRenderer = (
     {

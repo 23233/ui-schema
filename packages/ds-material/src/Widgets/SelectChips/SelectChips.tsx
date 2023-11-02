@@ -1,13 +1,13 @@
 import React from 'react'
-import { extractValue, memo, sortScalarList, StoreSchemaType, WidgetProps, WithValue } from '@ui-schema/ui-schema'
-import { Trans, TransTitle } from '@ui-schema/ui-schema/Translate'
-import { ValidityHelperText } from '@ui-schema/ds-material/Component/LocaleHelperText'
+import { extractValue, memo, sortScalarList, StoreSchemaType, WidgetProps, WithValue } from '@xy-form/ui-schema'
+import { Trans, TransTitle } from '@xy-form/ui-schema/Translate'
+import { ValidityHelperText } from '@xy-form/ds-material/Component/LocaleHelperText'
 import Typography from '@mui/material/Typography'
 import Chip from '@mui/material/Chip'
 import Box from '@mui/material/Box'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
 import { List } from 'immutable'
-import { useOptionsFromSchema } from '@ui-schema/ds-material/Utils'
+import { useOptionsFromSchema } from '@xy-form/ds-material/Utils'
 
 export const SelectChipsBase: React.ComponentType<WidgetProps<MuiWidgetBinding> & WithValue> = (
     {

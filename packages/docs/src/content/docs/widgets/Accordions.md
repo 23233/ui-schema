@@ -23,4 +23,4 @@ Widgets for `object` which makes each property an accordion dropdown.
 **Supports `props`:**
 
 - `SummaryTitle` to render a custom summary component instead of the standard title
-    - supported by `AccordionsRenderer`, `AccordionStack` components of `@ui-schema/ds-material/Widgets/Accordions`
+    - supported by `AccordionsRenderer`, `AccordionStack` components of `@xy-form/ds-material/Widgets/Accordions`

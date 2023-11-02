@@ -1,8 +1,8 @@
 import { expect, describe } from '@jest/globals'
 import { List, OrderedMap, Map } from 'immutable'
-import { ParseRefsContent, StoreSchemaType } from '@ui-schema/ui-schema'
+import { ParseRefsContent, StoreSchemaType } from '@xy-form/ui-schema'
 import { parseRefs } from './parseRefs'
-import { createMap, createOrderedMap } from '@ui-schema/ui-schema/Utils/createMap/createMap'
+import { createMap, createOrderedMap } from '@xy-form/ui-schema/Utils/createMap/createMap'
 
 const mockDefinitions = createOrderedMap({
     country: {type: 'string', enum: ['fr', 'de', 'it']},

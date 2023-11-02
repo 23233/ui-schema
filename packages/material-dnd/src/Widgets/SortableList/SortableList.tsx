@@ -1,15 +1,15 @@
 import React from 'react'
 import { useUID } from 'react-uid'
-import { memo, StoreSchemaType, Trans, TransTitle, UIStoreActionListItemAdd, UIStoreActionScoped, WidgetProps, WithOnChange } from '@ui-schema/ui-schema'
-import { AccessTooltipIcon } from '@ui-schema/ds-material'
+import { memo, StoreSchemaType, Trans, TransTitle, UIStoreActionListItemAdd, UIStoreActionScoped, WidgetProps, WithOnChange } from '@xy-form/ui-schema'
+import { AccessTooltipIcon } from '@xy-form/ds-material'
 import IconButton from '@mui/material/IconButton'
 import Add from '@mui/icons-material/Add'
 import Box from '@mui/material/Box'
 import Typography, { TypographyProps } from '@mui/material/Typography'
 import { OrderedMap } from 'immutable'
-import { genId } from '@ui-schema/kit-dnd'
-import { DndListRenderer } from '@ui-schema/material-dnd/DndListRenderer'
-import { SortableListItem } from '@ui-schema/material-dnd/WidgetsBase/SortableListItem'
+import { genId } from '@xy-form/kit-dnd'
+import { DndListRenderer } from '@xy-form/material-dnd/DndListRenderer'
+import { SortableListItem } from '@xy-form/material-dnd/WidgetsBase/SortableListItem'
 
 export interface SortableListProps {
     scoped?: boolean

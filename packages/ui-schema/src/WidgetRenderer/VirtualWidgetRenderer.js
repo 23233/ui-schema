@@ -1,8 +1,8 @@
 import React from 'react';
 import {List} from 'immutable';
-import {PluginStack} from '@ui-schema/ui-schema/PluginStack';
-import {ObjectRenderer} from '@ui-schema/ui-schema/ObjectRenderer';
-import {schemaTypeToDistinct} from '@ui-schema/ui-schema/Utils/schemaTypeToDistinct';
+import {PluginStack} from '@xy-form/ui-schema/PluginStack';
+import {ObjectRenderer} from '@xy-form/ui-schema/ObjectRenderer';
+import {schemaTypeToDistinct} from '@xy-form/ui-schema/Utils/schemaTypeToDistinct';
 
 export const VirtualArrayRenderer = (
     {storeKeys, value, schema, virtualWidgets, widgets},

@@ -1,8 +1,8 @@
 import React from 'react';
 import AccountBox from '@mui/icons-material/AccountBox';
-import {makeTranslator, createMap} from '@ui-schema/ui-schema';
-import * as en from '@ui-schema/dictionary/en'
-import * as de from '@ui-schema/dictionary/de'
+import {makeTranslator, createMap} from '@xy-form/ui-schema';
+import * as en from '@xy-form/dictionary/en'
+import * as de from '@xy-form/dictionary/de'
 
 const BtsPlus = () => {
     return <svg className="bi bi-plus" width={20} height={20} viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

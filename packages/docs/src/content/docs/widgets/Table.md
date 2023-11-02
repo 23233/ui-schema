@@ -45,10 +45,10 @@ Special `Table` component for complex, always validated, lists. Using custom wid
 - when `sortOrder` is defined, only renders & validates those properties
 
 ```js
-import {widgets} from '@ui-schema/ds-material';
-import {Table} from '@ui-schema/ds-material/Widgets/Table';
-import {NumberRendererCell, StringRendererCell, TextRendererCell} from '@ui-schema/ds-material/Widgets/TextFieldCell';
-import {BoolRenderer} from '@ui-schema/ds-material/Widgets/OptionsBoolean';
+import {widgets} from '@xy-form/ds-material';
+import {Table} from '@xy-form/ds-material/Widgets/Table';
+import {NumberRendererCell, StringRendererCell, TextRendererCell} from '@xy-form/ds-material/Widgets/TextFieldCell';
+import {BoolRenderer} from '@xy-form/ds-material/Widgets/OptionsBoolean';
 
 const CustomTable = ({widgets, ...props}) => {
 

@@ -1,4 +1,4 @@
-import { isEqual as isEqualValue } from '@ui-schema/ui-schema/Utils/isEqual'
+import { isEqual as isEqualValue } from '@xy-form/ui-schema/Utils/isEqual'
 
 export const isEqualObject = (a: Object, b: Object): boolean => {
     const prevKeys = Object.keys(a)

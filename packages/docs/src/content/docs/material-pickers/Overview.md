@@ -1,13 +1,13 @@
 # Material UI Picker
 
-> 🚧 Work in progress, docs for `v0.4.0-alpha` of `@ui-schema/material-pickers`
+> 🚧 Work in progress, docs for `v0.4.0-alpha` of `@xy-form/material-pickers`
 >
 > full rewrite for `mui@v5` support, not supporting all old features yet
 >
 > will stay in alpha, as long as `@mui/x-date-pickers` is in alpha [#187](https://github.com/ui-schema/ui-schema/issues/187)
 
 ```bash
-npm i --save @ui-schema/material-pickers @mui/x-date-pickers
+npm i --save @xy-form/material-pickers @mui/x-date-pickers
 ```
 
 > for peer dependency setup go to [mui.com MUI-X-Pickers](https://mui.com/x/react-date-pickers/getting-started/)
@@ -18,7 +18,7 @@ Use this basic function for a start:
 
 ```typescript jsx
 import React from 'react'
-import { WidgetProps, WithScalarValue, StoreSchemaType } from '@ui-schema/ui-schema'
+import { WidgetProps, WithScalarValue, StoreSchemaType } from '@xy-form/ui-schema'
 
 const getExtraProps = (schema: StoreSchemaType, type: 'date' | 'date-time' | 'time') => {
     const data: { [k: string]: any } = {}
@@ -37,16 +37,16 @@ const getExtraProps = (schema: StoreSchemaType, type: 'date' | 'date-time' | 'ti
 }
 ```
 
-> this provides support for some features, previously included in `@ui-schema/material-pickers`@`<=0.3.0`
+> this provides support for some features, previously included in `@xy-form/material-pickers`@`<=0.3.0`
 
 ## Setup Date Time Picker
 
 ```typescript jsx
 import React from 'react'
 import { List } from 'immutable'
-import { widgets } from '@ui-schema/ds-material'
-import { WidgetProps, WithScalarValue, StoreSchemaType } from '@ui-schema/ui-schema'
-import { WidgetDateTimePicker } from '@ui-schema/material-pickers/WidgetDateTimePicker'
+import { widgets } from '@xy-form/ds-material'
+import { WidgetProps, WithScalarValue, StoreSchemaType } from '@xy-form/ui-schema'
+import { WidgetDateTimePicker } from '@xy-form/material-pickers/WidgetDateTimePicker'
 import { DesktopDateTimePicker } from '@mui/x-date-pickers/DesktopDateTimePicker'
 import { MobileDateTimePicker } from '@mui/x-date-pickers/MobileDateTimePicker'
 import { StaticDateTimePicker } from '@mui/x-date-pickers/StaticDateTimePicker'
@@ -85,9 +85,9 @@ customWidgets.custom = {
 ```typescript jsx
 import React from 'react'
 import { List } from 'immutable'
-import { widgets } from '@ui-schema/ds-material'
-import { WidgetProps, WithScalarValue, StoreSchemaType } from '@ui-schema/ui-schema'
-import { WidgetDatePicker } from '@ui-schema/material-pickers/WidgetDatePicker'
+import { widgets } from '@xy-form/ds-material'
+import { WidgetProps, WithScalarValue, StoreSchemaType } from '@xy-form/ui-schema'
+import { WidgetDatePicker } from '@xy-form/material-pickers/WidgetDatePicker'
 import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker'
 import { MobileDatePicker } from '@mui/x-date-pickers/MobileDatePicker'
 import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker'
@@ -126,9 +126,9 @@ customWidgets.custom = {
 ```typescript jsx
 import React from 'react'
 import { List } from 'immutable'
-import { widgets } from '@ui-schema/ds-material'
-import { WidgetProps, WithScalarValue, StoreSchemaType } from '@ui-schema/ui-schema'
-import { WidgetTimePicker } from '@ui-schema/material-pickers/WidgetTimePicker'
+import { widgets } from '@xy-form/ds-material'
+import { WidgetProps, WithScalarValue, StoreSchemaType } from '@xy-form/ui-schema'
+import { WidgetTimePicker } from '@xy-form/material-pickers/WidgetTimePicker'
 import { DesktopTimePicker } from '@mui/x-date-pickers/DesktopTimePicker'
 import { MobileTimePicker } from '@mui/x-date-pickers/MobileTimePicker'
 import { StaticTimePicker } from '@mui/x-date-pickers/StaticTimePicker'

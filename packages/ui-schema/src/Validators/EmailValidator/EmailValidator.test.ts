@@ -1,4 +1,4 @@
-import { emailValidator } from '@ui-schema/ui-schema/Validators/EmailValidator/EmailValidator'
+import { emailValidator } from '@xy-form/ui-schema/Validators/EmailValidator/EmailValidator'
 import { OrderedMap } from 'immutable'
 
 describe('emailValidator', () => {

@@ -1,4 +1,4 @@
-import { memo, PluginStack, WithOnChange } from '@ui-schema/ui-schema'
+import { memo, PluginStack, WithOnChange } from '@xy-form/ui-schema'
 import React from 'react'
 import IconButton from '@mui/material/IconButton'
 import Box from '@mui/material/Box'
@@ -6,10 +6,10 @@ import Paper from '@mui/material/Paper'
 import IcDrag from '@mui/icons-material/DragHandle'
 import IcDelete from '@mui/icons-material/Delete'
 import { List } from 'immutable'
-import { DraggableRendererProps, useDraggable } from '@ui-schema/kit-dnd/useDraggable'
-import { DragDropSpec } from '@ui-schema/material-dnd/DragDropSpec'
-import { DndBlocksRendererItemProps } from '@ui-schema/material-dnd/DndBlocksRenderer'
-import { handleMouseMoveInDraggable } from '@ui-schema/material-dnd/handleMouseMoveInDraggable'
+import { DraggableRendererProps, useDraggable } from '@xy-form/kit-dnd/useDraggable'
+import { DragDropSpec } from '@xy-form/material-dnd/DragDropSpec'
+import { DndBlocksRendererItemProps } from '@xy-form/material-dnd/DndBlocksRenderer'
+import { handleMouseMoveInDraggable } from '@xy-form/material-dnd/handleMouseMoveInDraggable'
 
 export const AreaRendererBase = <C extends HTMLElement = HTMLElement, S extends DragDropSpec = DragDropSpec>(
     {

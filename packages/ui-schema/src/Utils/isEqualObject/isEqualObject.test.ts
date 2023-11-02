@@ -1,5 +1,5 @@
-import { isEqualObject } from '@ui-schema/ui-schema/Utils/isEqualObject'
-import { createMap } from '@ui-schema/ui-schema/Utils/createMap'
+import { isEqualObject } from '@xy-form/ui-schema/Utils/isEqualObject'
+import { createMap } from '@xy-form/ui-schema/Utils/createMap'
 import { List } from 'immutable'
 
 describe('isEqualObject', () => {

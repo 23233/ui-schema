@@ -1,7 +1,7 @@
-import { prependKey } from '@ui-schema/ui-schema/UIStore'
+import { prependKey } from '@xy-form/ui-schema/UIStore'
 import { List } from 'immutable'
-import { ScopeOnChangeHandler } from '@ui-schema/ui-schema/storeUpdater'
-import { updateStoreScope } from '@ui-schema/ui-schema/storeScopeUpdater'
+import { ScopeOnChangeHandler } from '@xy-form/ui-schema/storeUpdater'
+import { updateStoreScope } from '@xy-form/ui-schema/storeScopeUpdater'
 
 export const scopeUpdaterValidity: ScopeOnChangeHandler = (store, storeKeys, newValue) => {
     if (storeKeys.contains('__valid')) {

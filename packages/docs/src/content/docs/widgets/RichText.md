@@ -70,7 +70,7 @@ Supports extra keywords:
     - `editor.hideBalloon`: when `true` doesn't show the balloon toolbar
 
 ```bash
-npm i --save @ui-schema/material-slate \
+npm i --save @xy-form/material-slate \
   @mui/styles @mui/lab \
   slate slate-react \
   slate-history slate-hyperscript \
@@ -78,7 +78,7 @@ npm i --save @ui-schema/material-slate \
   @udecode/slate-plugins
 ```
 
-> relies on `@mui/styles` as `peerDependency` - the last `@ui-schema/material*` package with this dependency
+> relies on `@mui/styles` as `peerDependency` - the last `@xy-form/material*` package with this dependency
 
 > needs ~0.60 of slate packages and ~0.75 of @udecode/slate-plugins
 
@@ -132,7 +132,7 @@ Rich text editor based on [DraftJS](https://draftjs.org/) with the styles like a
 > ℹ️ as not compatible with immutable v4, this widget package is no longer maintained
 
 ```bash
-npm i --save @ui-schema/material-richtext draft-js draft-js-plugins-editor
+npm i --save @xy-form/material-richtext draft-js draft-js-plugins-editor
 ```
 
 - special keywords:

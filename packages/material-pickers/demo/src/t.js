@@ -1,8 +1,8 @@
 import React from 'react';
 import AccountBox from '@mui/icons-material/AccountBox';
-import {makeTranslator, createMap} from '@ui-schema/ui-schema';
-import * as en from '@ui-schema/dictionary/en'
-import * as de from '@ui-schema/dictionary/de'
+import {makeTranslator, createMap} from '@xy-form/ui-schema';
+import * as en from '@xy-form/dictionary/en'
+import * as de from '@xy-form/dictionary/de'
 
 const icons = {
     'AccountBox': () => <AccountBox/>,

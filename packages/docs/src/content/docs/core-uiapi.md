@@ -22,5 +22,5 @@ const Provider = ({children}) => <UIApiProvider
 With this variable you get the used cache key in the `localStorage`
 
 ```jsx
-import {schemaLocalCachePath} from '@ui-schema/ui-schema/UIApi'
+import {schemaLocalCachePath} from '@xy-form/ui-schema/UIApi'
 ```

@@ -21,8 +21,8 @@ Starts rendering the root level schema with [`PluginStack`](/docs/core-pluginsta
 `widgets.RootRenderer` is rendered inside it, within a memoized component.
 
 ```javascript
-import {UIStoreProvider} from '@ui-schema/ui-schema/UIStore';
-import {UIRootRenderer} from '@ui-schema/ui-schema/UIRootRenderer';
+import {UIStoreProvider} from '@xy-form/ui-schema/UIStore';
+import {UIRootRenderer} from '@xy-form/ui-schema/UIRootRenderer';
 
 <UIStoreProvider
     store={store}
@@ -49,7 +49,7 @@ Executes `onErrors` for that schema level, when `errors` have changed and `onErr
 
 **Is itself in the `widgets` binding** and can be replaced / extended this way, `widgets.WidgetRenderer` (since `0.3.0`).
 
-Uses `widgetMatcher` to execute the default matching logic: `import {widgetMatcher} from '@ui-schema/ui-schema/widgetMatcher';`
+Uses `widgetMatcher` to execute the default matching logic: `import {widgetMatcher} from '@xy-form/ui-schema/widgetMatcher';`
 
 ## ObjectGroup
 

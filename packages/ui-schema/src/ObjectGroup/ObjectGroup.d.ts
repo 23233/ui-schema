@@ -1,5 +1,5 @@
 import React from 'react'
-import { AppliedPluginStackProps, StoreSchemaType, WidgetProps } from '@ui-schema/ui-schema'
+import { AppliedPluginStackProps, StoreSchemaType, WidgetProps } from '@xy-form/ui-schema'
 
 export interface ObjectGroupProps {
     onSchema?: (schema: StoreSchemaType) => void

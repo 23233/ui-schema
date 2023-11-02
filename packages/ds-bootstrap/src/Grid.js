@@ -1,5 +1,5 @@
 import React from "react";
-import {NextPluginRenderer} from "@ui-schema/ui-schema";
+import {NextPluginRenderer} from "@xy-form/ui-schema";
 import clsx from "clsx";
 
 export const getGridClasses = (schema) => {

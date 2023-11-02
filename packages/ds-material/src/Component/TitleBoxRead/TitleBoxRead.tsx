@@ -1,8 +1,8 @@
 import Typography from '@mui/material/Typography'
-import { Errors, StoreKeys, StoreSchemaType, TransTitle } from '@ui-schema/ui-schema'
+import { Errors, StoreKeys, StoreSchemaType, TransTitle } from '@xy-form/ui-schema'
 import Box from '@mui/material/Box'
 import React from 'react'
-import { InfoRendererProps } from '@ui-schema/ds-material'
+import { InfoRendererProps } from '@xy-form/ds-material'
 
 export interface TitleBoxReadProps {
     hideTitle?: boolean

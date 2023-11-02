@@ -1,5 +1,5 @@
 import React from 'react';
-import {TransTitle, Trans, beautifyKey, extractValue, memo, sortScalarList} from '@ui-schema/ui-schema';
+import {TransTitle, Trans, beautifyKey, extractValue, memo, sortScalarList} from '@xy-form/ui-schema';
 import {List, Map} from 'immutable';
 import {useUID} from 'react-uid';
 import {ValidityHelperText} from '../../Component/LocaleHelperText/LocaleHelperText';

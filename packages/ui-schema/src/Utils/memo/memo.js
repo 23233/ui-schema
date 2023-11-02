@@ -1,6 +1,6 @@
 import React from 'react';
 import {getDisplayName} from './getDisplayName';
-import {isEqualObject} from '@ui-schema/ui-schema/Utils/isEqualObject';
+import {isEqualObject} from '@xy-form/ui-schema/Utils/isEqualObject';
 
 export const isEqual = isEqualObject
 

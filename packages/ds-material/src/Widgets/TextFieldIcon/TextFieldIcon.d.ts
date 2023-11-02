@@ -1,6 +1,6 @@
 import React from 'react'
-import { WidgetProps } from '@ui-schema/ui-schema'
-import { StringRendererProps, NumberRendererProps, TextRendererProps } from '@ui-schema/ds-material/Widgets/TextField'
+import { WidgetProps } from '@xy-form/ui-schema'
+import { StringRendererProps, NumberRendererProps, TextRendererProps } from '@xy-form/ds-material/Widgets/TextField'
 
 /**
  * @deprecated will be removed in v0.3.0, as not needed

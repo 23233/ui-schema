@@ -1,4 +1,4 @@
-import { PluginSimple } from '@ui-schema/ui-schema'
+import { PluginSimple } from '@xy-form/ui-schema'
 
 export const ERROR_EMAIL_INVALID = 'email-invalid'
 

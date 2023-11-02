@@ -1,6 +1,6 @@
 # Concepts & Widgets Composition
 
-This page contains more in-depth docs and thoughts about the [widgets](/docs/widgets) composition and core concepts - which enable near endless widget & plugins customization, powered by `@ui-schema/ui-schema`.
+This page contains more in-depth docs and thoughts about the [widgets](/docs/widgets) composition and core concepts - which enable near endless widget & plugins customization, powered by `@xy-form/ui-schema`.
 
 ## Deep Dive Concepts
 
@@ -34,7 +34,7 @@ A plugin or widget can use more than only it's own schema/store level in various
 
 Special entry point components start the UI Rendering, connecting to and/or creating some contexts & providers and/or relying on given props to do something, according to their definite position in `schema` and data (`storeKeys`).
 
-See [flowchart of @ui-schema/ui-schema](/docs/core#flowchart), textual example: `UIMetaProvider` > `UIStoreProvider` > `UIRootRenderer` > `widgets.RootRenderer` > `PluginStack` > optional `ErrorBoundary` with `widgets.ErrorFallback` > `widgets.pluginStack` including `widgets.simplePuginStack` > `WidgetRenderer` > widget matching > actual `Widget`.
+See [flowchart of @xy-form/ui-schema](/docs/core#flowchart), textual example: `UIMetaProvider` > `UIStoreProvider` > `UIRootRenderer` > `widgets.RootRenderer` > `PluginStack` > optional `ErrorBoundary` with `widgets.ErrorFallback` > `widgets.pluginStack` including `widgets.simplePuginStack` > `WidgetRenderer` > widget matching > actual `Widget`.
 
 ### Happy Path
 
@@ -69,7 +69,7 @@ Together with cases like: `deleteOnEmpty` within `array` [issue #106](https://gi
 
 ### Output in Core
 
-These are the only positions where `@ui-schema/ui-schema` renders output directly.
+These are the only positions where `@xy-form/ui-schema` renders output directly.
 
 - error info in `widgetMatcher` (and thus also `WidgetRenderer`) renders an empty fragment with `missing-*` text when no widget is matching
     - can be changed with a custom `WidgetRenderer` and the prop-component `NoWidget`, bind the custom renderer to `widgets.WidgetRenderer`

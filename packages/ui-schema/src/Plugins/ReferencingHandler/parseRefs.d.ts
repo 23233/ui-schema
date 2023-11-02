@@ -1,5 +1,5 @@
 import { List, Map } from 'immutable'
-import { getSchemaRefPlugin, SchemaRootContext, StoreSchemaType } from '@ui-schema/ui-schema'
+import { getSchemaRefPlugin, SchemaRootContext, StoreSchemaType } from '@xy-form/ui-schema'
 
 /**
  * Pending references, grouped by root id, with requested versions per-schema,

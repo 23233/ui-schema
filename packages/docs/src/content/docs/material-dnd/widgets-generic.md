@@ -18,5 +18,5 @@
 ### Material-UI
 
 ```bash
-npm i --save @ui-schema/material-dnd @ui-schema/kit-dnd react-dnd
+npm i --save @xy-form/material-dnd @xy-form/kit-dnd react-dnd
 ```

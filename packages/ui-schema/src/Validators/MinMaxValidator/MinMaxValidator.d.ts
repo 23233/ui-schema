@@ -1,6 +1,6 @@
-import { PluginSimple } from '@ui-schema/ui-schema/PluginSimpleStack/PluginSimple'
-import { PluginProps } from '@ui-schema/ui-schema/PluginStack/Plugin'
-import { Errors, StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { PluginSimple } from '@xy-form/ui-schema/PluginSimpleStack/PluginSimple'
+import { PluginProps } from '@xy-form/ui-schema/PluginStack/Plugin'
+import { Errors, StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 export const ERROR_MAX_LENGTH: 'min-length'
 export const ERROR_MIN_LENGTH: 'max-length'

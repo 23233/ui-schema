@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
 
 export interface OptionsRadioProps extends WidgetProps {
     row?: boolean

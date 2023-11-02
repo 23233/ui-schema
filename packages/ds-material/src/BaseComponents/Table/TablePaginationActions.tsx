@@ -5,8 +5,8 @@ import FirstPageIcon from '@mui/icons-material/FirstPage'
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft'
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
 import LastPageIcon from '@mui/icons-material/LastPage'
-import { AccessTooltipIcon } from '@ui-schema/ds-material'
-import { Trans } from '@ui-schema/ui-schema'
+import { AccessTooltipIcon } from '@xy-form/ds-material'
+import { Trans } from '@xy-form/ui-schema'
 import { TablePaginationActionsProps } from '@mui/material/TablePagination/TablePaginationActions'
 
 export const TablePaginationActions: React.ComponentType<TablePaginationActionsProps> = (props) => {

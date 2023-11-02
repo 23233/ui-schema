@@ -1,8 +1,8 @@
-import { ListButton, ListButtonOverwrites } from '@ui-schema/ds-material/Component/ListButton'
+import { ListButton, ListButtonOverwrites } from '@xy-form/ds-material/Component/ListButton'
 import Add from '@mui/icons-material/Add'
-import { onChangeHandler, StoreKeys, StoreSchemaType, Trans, WidgetProps } from '@ui-schema/ui-schema'
+import { onChangeHandler, StoreKeys, StoreSchemaType, Trans, WidgetProps } from '@xy-form/ui-schema'
 import { Map } from 'immutable'
-import { ValidityHelperText } from '@ui-schema/ds-material/Component/LocaleHelperText'
+import { ValidityHelperText } from '@xy-form/ds-material/Component/LocaleHelperText'
 import React from 'react'
 import Box from '@mui/material/Box'
 

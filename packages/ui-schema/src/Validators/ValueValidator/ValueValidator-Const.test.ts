@@ -1,8 +1,8 @@
 import { OrderedMap, List, Map } from 'immutable'
 import {
     validateConst, valueValidatorConst, ERROR_CONST_MISMATCH,
-} from '@ui-schema/ui-schema/Validators/ValueValidator'
-import { createValidatorErrors } from '@ui-schema/ui-schema/ValidatorErrors'
+} from '@xy-form/ui-schema/Validators/ValueValidator'
+import { createValidatorErrors } from '@xy-form/ui-schema/ValidatorErrors'
 
 describe('validateConst', () => {
     test('validateConst', () => {

@@ -1,4 +1,4 @@
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 /**
  * Handles schema if else then and returns the new merged schema which contains the merged value of `if` and `then`

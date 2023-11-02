@@ -6,9 +6,9 @@ import { it, expect, describe } from '@jest/globals'
 import { render } from '@testing-library/react'
 // @ts-ignore
 import { toBeInTheDocument, toHaveClass } from '@testing-library/jest-dom/matchers'
-import { createOrderedMap } from '@ui-schema/ui-schema/Utils/createMap/createMap'
+import { createOrderedMap } from '@xy-form/ui-schema/Utils/createMap/createMap'
 import { List } from 'immutable'
-import { createValidatorErrors } from '@ui-schema/ui-schema'
+import { createValidatorErrors } from '@xy-form/ui-schema'
 import { StringRendererCell } from './TextFieldCell'
 import { MockSchemaMetaProvider } from '../../../tests/MockSchemaProvider.mock'
 

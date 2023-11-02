@@ -11,7 +11,7 @@ Install:
 > supports `@material-ui/core` up to `0.3.0`, since `0.4.0` supports `@mui/material`
 
 ```bash
-npm i --save @ui-schema/ui-schema @ui-schema/ds-material \
+npm i --save @xy-form/ui-schema @xy-form/ds-material \
   @mui/material @mui/icons-material immutable
 ```
 
@@ -20,13 +20,13 @@ npm i --save @ui-schema/ui-schema @ui-schema/ds-material \
 Use only HTML:
 
 ```bash
-npm i --save @ui-schema/ui-schema @ui-schema/ds-bootstrap immutable
+npm i --save @xy-form/ui-schema @xy-form/ds-bootstrap immutable
 ```
 
 Use with `bootstrap` package:
 
 ```bash
-npm i --save @ui-schema/ui-schema @ui-schema/ds-bootstrap immutable bootstrap
+npm i --save @xy-form/ui-schema @xy-form/ds-bootstrap immutable bootstrap
 ```
 
 Bootstrap has jQuery as dependency. To access it, the following imports are necessary in the parent-bootstrap-component (`Main.js`):
@@ -44,7 +44,7 @@ jQuery must be assigned to window like: `window.$`
 
 Create new lerna package:
 
-e.g. `lerna create ds-bootstrap` enter as package name `@ui-schema/ds-bootstrap`
+e.g. `lerna create ds-bootstrap` enter as package name `@xy-form/ds-bootstrap`
 
 Copy/create the basic files for the design system.
 

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Errors, StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { Errors, StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 import Map from 'immutable'
 
 export interface ValidityHelperTextProps {

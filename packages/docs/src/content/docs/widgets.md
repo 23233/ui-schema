@@ -10,7 +10,7 @@ Through the **modular approach** and easy definition of new widgets, the widget 
 
 ```typescript jsx
 // Typings of widgets:
-import { WidgetProps } from "@ui-schema/ui-schema/Widget"
+import { WidgetProps } from "@xy-form/ui-schema/Widget"
 ```
 
 ## Widget Composition
@@ -23,7 +23,7 @@ This example changes the `OptionsCheck` widget through composition and overwrite
 
 ```jsx harmony
 import React from 'react';
-import {widgets, OptionsCheck} from "@ui-schema/ds-material";
+import {widgets, OptionsCheck} from "@xy-form/ds-material";
 
 // Using a `x-Axis` flow for the checkboxes, instead of `y-Axis` / flex-direction row instead of column
 const OptionsCheckCustom = props => <OptionsCheck {...props} row={true}/>
@@ -87,7 +87,7 @@ Example of a really simple text widget (in typescript):
 
 ```typescript jsx
 import React from 'react';
-import { TransTitle, WidgetProps } from '@ui-schema/ui-schema';
+import { TransTitle, WidgetProps } from '@xy-form/ui-schema';
 
 const Widget = ({
                     value, storeKeys, onChange,
@@ -166,14 +166,14 @@ It is only recommended for bigger widgets, using it for e.g. `type` widget is mo
 ```js
 import React from "react";
 import Loadable from 'react-loadable';
-import {RootRenderer, GroupRenderer} from "@ui-schema/ds-material/Grid";
-import {pluginStack} from "@ui-schema/ds-material/pluginStack";
-import {validators} from '@ui-schema/ui-schema/Validators/validators';
-import {WidgetRenderer} from '@ui-schema/ui-schema/WidgetRenderer';
+import {RootRenderer, GroupRenderer} from "@xy-form/ds-material/Grid";
+import {pluginStack} from "@xy-form/ds-material/pluginStack";
+import {validators} from '@xy-form/ui-schema/Validators/validators';
+import {WidgetRenderer} from '@xy-form/ui-schema/WidgetRenderer';
 
 // Build the loadable widgets
 const StringRenderer = Loadable({
-    loader: () => import('@ui-schema/ds-material/Widgets/TextField').then(module => module.StringRenderer),
+    loader: () => import('@xy-form/ds-material/Widgets/TextField').then(module => module.StringRenderer),
     loading: (props) => 'Loading Widget',// add here your fancy loading component
 });
 
@@ -218,7 +218,7 @@ Use the existing exported binding of your design-system and add or overwrite wid
 Simple example of adding a new widget to the binding:
 
 ```js
-import {widgets} from "@ui-schema/ds-material/widgetsBinding";
+import {widgets} from "@xy-form/ds-material/widgetsBinding";
 
 const CustomNumberRenderer = () => /* todo: implement */ null;
 const CustomSelect = () => /* todo: implement */ null;
@@ -241,8 +241,8 @@ Example widget binding **with typings**:
 
 ```typescript
 import React from "react";
-import { widgets, MuiWidgetBinding, MuiWidgetsBindingTypes, MuiWidgetsBindingCustom } from "@ui-schema/ds-material/widgetsBinding";
-import { WidgetProps, WidgetsBindingFactory, WithScalarValue } from "@ui-schema/ui-schema";
+import { widgets, MuiWidgetBinding, MuiWidgetsBindingTypes, MuiWidgetsBindingCustom } from "@xy-form/ds-material/widgetsBinding";
+import { WidgetProps, WidgetsBindingFactory, WithScalarValue } from "@xy-form/ui-schema";
 
 const CustomNumberRenderer = (props: React.ComponentType<WidgetProps<CustomWidgetsBinding> & WithScalarValue>) => /* todo: implement */ null;
 const CustomSelect = (props: React.ComponentType<WidgetProps<CustomWidgetsBinding> & WithScalarValue>) => /* todo: implement */ null;
@@ -275,7 +275,7 @@ export const customWidgets: CustomWidgetsBinding = {
 This example shows how new plugins can be added:
 
 ```js
-import {widgets,} from "@ui-schema/ds-material";
+import {widgets,} from "@xy-form/ds-material";
 
 const CustomPlugin = () => /* todo: implement */ null;
 

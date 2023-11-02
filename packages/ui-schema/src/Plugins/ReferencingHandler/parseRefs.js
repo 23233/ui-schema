@@ -1,7 +1,7 @@
 import {List, Map} from 'immutable';
-import {resolveRef, SchemaRefPending} from '@ui-schema/ui-schema/Plugins/ReferencingHandler/resolveRef';
-import {isRootSchema} from '@ui-schema/ui-schema/SchemaRootProvider';
-import {getSchemaId} from '@ui-schema/ui-schema/Utils/getSchema';
+import {resolveRef, SchemaRefPending} from '@xy-form/ui-schema/Plugins/ReferencingHandler/resolveRef';
+import {isRootSchema} from '@xy-form/ui-schema/SchemaRootProvider';
+import {getSchemaId} from '@xy-form/ui-schema/Utils/getSchema';
 
 const handleResolve = (keywords, condition, schema, context, recursive, pending) => {
     Object.keys(keywords).forEach(keyword => {

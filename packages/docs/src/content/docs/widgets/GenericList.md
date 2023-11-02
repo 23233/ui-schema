@@ -22,7 +22,7 @@ Widgets for complex structures in arrays.
 > see the [GenericList base components](/docs/ds-material/GenericList) for further customization and details about label translation
 
 ```js
-import {GenericList} from "@ui-schema/ds-material/Widgets/GenericList";
+import {GenericList} from "@xy-form/ds-material/Widgets/GenericList";
 
 const widgets = {
     custom: {

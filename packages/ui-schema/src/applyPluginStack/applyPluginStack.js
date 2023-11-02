@@ -1,6 +1,6 @@
 import React from 'react'
-import {PluginStack} from '@ui-schema/ui-schema/PluginStack'
-import {getDisplayName, memo} from '@ui-schema/ui-schema/Utils/memo'
+import {PluginStack} from '@xy-form/ui-schema/PluginStack'
+import {getDisplayName, memo} from '@xy-form/ui-schema/Utils/memo'
 
 export function applyPluginStack(CustomWidget) {
     const CustomStack = (p) =>

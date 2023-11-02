@@ -1,5 +1,5 @@
 import React from 'react'
-import { DraggableRendererProps, useDraggable } from '@ui-schema/kit-dnd/useDraggable'
+import { DraggableRendererProps, useDraggable } from '@xy-form/kit-dnd/useDraggable'
 
 export interface DraggableBlockProps {
     fullDrag?: boolean

@@ -7,9 +7,9 @@ import Box from '@mui/material/Box';
 import Slider, {SliderThumb} from '@mui/material/Slider';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import {TransTitle, extractValue, memo, Trans, schemaTypeIs, schemaTypeToDistinct, schemaTypeIsNumeric} from '@ui-schema/ui-schema';
-import {ValidityHelperText} from '@ui-schema/ds-material/Component/LocaleHelperText';
-import {AccessTooltipIcon} from '@ui-schema/ds-material/Component/Tooltip';
+import {TransTitle, extractValue, memo, Trans, schemaTypeIs, schemaTypeToDistinct, schemaTypeIsNumeric} from '@xy-form/ui-schema';
+import {ValidityHelperText} from '@xy-form/ds-material/Component/LocaleHelperText';
+import {AccessTooltipIcon} from '@xy-form/ds-material/Component/Tooltip';
 
 const ThumbComponent = ({onDelete, canDelete, children, ...p}) => {
     const [hover, setHover] = React.useState(false)

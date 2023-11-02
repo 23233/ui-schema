@@ -1,9 +1,9 @@
 import * as React from 'react'
-import { StoreKeyType, StoreKeys, UIStoreContext, WithOnChange, WithScalarValue } from '@ui-schema/ui-schema/UIStore'
-import { Errors, required, valid, StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
-import { UIMetaContext } from '@ui-schema/ui-schema/UIMeta'
-import { GroupRendererProps, WidgetsBindingFactory } from '@ui-schema/ui-schema/WidgetsBinding'
-import { UIStoreActions } from '@ui-schema/ui-schema/UIStoreActions'
+import { StoreKeyType, StoreKeys, UIStoreContext, WithOnChange, WithScalarValue } from '@xy-form/ui-schema/UIStore'
+import { Errors, required, valid, StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
+import { UIMetaContext } from '@xy-form/ui-schema/UIMeta'
+import { GroupRendererProps, WidgetsBindingFactory } from '@xy-form/ui-schema/WidgetsBinding'
+import { UIStoreActions } from '@xy-form/ui-schema/UIStoreActions'
 
 // todo: maybe base partly on `AppliedPluginStackProps`?
 export type WidgetOverrideType<C extends {} = {}, P extends {} = {}, W = WidgetsBindingFactory, A = UIStoreActions> =

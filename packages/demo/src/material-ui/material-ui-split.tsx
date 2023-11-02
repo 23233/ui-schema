@@ -3,7 +3,7 @@ import AppTheme from './layout/AppTheme'
 import Dashboard from './dashboard/Dashboard'
 import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button'
-import { MuiWidgetsBindingCustom, MuiWidgetsBindingTypes, Step, Stepper, widgets } from '@ui-schema/ds-material'
+import { MuiWidgetsBindingCustom, MuiWidgetsBindingTypes, Step, Stepper, widgets } from '@xy-form/ds-material'
 import {
     createOrderedMap,
     WidgetProps,
@@ -19,16 +19,16 @@ import {
     StoreSchemaType,
     DefaultHandlerProps,
     WidgetsBindingFactory, onChangeHandler,
-} from '@ui-schema/ui-schema'
+} from '@xy-form/ui-schema'
 import { browserT } from '../t'
-import { UIApiProvider } from '@ui-schema/ui-schema/UIApi'
-import { Table } from '@ui-schema/ds-material/Widgets/Table'
-import { NumberRendererCell, StringRendererCell, TextRendererCell } from '@ui-schema/ds-material/Widgets/TextFieldCell'
-import { TableAdvanced } from '@ui-schema/ds-material/Widgets/TableAdvanced'
-import { InjectSplitSchemaPlugin, InjectSplitSchemaRootContext } from '@ui-schema/ui-schema/Plugins/InjectSplitSchemaPlugin'
+import { UIApiProvider } from '@xy-form/ui-schema/UIApi'
+import { Table } from '@xy-form/ds-material/Widgets/Table'
+import { NumberRendererCell, StringRendererCell, TextRendererCell } from '@xy-form/ds-material/Widgets/TextFieldCell'
+import { TableAdvanced } from '@xy-form/ds-material/Widgets/TableAdvanced'
+import { InjectSplitSchemaPlugin, InjectSplitSchemaRootContext } from '@xy-form/ui-schema/Plugins/InjectSplitSchemaPlugin'
 import { MuiSchemaDebug } from './component/MuiSchemaDebug'
 import { OrderedMap } from 'immutable'
-import { GridContainer } from '@ui-schema/ds-material/GridContainer'
+import { GridContainer } from '@xy-form/ds-material/GridContainer'
 
 type CustomWidgetsBinding = WidgetsBindingFactory<{}, MuiWidgetsBindingTypes<{}>, MuiWidgetsBindingCustom<{}>>
 const customWidgets: CustomWidgetsBinding = {...widgets} as CustomWidgetsBinding

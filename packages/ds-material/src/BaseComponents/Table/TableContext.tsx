@@ -1,5 +1,5 @@
 import React from 'react'
-import { getDisplayName, WidgetProps } from '@ui-schema/ui-schema'
+import { getDisplayName, WidgetProps } from '@xy-form/ui-schema'
 
 export interface TableContextType {
     valid: WidgetProps['valid']

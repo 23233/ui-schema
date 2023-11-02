@@ -1,6 +1,6 @@
 import React from 'react'
 import { Map } from 'immutable'
-import { StoreSchemaType } from '@ui-schema/ui-schema'
+import { StoreSchemaType } from '@xy-form/ui-schema'
 
 export const PROGRESS_NONE = false
 export const PROGRESS_START = 'start'

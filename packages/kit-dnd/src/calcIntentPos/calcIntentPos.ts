@@ -1,4 +1,4 @@
-import { DndDragIntentPos, DndIntents } from '@ui-schema/kit-dnd/KitDnd'
+import { DndDragIntentPos, DndIntents } from '@xy-form/kit-dnd/KitDnd'
 
 export interface CalcDragIntentEvent {
     targetWidth?: number

@@ -1,4 +1,4 @@
-import {createOrderedMap} from "@ui-schema/ui-schema";
+import {createOrderedMap} from "@xy-form/ui-schema";
 
 const schemaTestBts = createOrderedMap({
     type: "object",

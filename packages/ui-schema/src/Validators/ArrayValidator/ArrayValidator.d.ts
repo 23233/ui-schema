@@ -1,7 +1,7 @@
 import { List } from 'immutable'
-import { PluginProps } from "@ui-schema/ui-schema/PluginStack/Plugin"
-import { Errors, StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
-import { PluginSimple } from '@ui-schema/ui-schema/PluginSimpleStack/PluginSimple'
+import { PluginProps } from "@xy-form/ui-schema/PluginStack/Plugin"
+import { Errors, StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
+import { PluginSimple } from '@xy-form/ui-schema/PluginSimpleStack/PluginSimple'
 
 export const ERROR_DUPLICATE_ITEMS: 'duplicate-items'
 export const ERROR_NOT_FOUND_CONTAINS: 'not-found-contains'

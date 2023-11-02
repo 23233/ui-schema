@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { PluginProps } from '@ui-schema/ui-schema/PluginStack/Plugin'
+import { PluginProps } from '@xy-form/ui-schema/PluginStack/Plugin'
 
 
 /**

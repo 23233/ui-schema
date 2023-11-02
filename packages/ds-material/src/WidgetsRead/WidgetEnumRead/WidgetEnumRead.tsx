@@ -1,12 +1,12 @@
 import { Map, List } from 'immutable'
-import { useUIMeta, beautifyKey, WidgetProps, tt, StoreSchemaType, WithScalarValue } from '@ui-schema/ui-schema'
-import { ValidityHelperText } from '@ui-schema/ds-material/Component/LocaleHelperText'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
+import { useUIMeta, beautifyKey, WidgetProps, tt, StoreSchemaType, WithScalarValue } from '@xy-form/ui-schema'
+import { ValidityHelperText } from '@xy-form/ds-material/Component/LocaleHelperText'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
 import React, { MouseEventHandler } from 'react'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
-import { UIMetaReadContextType } from '@ui-schema/ui-schema/UIMetaReadContext'
-import { TitleBoxRead } from '@ui-schema/ds-material/Component/TitleBoxRead'
+import { UIMetaReadContextType } from '@xy-form/ui-schema/UIMetaReadContext'
+import { TitleBoxRead } from '@xy-form/ds-material/Component/TitleBoxRead'
 
 export interface WidgetEnumReadProps {
     onClick?: MouseEventHandler<HTMLDivElement> | undefined

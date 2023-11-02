@@ -1,7 +1,7 @@
-import { extractValue, memo, StoreSchemaType, WidgetProps, WithOnChange, WithValue } from '@ui-schema/ui-schema'
+import { extractValue, memo, StoreSchemaType, WidgetProps, WithOnChange, WithValue } from '@xy-form/ui-schema'
 import React from 'react'
 import { List, Map, OrderedMap } from 'immutable'
-import { DraggableRendererProps } from '@ui-schema/kit-dnd/useDraggable'
+import { DraggableRendererProps } from '@xy-form/kit-dnd/useDraggable'
 
 export interface DndListItemComponentProps extends Pick<WidgetProps, 'storeKeys' | 'schema' | 'parentSchema' | 'required'> {
     fullDrag?: boolean

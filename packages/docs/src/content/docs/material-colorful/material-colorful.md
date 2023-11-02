@@ -13,7 +13,7 @@
 Color picker using [react-colorful](https://www.npmjs.com/package/react-colorful), simple visual picker without input field.
 
 ```bash
-npm i --save @ui-schema/material-color react-color
+npm i --save @xy-form/material-color react-color
 ```
 
 **Keywords:**
@@ -30,8 +30,8 @@ import React from 'react'
 import {
     extractValue, memo,
     WidgetProps, WithScalarValue, WithValue,
-} from '@ui-schema/ui-schema'
-import { WidgetColorful } from '@ui-schema/material-colorful'
+} from '@xy-form/ui-schema'
+import { WidgetColorful } from '@xy-form/material-colorful'
 import {
     HexColorPicker,
     HslaColorPicker,

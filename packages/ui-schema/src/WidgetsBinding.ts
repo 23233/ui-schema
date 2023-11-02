@@ -1,10 +1,10 @@
 import React from 'react'
-import { ComponentPluginType } from '@ui-schema/ui-schema/PluginStack/Plugin'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
-import { WidgetType } from '@ui-schema/ui-schema/Widget'
-import { WidgetRendererProps } from '@ui-schema/ui-schema/WidgetRenderer'
-import { PluginSimple } from '@ui-schema/ui-schema/PluginSimpleStack/PluginSimple'
-import { StoreKeys } from '@ui-schema/ui-schema/UIStore'
+import { ComponentPluginType } from '@xy-form/ui-schema/PluginStack/Plugin'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
+import { WidgetType } from '@xy-form/ui-schema/Widget'
+import { WidgetRendererProps } from '@xy-form/ui-schema/WidgetRenderer'
+import { PluginSimple } from '@xy-form/ui-schema/PluginSimpleStack/PluginSimple'
+import { StoreKeys } from '@xy-form/ui-schema/UIStore'
 import { List } from 'immutable'
 
 export interface GroupRendererProps {

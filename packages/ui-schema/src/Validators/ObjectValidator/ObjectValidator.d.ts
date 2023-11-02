@@ -1,7 +1,7 @@
-import { Errors, StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
-import { PluginSimple } from '@ui-schema/ui-schema/PluginSimpleStack/PluginSimple'
-import { PluginProps } from '@ui-schema/ui-schema/PluginStack/Plugin'
-import { ValidatorErrorsType } from '@ui-schema/ui-schema/ValidatorErrors'
+import { Errors, StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
+import { PluginSimple } from '@xy-form/ui-schema/PluginSimpleStack/PluginSimple'
+import { PluginProps } from '@xy-form/ui-schema/PluginStack/Plugin'
+import { ValidatorErrorsType } from '@xy-form/ui-schema/ValidatorErrors'
 
 export const ERROR_ADDITIONAL_PROPERTIES = 'additional-properties'
 

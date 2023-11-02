@@ -1,10 +1,10 @@
 import React from 'react'
-import { useUIApi } from '@ui-schema/ui-schema/UIApi'
-import { getCleanRefUrl, getFragmentFromUrl, isRelUrl, makeUrlFromRef } from '@ui-schema/ui-schema/Plugins/ReferencingHandler'
-import { useSchemaRoot } from '@ui-schema/ui-schema/SchemaRootProvider'
-import { resolvePointer } from '@ui-schema/ui-schema/JSONPointer'
-import { useImmutable } from '@ui-schema/ui-schema/Utils/useImmutable'
-import { StoreSchemaType } from '@ui-schema/ui-schema'
+import { useUIApi } from '@xy-form/ui-schema/UIApi'
+import { getCleanRefUrl, getFragmentFromUrl, isRelUrl, makeUrlFromRef } from '@xy-form/ui-schema/Plugins/ReferencingHandler'
+import { useSchemaRoot } from '@xy-form/ui-schema/SchemaRootProvider'
+import { resolvePointer } from '@xy-form/ui-schema/JSONPointer'
+import { useImmutable } from '@xy-form/ui-schema/Utils/useImmutable'
+import { StoreSchemaType } from '@xy-form/ui-schema'
 import { Map, OrderedMap } from 'immutable'
 
 const getUrls = (schemaRef: string, id) => {

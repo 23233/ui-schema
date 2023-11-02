@@ -1,6 +1,6 @@
 import React from 'react'
-import { onChangeHandler, UIStoreType } from '@ui-schema/ui-schema/UIStore'
-import { UIStoreActionsContext, UIStoreActionsProvider, UIStoreActions } from '@ui-schema/ui-schema/UIStoreActions'
+import { onChangeHandler, UIStoreType } from '@xy-form/ui-schema/UIStore'
+import { UIStoreActionsContext, UIStoreActionsProvider, UIStoreActions } from '@xy-form/ui-schema/UIStoreActions'
 
 export interface UIStoreContext<D = any> {
     store: UIStoreType<D> | undefined

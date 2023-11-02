@@ -8,8 +8,8 @@ import {
     // @ts-ignore
 } from '@testing-library/jest-dom/matchers'
 import { List, Map, OrderedMap } from 'immutable'
-import { UIStore, createStore, StoreKeys, UIStoreType, UIStoreStateData } from '@ui-schema/ui-schema/UIStore'
-import { storeBuildScopeTree } from '@ui-schema/ui-schema/storeBuildScopeTree/storeBuildScopeTree'
+import { UIStore, createStore, StoreKeys, UIStoreType, UIStoreStateData } from '@xy-form/ui-schema/UIStore'
+import { storeBuildScopeTree } from '@xy-form/ui-schema/storeBuildScopeTree/storeBuildScopeTree'
 
 expect.extend({toBeInTheDocument, toHaveClass})
 /**

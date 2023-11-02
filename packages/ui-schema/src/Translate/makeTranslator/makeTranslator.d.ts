@@ -1,6 +1,6 @@
 import React from 'react'
 import { Map } from 'immutable'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 export type TranslatorContext = Map<string | number, any>
 export type translation = string | number | undefined | Function | React.ComponentType

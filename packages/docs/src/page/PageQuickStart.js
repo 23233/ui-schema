@@ -129,8 +129,8 @@ First select the design-system and install ui-schema and dependencies.
                     <Grid item xs={12} style={{marginTop: 24}}>
                         {ds === 'mui' ? <Markdown content source={`
 \`\`\`bash
-npm i --save @ui-schema/ui-schema immutable \\
-    @ui-schema/ds-material \\
+npm i --save @xy-form/ui-schema immutable \\
+    @xy-form/ds-material \\
     @mui/material @mui/icons-material
 \`\`\`
 
@@ -149,8 +149,8 @@ npm i --save @ui-schema/ui-schema immutable \\
                             ds === 'bts' ? <Markdown content source={`
 > no priority currently for bootstrap widgets development, but happy about PRs
 \`\`\`bash
-npm i --save @ui-schema/ui-schema immutable \\
-    @ui-schema/ds-bootstrap bootstrap
+npm i --save @xy-form/ui-schema immutable \\
+    @xy-form/ds-bootstrap bootstrap
 \`\`\`
 `}/> :
                                 'unsupported'
@@ -183,17 +183,17 @@ import {
     storeUpdater,                  // for on change handling
     PluginStack, applyPluginStack, // for creating custom positioned widgets
     ObjectGroup,                   // for handling schema level "type-object"
-} from "@ui-schema/ui-schema";
+} from "@xy-form/ui-schema";
 
 // Simple translator for in-schema translation, keyword \`t\`
-import { relTranslator } from '@ui-schema/ui-schema/Translate/relT'
+import { relTranslator } from '@xy-form/ui-schema/Translate/relT'
 
 // use one \`UIMetaProvider\` for many \`UIStoreProvider\`
-import { UIStoreProvider } from '@ui-schema/ui-schema/UIStore';
-import { UIMetaProvider } from '@ui-schema/ui-schema/UIMeta';
+import { UIStoreProvider } from '@xy-form/ui-schema/UIStore';
+import { UIMetaProvider } from '@xy-form/ui-schema/UIMeta';
 
 // import the widgets for your design-system.
-${ds === 'mui' ? 'import { widgets } from "@ui-schema/ds-material";' : 'import { widgets } from "@ui-schema/ds-bootstrap";'}
+${ds === 'mui' ? 'import { widgets } from "@xy-form/ds-material";' : 'import { widgets } from "@xy-form/ds-bootstrap";'}
 
 // Empty Demo Schema & Data/Values
 const schema = createOrderedMap({});
@@ -234,26 +234,26 @@ Add an empty provider in the file with the needed imports.
 import React from "react";
 
 // "global" ui-config
-import { UIMetaProvider, useUIMeta } from '@ui-schema/ui-schema/UIMeta';
+import { UIMetaProvider, useUIMeta } from '@xy-form/ui-schema/UIMeta';
 // for data-stores / data-binding
-import { UIStoreProvider, createEmptyStore, createStore } from '@ui-schema/ui-schema/UIStore';
-import { storeUpdater } from '@ui-schema/ui-schema/storeUpdater';
+import { UIStoreProvider, createEmptyStore, createStore } from '@xy-form/ui-schema/UIStore';
+import { storeUpdater } from '@xy-form/ui-schema/storeUpdater';
 
 // util for \`PluginStack\` rendering
-import { injectPluginStack } from '@ui-schema/ui-schema/applyPluginStack';
+import { injectPluginStack } from '@xy-form/ui-schema/applyPluginStack';
 
 // for validity checking
-import { isInvalid } from '@ui-schema/ui-schema/ValidityReporter';
+import { isInvalid } from '@xy-form/ui-schema/ValidityReporter';
 // for deep immutables
-import { createOrderedMap } from '@ui-schema/ui-schema/Utils/createMap';
+import { createOrderedMap } from '@xy-form/ui-schema/Utils/createMap';
 // for \`t\` keyword support / basic in-schema translation
-import { relTranslator } from '@ui-schema/ui-schema/Translate/relT';
+import { relTranslator } from '@xy-form/ui-schema/Translate/relT';
 
 // import the widgets for your design-system.
-${ds === 'mui' ? 'import { widgets } from "@ui-schema/ds-material";' : 'import { widgets } from "@ui-schema/ds-bootstrap";'}
+${ds === 'mui' ? 'import { widgets } from "@xy-form/ds-material";' : 'import { widgets } from "@xy-form/ds-bootstrap";'}
 
 // root-level grid container
-${ds === 'mui' ? 'import { GridContainer } from "@ui-schema/ds-material/GridContainer";' : 'import { GridContainer } from "@ui-schema/ds-bootstrap/GridContainer";'}
+${ds === 'mui' ? 'import { GridContainer } from "@xy-form/ds-material/GridContainer";' : 'import { GridContainer } from "@xy-form/ds-bootstrap/GridContainer";'}
 
 // Empty Demo Schema & Data/Values
 const schema = createOrderedMap({});
@@ -475,7 +475,7 @@ It is recommended to nest \`type=object\` schemas for best and easiest condition
                         <Grid item xs={12}>
                             <Markdown content source={`
 \`\`\`jsx
-import {StringRenderer} from '@ui-schema/${ds === 'mui' ? 'ds-material' : 'ds-bootstrap'}/Widgets/TextField'
+import {StringRenderer} from '@xy-form/${ds === 'mui' ? 'ds-material' : 'ds-bootstrap'}/Widgets/TextField'
 
 // using applyPluginStack, this widget is fully typed
 // with the actual props of the widget component StringRenderer

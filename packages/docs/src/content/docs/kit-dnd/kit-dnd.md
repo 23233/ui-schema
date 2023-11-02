@@ -3,9 +3,9 @@
 A Drag 'n Drop toolkit based on `react-dnd` to simplify coding draggable lists and grid systems.
 
 ```bash
-npm install --save @ui-schema/kit-dnd immutable react-dnd
+npm install --save @xy-form/kit-dnd immutable react-dnd
 
-# it doesn't require any other module of `@ui-schema`
+# it doesn't require any other module of `@xy-form`
 ```
 
 Especially made in mind of endless nested grids and automatically generated UIs, to be compatible with any data structures (most likely).

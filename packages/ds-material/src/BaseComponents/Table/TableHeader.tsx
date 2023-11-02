@@ -1,11 +1,11 @@
 import React from 'react'
 import { List, Map } from 'immutable'
-import { StoreKeyType, SchemaTypesType, schemaTypeToDistinct, TransTitle } from '@ui-schema/ui-schema'
+import { StoreKeyType, SchemaTypesType, schemaTypeToDistinct, TransTitle } from '@xy-form/ui-schema'
 import TableCell from '@mui/material/TableCell'
 import TableHead from '@mui/material/TableHead'
 import TableRow from '@mui/material/TableRow'
-import { TableHeaderProps } from '@ui-schema/ds-material/BaseComponents/Table/TableTypes'
-import { TableCellSchemaImmutable } from '@ui-schema/ds-material/Widgets/Table/TableSchema'
+import { TableHeaderProps } from '@xy-form/ds-material/BaseComponents/Table/TableTypes'
+import { TableCellSchemaImmutable } from '@xy-form/ds-material/Widgets/Table/TableSchema'
 
 export const TableHeader: React.ComponentType<TableHeaderProps> = (
     {

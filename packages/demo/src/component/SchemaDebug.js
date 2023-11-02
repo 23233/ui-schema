@@ -1,7 +1,7 @@
-import {useUIStore} from '@ui-schema/ui-schema/UIStore';
+import {useUIStore} from '@xy-form/ui-schema/UIStore';
 import React from 'react';
 import {List} from 'immutable';
-import {useUIStoreActions} from '@ui-schema/ui-schema';
+import {useUIStoreActions} from '@xy-form/ui-schema';
 
 export const SchemaDebug = ({StyledEditor, schema}) => {
     const {store} = useUIStore();

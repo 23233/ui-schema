@@ -1,4 +1,4 @@
-import { StoreKeys, StoreSchemaType, WidgetProps } from '@ui-schema/ui-schema'
+import { StoreKeys, StoreSchemaType, WidgetProps } from '@xy-form/ui-schema'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 import IconButton from '@mui/material/IconButton'

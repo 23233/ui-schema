@@ -1,4 +1,4 @@
-import { tt } from "@ui-schema/ui-schema/Utils"
+import { tt } from "@xy-form/ui-schema/Utils"
 
 export interface UISchema {
     title?: string

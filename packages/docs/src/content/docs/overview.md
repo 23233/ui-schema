@@ -2,18 +2,18 @@
 
 ## Design Systems
 
-The package `@ui-schema/ui-schema` supports rendering widgets for JSON-schema `type` or individual widgets.
+The package `@xy-form/ui-schema` supports rendering widgets for JSON-schema `type` or individual widgets.
 
 It is possible to connect any design system, included or planned support:
 
 | Package      | Based on            | Status |
 | :---         | :---                 | ---: |
-| `@ui-schema/ds-material`  | [@mui/material (MUI)](https://material-ui.com/) to use [Material Design](https://material.io/) | ✅ |
-| `@ui-schema/ds-bootstrap` | [bootstrap (BTS)](https://getbootstrap.com/) semantic HTMLs to use with any Bootstrap theme | ✅ |
-| `@ui-schema/ds-blueprint` | [blueprintjs (BPT)](https://blueprintjs.com/docs/) | 🔵 |
-| `@ui-schema/ds-semanticui` | [semantic-ui (SUI)](https://react.semantic-ui.com/usage/) | 🔵 |
-| `@ui-schema/ds-antdesign` | [Ant Design (ATD)](https://ant.design/docs/react/introduce) | 🔵 |
-| `@ui-schema/ds-themeui` | [Theme UI (TUI)](https://theme-ui.com) | 🔵 |
+| `@xy-form/ds-material`  | [@mui/material (MUI)](https://material-ui.com/) to use [Material Design](https://material.io/) | ✅ |
+| `@xy-form/ds-bootstrap` | [bootstrap (BTS)](https://getbootstrap.com/) semantic HTMLs to use with any Bootstrap theme | ✅ |
+| `@xy-form/ds-blueprint` | [blueprintjs (BPT)](https://blueprintjs.com/docs/) | 🔵 |
+| `@xy-form/ds-semanticui` | [semantic-ui (SUI)](https://react.semantic-ui.com/usage/) | 🔵 |
+| `@xy-form/ds-antdesign` | [Ant Design (ATD)](https://ant.design/docs/react/introduce) | 🔵 |
+| `@xy-form/ds-themeui` | [Theme UI (TUI)](https://theme-ui.com) | 🔵 |
 
 📚 [Quick-Start](/quick-start), [Details about Design Systems](/docs/design-systems)
 
@@ -24,7 +24,7 @@ Each widget handles it's own sub-schema, e.g. the `string` type widget only need
 A match by `widget` supersedes the `type` matching, this is a simple example of a widget binding, the property name in `types` and `custom` is used for matching:
 
 ```js
-import {StringRenderer, OptionsCheck} from "@ui-schema/ds-material";
+import {StringRenderer, OptionsCheck} from "@xy-form/ds-material";
 
 const widgets = {
     types: {

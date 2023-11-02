@@ -1,5 +1,5 @@
 import React from 'react';
-import {TransTitle} from '@ui-schema/ui-schema';
+import {TransTitle} from '@xy-form/ui-schema';
 import {ValidityHelperText} from '../../Component/LocaleHelperText/LocaleHelperText';
 import {useUID} from 'react-uid';
 

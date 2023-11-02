@@ -1,10 +1,10 @@
 import * as React from 'react'
-import { ComponentPluginType, PluginProps } from '@ui-schema/ui-schema/PluginStack/Plugin'
-import { WidgetsBindingFactory } from '@ui-schema/ui-schema/WidgetsBinding'
-import { WidgetOverrideType, WidgetProps } from '@ui-schema/ui-schema/Widget'
-import { AppliedPluginStackProps } from '@ui-schema/ui-schema/applyPluginStack'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
-import { StoreKeys } from '@ui-schema/ui-schema/UIStore'
+import { ComponentPluginType, PluginProps } from '@xy-form/ui-schema/PluginStack/Plugin'
+import { WidgetsBindingFactory } from '@xy-form/ui-schema/WidgetsBinding'
+import { WidgetOverrideType, WidgetProps } from '@xy-form/ui-schema/Widget'
+import { AppliedPluginStackProps } from '@xy-form/ui-schema/applyPluginStack'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
+import { StoreKeys } from '@xy-form/ui-schema/UIStore'
 
 export type PluginStackWrapperProps = {
     children: React.ReactNode

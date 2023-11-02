@@ -1,4 +1,4 @@
-import { PluginSimple } from '@ui-schema/ui-schema/PluginSimpleStack'
+import { PluginSimple } from '@xy-form/ui-schema/PluginSimpleStack'
 
 export const InheritKeywords = (
     keywords: (string | (string[]))[],

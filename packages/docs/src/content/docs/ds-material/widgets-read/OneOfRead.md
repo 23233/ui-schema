@@ -10,7 +10,7 @@ Read-only widgets for `oneOf`-keyword based widgets, works with the [UIMetaReadC
 ## Components
 
 ```js
-import {WidgetOneOfRead} from '@ui-schema/ds-material/WidgetsRead'
+import {WidgetOneOfRead} from '@xy-form/ds-material/WidgetsRead'
 
 const widgets = {
     custom: {

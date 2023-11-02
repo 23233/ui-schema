@@ -1,8 +1,8 @@
 import React from 'react'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
 import { List } from 'immutable'
-import { onErrorHandler } from '@ui-schema/ui-schema/ValidatorErrors'
-import { WidgetsBindingFactory } from '@ui-schema/ui-schema/WidgetsBinding'
+import { onErrorHandler } from '@xy-form/ui-schema/ValidatorErrors'
+import { WidgetsBindingFactory } from '@xy-form/ui-schema/WidgetsBinding'
 
 export interface PluginProps<W extends WidgetsBindingFactory = WidgetsBindingFactory> extends WidgetProps<W> {
     // must be transformed from list to boolean `required` by a plugin

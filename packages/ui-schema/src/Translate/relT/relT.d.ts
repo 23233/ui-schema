@@ -1,5 +1,5 @@
-import { translation, Translator, TranslatorContext } from '@ui-schema/ui-schema/Translate/makeTranslator'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { translation, Translator, TranslatorContext } from '@xy-form/ui-schema/Translate/makeTranslator'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 /**
  * for handling relative schema translation

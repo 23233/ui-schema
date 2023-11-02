@@ -1,8 +1,8 @@
 import React from 'react'
-import { StoreKeys, useUIStore } from '@ui-schema/ui-schema/UIStore'
-import { getDisplayName } from '@ui-schema/ui-schema/Utils/memo'
-import { DndBlock, useBlocks } from '@ui-schema/material-dnd/DragDropBlockProvider'
-import { matchBlock } from '@ui-schema/material-dnd/DndBlocksRenderer/matchBlock'
+import { StoreKeys, useUIStore } from '@xy-form/ui-schema/UIStore'
+import { getDisplayName } from '@xy-form/ui-schema/Utils/memo'
+import { DndBlock, useBlocks } from '@xy-form/material-dnd/DragDropBlockProvider'
+import { matchBlock } from '@xy-form/material-dnd/DndBlocksRenderer/matchBlock'
 import { Map, OrderedMap } from 'immutable'
 
 export interface WithDndBlock {

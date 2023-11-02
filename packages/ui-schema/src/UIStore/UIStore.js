@@ -1,6 +1,6 @@
 import {Record, Map, List} from 'immutable';
-import {schemaTypeIs, schemaTypeIsNumeric} from '@ui-schema/ui-schema/Utils/schemaTypeIs';
-import {doExtractValues} from '@ui-schema/ui-schema/UIStore';
+import {schemaTypeIs, schemaTypeIsNumeric} from '@xy-form/ui-schema/Utils/schemaTypeIs';
+import {doExtractValues} from '@xy-form/ui-schema/UIStore';
 
 // only to enable better minification, DO NOT EXPORT
 const STR_INTERNALS = 'internals'

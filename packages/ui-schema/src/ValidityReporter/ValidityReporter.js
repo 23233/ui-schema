@@ -1,6 +1,6 @@
 import React from 'react';
-import {getNextPlugin} from '@ui-schema/ui-schema/PluginStack';
-import {useImmutable} from '@ui-schema/ui-schema/Utils/useImmutable';
+import {getNextPlugin} from '@xy-form/ui-schema/PluginStack';
+import {useImmutable} from '@xy-form/ui-schema/Utils/useImmutable';
 
 export const ValidityReporter = (props) => {
     const [customError, setCustomError] = React.useState(false)

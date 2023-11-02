@@ -3,7 +3,7 @@ import IconButton from '@mui/material/IconButton'
 import Typography from '@mui/material/Typography'
 import { Theme } from '@mui/material/styles/createTheme'
 import makeStyles from "@mui/styles/makeStyles"
-import { Trans } from '@ui-schema/ui-schema/Translate/Trans'
+import { Trans } from '@xy-form/ui-schema/Translate/Trans'
 
 // eslint-disable-next-line react/display-name
 const MarkdownIcon: React.ComponentType<{ color: string }> = React.forwardRef(({color}, ref) => <svg

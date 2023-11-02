@@ -1,6 +1,6 @@
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 import { List, Map } from 'immutable'
-import { beautifyKey, getTranslatableEnum, StoreKeys, tt } from '@ui-schema/ui-schema'
+import { beautifyKey, getTranslatableEnum, StoreKeys, tt } from '@xy-form/ui-schema'
 
 export interface OptionValueSchema<V = string | number> {
     value: V

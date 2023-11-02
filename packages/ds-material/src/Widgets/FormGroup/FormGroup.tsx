@@ -3,11 +3,11 @@ import FormLabel from '@mui/material/FormLabel'
 import FormControl from '@mui/material/FormControl'
 import MuiFormGroup from '@mui/material/FormGroup'
 import { useTheme } from '@mui/material/styles'
-import { extractValue, WithValue } from '@ui-schema/ui-schema/UIStore'
-import { memo } from '@ui-schema/ui-schema/Utils'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
-import { TransTitle } from '@ui-schema/ui-schema/Translate/TransTitle'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
+import { extractValue, WithValue } from '@xy-form/ui-schema/UIStore'
+import { memo } from '@xy-form/ui-schema/Utils'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
+import { TransTitle } from '@xy-form/ui-schema/Translate/TransTitle'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
 
 export const FormGroupBase: React.ComponentType<WidgetProps<MuiWidgetBinding> & WithValue> = (props) => {
     const {storeKeys, widgets} = props

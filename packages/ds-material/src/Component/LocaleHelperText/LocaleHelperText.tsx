@@ -1,7 +1,7 @@
 import React from 'react'
 import FormHelperText from '@mui/material/FormHelperText'
-import { Trans } from '@ui-schema/ui-schema/Translate/Trans'
-import { showValidity, Errors, StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { Trans } from '@xy-form/ui-schema/Translate/Trans'
+import { showValidity, Errors, StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 export interface ValidityHelperTextProps {
     showValidity: showValidity | undefined

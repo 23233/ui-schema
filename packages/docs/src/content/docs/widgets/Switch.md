@@ -18,7 +18,7 @@ Widget for single `boolean`.
 ```js
 import {
     BoolRenderer
-} from "@ui-schema/ds-material/Widgets/OptionsBoolean";
+} from "@xy-form/ds-material/Widgets/OptionsBoolean";
 
 const widgets = {
     types: {
@@ -47,7 +47,7 @@ const widgets = {
 ```js
 import {
     BoolRenderer
-} from "@ui-schema/ds-bootstrap/Widgets/OptionsBoolean";
+} from "@xy-form/ds-bootstrap/Widgets/OptionsBoolean";
 
 const widgets = {
     types: {

@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
-import { GroupRendererProps } from '@ui-schema/ui-schema/WidgetsBinding'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
+import { GroupRendererProps } from '@xy-form/ui-schema/WidgetsBinding'
 
 export interface ObjectRendererProps extends WidgetProps {
     noGrid?: GroupRendererProps['noGrid']

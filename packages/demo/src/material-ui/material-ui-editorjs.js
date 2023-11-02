@@ -7,7 +7,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import {ImmutableEditor, themeMaterial} from 'react-immutable-editor';
 import Dashboard from './dashboard/Dashboard';
-import {widgets} from '@ui-schema/ds-material';
+import {widgets} from '@xy-form/ds-material';
 import {browserT} from '../t';
 import {MuiSchemaDebug} from './component/MuiSchemaDebug';
 import IcSave from '@mui/icons-material/Save'
@@ -16,16 +16,16 @@ import IcHistory from '@mui/icons-material/History'
 import IcRedo from '@mui/icons-material/Redo'
 import IcUndo from '@mui/icons-material/Undo'
 import useTheme from '@mui/material/styles/useTheme';
-import {isInvalid} from '@ui-schema/ui-schema/ValidityReporter/isInvalid';
-import {toHistory, useStorePro} from '@ui-schema/pro/UIStorePro';
-import {EditorJSWidget} from '@ui-schema/material-editorjs/Widgets/EditorJSWidget';
+import {isInvalid} from '@xy-form/ui-schema/ValidityReporter/isInvalid';
+import {toHistory, useStorePro} from '@xy-form/pro/UIStorePro';
+import {EditorJSWidget} from '@xy-form/material-editorjs/Widgets/EditorJSWidget';
 import Paragraph from '@editorjs/paragraph'
 import CheckList from '@editorjs/checklist'
 import List from '@editorjs/list'
 import Header from '@editorjs/header'
 import Table from '@editorjs/table'
 import {schemaDemoEditorJS} from '../schemas/demoEditorJS';
-import {UIMetaProvider, UIRootRenderer, UIStoreProvider} from '@ui-schema/ui-schema';
+import {UIMetaProvider, UIRootRenderer, UIStoreProvider} from '@xy-form/ui-schema';
 
 const tools = {
     paragraph: Paragraph,

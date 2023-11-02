@@ -1,6 +1,6 @@
 import React from 'react'
-import { PluginProps } from '@ui-schema/ui-schema/PluginStack/Plugin'
-import { PluginSimple } from '@ui-schema/ui-schema/PluginSimpleStack/PluginSimple'
+import { PluginProps } from '@xy-form/ui-schema/PluginStack/Plugin'
+import { PluginSimple } from '@xy-form/ui-schema/PluginSimpleStack/PluginSimple'
 
 export function handlePluginSimpleStack<P extends PluginProps>(props: P, simpleStack: PluginSimple[]): P
 

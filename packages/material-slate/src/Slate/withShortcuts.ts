@@ -6,10 +6,10 @@ import {
     Element as SlateElement,
 } from 'slate'
 import { ReactEditor } from 'slate-react'
-import { BulletedListElement, SlateHocType } from '@ui-schema/material-slate/Slate/SlateRenderer'
-import { pluginOptions } from '@ui-schema/material-slate/Slate/pluginOptions'
-import { CustomOptions } from '@ui-schema/material-slate/Slate/slatePlugins'
-import { editorIsEnabled } from '@ui-schema/material-slate/Slate/editorIsEnabled'
+import { BulletedListElement, SlateHocType } from '@xy-form/material-slate/Slate/SlateRenderer'
+import { pluginOptions } from '@xy-form/material-slate/Slate/pluginOptions'
+import { CustomOptions } from '@xy-form/material-slate/Slate/slatePlugins'
+import { editorIsEnabled } from '@xy-form/material-slate/Slate/editorIsEnabled'
 
 const SHORTCUTS: { [k: string]: string } = {
     '-': pluginOptions.li.type,

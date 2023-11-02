@@ -21,7 +21,7 @@ Widgets for native HTML text inputs to fill an array, usable for `string` (singl
 ### Material-UI
 
 ```js
-import {SimpleList} from "@ui-schema/ds-material/Widgets/SimpleList";
+import {SimpleList} from "@xy-form/ds-material/Widgets/SimpleList";
 
 const widgets = {
     custom: {
@@ -74,7 +74,7 @@ Needed other Component:
 The SimpleList widget uses icons (`Plus` and `Minus`), which have a tooltip and a translation for the tooltip. The translation component must be imported:
 
 ```js
-import {Trans, useUIMeta} from "@ui-schema/ui-schema";
+import {Trans, useUIMeta} from "@xy-form/ui-schema";
 ```
 
 The translated text can be inserted with: `labels.add`and `labels.remove`

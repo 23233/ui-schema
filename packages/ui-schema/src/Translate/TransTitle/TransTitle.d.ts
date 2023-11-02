@@ -1,6 +1,6 @@
 import React from 'react'
-import { StoreKeyType, StoreKeys } from '@ui-schema/ui-schema/UIStore'
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { StoreKeyType, StoreKeys } from '@xy-form/ui-schema/UIStore'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 export interface TransTitleProps {
     schema: StoreSchemaType

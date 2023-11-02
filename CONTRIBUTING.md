@@ -37,9 +37,9 @@ See current *[packages/demo@master](https://ui-schema-demo.netlify.app/)* or
     - needs manual bootstrapping and update handling
 - Clean node_modules and build dirs: `npm run clean`
 - Clean build dirs: `npm run clean-dist`
-- Add new node_module to one package: `lerna add <npm-package-name> --scope=@ui-schema/demo [--dev] [--peer]`, without `--scope` in all packages
+- Add new node_module to one package: `lerna add <npm-package-name> --scope=@xy-form/demo [--dev] [--peer]`, without `--scope` in all packages
 - Do not change `package.json` of packages manually, and if Bootstrap [lerna](https://lerna.js.org/): `npm run bootstrap` (maybe delete `package-lock.json`), or simply open an issue
-- Add new package `lerna create <name>` and follow on screen, e.g.: `lerna create material-pickers` add package name `@ui-schema/material-pickerss`, creates folder `./packages/material-pickers`
+- Add new package `lerna create <name>` and follow on screen, e.g.: `lerna create material-pickers` add package name `@xy-form/material-pickerss`, creates folder `./packages/material-pickers`
 
 > All-in-one clean & reinstall command - skip the first one if not installed completely:
 > `npm run clean && rm -rf node_modules && rm -f package-lock.json && npm i && npm run bootstrap && npm run bootstrap && npm run link`

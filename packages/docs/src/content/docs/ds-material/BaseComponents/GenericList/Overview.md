@@ -5,17 +5,17 @@ Base components for the `GenericList` widget, to easily configure and re-wire th
 ```typescript jsx
 import React from 'react'
 import { List } from 'immutable'
-import { memo } from '@ui-schema/ui-schema/Utils/memo'
-import { WidgetProps } from '@ui-schema/ui-schema/Widget'
-import { useUIStore, WithOnChange } from '@ui-schema/ui-schema/UIStore'
+import { memo } from '@xy-form/ui-schema/Utils/memo'
+import { WidgetProps } from '@xy-form/ui-schema/Widget'
+import { useUIStore, WithOnChange } from '@xy-form/ui-schema/UIStore'
 import {
     GenericListContent, GenericListFooter,
     GenericListItem,
     GenericListItemMore, GenericListItemPos,
-} from '@ui-schema/ds-material/BaseComponents/GenericList'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
+} from '@xy-form/ds-material/BaseComponents/GenericList'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
 
-// it is important to use `memo` from `@ui-schema/ui-schema` for the content component,
+// it is important to use `memo` from `@xy-form/ui-schema` for the content component,
 // as the generic list will re-render on each change of anything in the store,
 // with passing down `listSize` and not other data, the `GenericListContent` will only re-render when the `listSize` changes
 export const GenericListContentMemo = memo(GenericListContent)

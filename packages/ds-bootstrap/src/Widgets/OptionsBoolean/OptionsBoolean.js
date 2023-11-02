@@ -1,6 +1,6 @@
 import React from 'react';
 import {useUID} from 'react-uid';
-import {TransTitle} from '@ui-schema/ui-schema';
+import {TransTitle} from '@xy-form/ui-schema';
 import {ValidityHelperText} from '../../Component/LocaleHelperText/LocaleHelperText';
 
 const BoolRenderer = ({showValidity, required, errors, value, storeKeys, onChange, schema}) => {

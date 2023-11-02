@@ -1,4 +1,4 @@
-import { DataKeys } from '@ui-schema/kit-dnd/KitDnd'
+import { DataKeys } from '@xy-form/kit-dnd/KitDnd'
 
 export const checkIsOtherTarget = (
     {

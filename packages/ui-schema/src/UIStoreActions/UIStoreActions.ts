@@ -1,4 +1,4 @@
-import { StoreKeys, StoreSchemaType, UIStoreType, UIStoreUpdaterFn } from '@ui-schema/ui-schema'
+import { StoreKeys, StoreSchemaType, UIStoreType, UIStoreUpdaterFn } from '@xy-form/ui-schema'
 
 export interface UIStoreUpdaterData {
     value?: any

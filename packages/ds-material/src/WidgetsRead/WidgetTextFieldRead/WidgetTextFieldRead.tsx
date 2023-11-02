@@ -1,11 +1,11 @@
 import React, { MouseEventHandler } from 'react'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
-import { ValidityHelperText } from '@ui-schema/ds-material/Component/LocaleHelperText'
-import { WidgetProps, WithScalarValue } from '@ui-schema/ui-schema'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
-import { UIMetaReadContextType } from '@ui-schema/ui-schema/UIMetaReadContext'
-import { TitleBoxRead } from '@ui-schema/ds-material/Component/TitleBoxRead'
+import { ValidityHelperText } from '@xy-form/ds-material/Component/LocaleHelperText'
+import { WidgetProps, WithScalarValue } from '@xy-form/ui-schema'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
+import { UIMetaReadContextType } from '@xy-form/ui-schema/UIMetaReadContext'
+import { TitleBoxRead } from '@xy-form/ds-material/Component/TitleBoxRead'
 
 export interface StringRendererBaseProps {
     onClick?: MouseEventHandler<HTMLDivElement> | undefined

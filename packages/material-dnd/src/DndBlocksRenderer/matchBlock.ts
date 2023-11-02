@@ -1,4 +1,4 @@
-import { DndBlock, DragDropBlockContextType } from '@ui-schema/material-dnd/DragDropBlockProvider'
+import { DndBlock, DragDropBlockContextType } from '@xy-form/material-dnd/DragDropBlockProvider'
 import { OrderedMap } from 'immutable'
 
 export const matchBlock = (blocks: DragDropBlockContextType['blocks'], val: OrderedMap<string, any>): {

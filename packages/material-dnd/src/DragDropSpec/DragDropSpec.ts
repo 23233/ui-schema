@@ -1,4 +1,4 @@
-import { ItemSpec } from '@ui-schema/kit-dnd'
+import { ItemSpec } from '@xy-form/kit-dnd'
 
 export interface DragDropSpec extends ItemSpec {
     listKey?: string

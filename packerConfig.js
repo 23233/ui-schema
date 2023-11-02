@@ -178,56 +178,56 @@ packer({
         // the keys are the commonjs names that is applied to externals
         // this is the same as `@babel/plugin-transform-modules-commonjs` applies
         uiSchema: {
-            name: '@ui-schema/ui-schema',
+            name: '@xy-form/ui-schema',
             root: path.resolve(__dirname, 'packages', 'ui-schema'),
             entry: path.resolve(__dirname, 'packages', 'ui-schema/src/'),
             babelTargets: legacyBabelTargets,
         },
         uiSchemaPro: {
-            name: '@ui-schema/pro',
+            name: '@xy-form/pro',
             root: path.resolve(__dirname, 'packages', 'ui-schema-pro'),
             entry: path.resolve(__dirname, 'packages', 'ui-schema-pro/src/'),
         },
         uiSchemaDictionary: {
-            name: '@ui-schema/dictionary',
+            name: '@xy-form/dictionary',
             root: path.resolve(__dirname, 'packages', 'dictionary'),
             entry: path.resolve(__dirname, 'packages', 'dictionary/src/'),
         },
         dsMaterial: {
             // noClean: true,
-            name: '@ui-schema/ds-material',
+            name: '@xy-form/ds-material',
             root: path.resolve(__dirname, 'packages', 'ds-material'),
             entry: path.resolve(__dirname, 'packages', 'ds-material/src/'),
             babelTargets: legacyBabelTargets,
         },
         dsBootstrap: {
-            name: '@ui-schema/ds-bootstrap',
+            name: '@xy-form/ds-bootstrap',
             root: path.resolve(__dirname, 'packages', 'ds-bootstrap'),
             entry: path.resolve(__dirname, 'packages', 'ds-bootstrap/src/'),
             babelTargets: legacyBabelTargets,
         },
         kitDnd: {
-            name: '@ui-schema/kit-dnd',
+            name: '@xy-form/kit-dnd',
             root: path.resolve(__dirname, 'packages', 'kit-dnd'),
             entry: path.resolve(__dirname, 'packages', 'kit-dnd/src/'),
         },
         materialPickers: {
-            name: '@ui-schema/material-pickers',
+            name: '@xy-form/material-pickers',
             root: path.resolve(__dirname, 'packages', 'material-pickers'),
             entry: path.resolve(__dirname, 'packages', 'material-pickers/src/'),
         },
         materialSlate: {
-            name: '@ui-schema/material-slate',
+            name: '@xy-form/material-slate',
             root: path.resolve(__dirname, 'packages', 'material-slate'),
             entry: path.resolve(__dirname, 'packages', 'material-slate/src/'),
         },
         materialEditorJs: {
-            name: '@ui-schema/material-editorjs',
+            name: '@xy-form/material-editorjs',
             root: path.resolve(__dirname, 'packages', 'material-editorjs'),
             entry: path.resolve(__dirname, 'packages', 'material-editorjs/src/'),
         },
         materialDnd: {
-            name: '@ui-schema/material-dnd',
+            name: '@xy-form/material-dnd',
             root: path.resolve(__dirname, 'packages', 'material-dnd'),
             entry: path.resolve(__dirname, 'packages', 'material-dnd/src/'),
         },

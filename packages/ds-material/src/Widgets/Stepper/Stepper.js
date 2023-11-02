@@ -4,11 +4,11 @@ import MuiStep from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import {memo} from '@ui-schema/ui-schema/Utils';
-import {extractValidity} from '@ui-schema/ui-schema/UIStore';
-import {isInvalid} from '@ui-schema/ui-schema/ValidityReporter';
-import {PluginStack} from '@ui-schema/ui-schema/PluginStack';
-import {TransTitle} from '@ui-schema/ui-schema/Translate/TransTitle';
+import {memo} from '@xy-form/ui-schema/Utils';
+import {extractValidity} from '@xy-form/ui-schema/UIStore';
+import {isInvalid} from '@xy-form/ui-schema/ValidityReporter';
+import {PluginStack} from '@xy-form/ui-schema/PluginStack';
+import {TransTitle} from '@xy-form/ui-schema/Translate/TransTitle';
 import Box from '@mui/material/Box';
 import {useTheme} from '@mui/material/styles';
 

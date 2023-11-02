@@ -1,6 +1,6 @@
 import React from 'react'
-import { extractValue, memo, PluginStack, StoreSchemaType, WidgetProps, WithValue } from '@ui-schema/ui-schema'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
+import { extractValue, memo, PluginStack, StoreSchemaType, WidgetProps, WithValue } from '@xy-form/ui-schema'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
 
 export const TableAdvancedBase: React.ComponentType<WidgetProps<MuiWidgetBinding> & WithValue> = (
     {

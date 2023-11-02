@@ -1,9 +1,9 @@
 import {
     validateObject, objectValidator, ERROR_ADDITIONAL_PROPERTIES,
-} from '@ui-schema/ui-schema/Validators/ObjectValidator'
-import { createMap, createOrderedMap } from '@ui-schema/ui-schema/Utils'
-import { ERROR_PATTERN } from '@ui-schema/ui-schema/Validators/PatternValidator'
-import { createValidatorErrors } from '@ui-schema/ui-schema/ValidatorErrors'
+} from '@xy-form/ui-schema/Validators/ObjectValidator'
+import { createMap, createOrderedMap } from '@xy-form/ui-schema/Utils'
+import { ERROR_PATTERN } from '@xy-form/ui-schema/Validators/PatternValidator'
+import { createValidatorErrors } from '@xy-form/ui-schema/ValidatorErrors'
 
 describe('validateObject', () => {
     test.each([

@@ -1,7 +1,7 @@
 import React from 'react';
-import {createEmptyStore, injectPluginStack, isInvalid, UIStoreProvider} from '@ui-schema/ui-schema';
-import {storeUpdater} from '@ui-schema/ui-schema/storeUpdater';
-import {GridContainer} from '@ui-schema/ds-material/GridContainer';
+import {createEmptyStore, injectPluginStack, isInvalid, UIStoreProvider} from '@xy-form/ui-schema';
+import {storeUpdater} from '@xy-form/ui-schema/storeUpdater';
+import {GridContainer} from '@xy-form/ds-material/GridContainer';
 
 const GridStack = injectPluginStack(GridContainer)
 const MainDummy = ({schema, Debugger, Button}) => {

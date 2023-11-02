@@ -1,10 +1,10 @@
 import React from 'react'
-import { extractValue, memo, WidgetProps, WithValue } from '@ui-schema/ui-schema'
-import { SlateRenderer } from '@ui-schema/material-slate/Slate/SlateRenderer'
-import { ElementMapper } from '@ui-schema/material-slate/SlateElements/ElementMapper'
-import { FormWrapper, useFormEditorStyles } from '@ui-schema/material-slate/EditorWrapper/FormWrapper'
-import { useSlate } from '@ui-schema/material-slate/Slate/useSlate'
-import { slatePlugins, withPlugins } from '@ui-schema/material-slate/Slate/slatePlugins'
+import { extractValue, memo, WidgetProps, WithValue } from '@xy-form/ui-schema'
+import { SlateRenderer } from '@xy-form/material-slate/Slate/SlateRenderer'
+import { ElementMapper } from '@xy-form/material-slate/SlateElements/ElementMapper'
+import { FormWrapper, useFormEditorStyles } from '@xy-form/material-slate/EditorWrapper/FormWrapper'
+import { useSlate } from '@xy-form/material-slate/Slate/useSlate'
+import { slatePlugins, withPlugins } from '@xy-form/material-slate/Slate/slatePlugins'
 
 const RichContentBase: React.ComponentType<WidgetProps & WithValue> = (props) => {
     const {

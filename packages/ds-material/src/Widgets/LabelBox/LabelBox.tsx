@@ -1,6 +1,6 @@
 import React from 'react'
-import { TransTitle, WidgetProps } from '@ui-schema/ui-schema'
-import { ObjectRenderer } from '@ui-schema/ui-schema/ObjectRenderer'
+import { TransTitle, WidgetProps } from '@xy-form/ui-schema'
+import { ObjectRenderer } from '@xy-form/ui-schema/ObjectRenderer'
 import Box from '@mui/material/Box'
 import Typography, { TypographyProps } from '@mui/material/Typography'
 

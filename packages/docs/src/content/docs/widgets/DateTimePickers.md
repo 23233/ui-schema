@@ -5,7 +5,7 @@ Widgets for date, datetime, time selection, design-system implementation.
 [![Component Examples](https://img.shields.io/badge/Examples-green?labelColor=1d3d39&color=1a6754&logoColor=ffffff&style=flat-square)](#demo-ui-generator) [![supports Material-UI Binding](https://img.shields.io/badge/Material-green?labelColor=1a237e&color=0d47a1&logoColor=ffffff&style=flat-square&logo=mui)](#material-ui)
 
 >
-> 🚧 (deprecated) docs for `v0.3.0` of `@ui-schema/material-pickers` for `@material-ui/core`
+> 🚧 (deprecated) docs for `v0.3.0` of `@xy-form/material-pickers` for `@material-ui/core`
 >
 > full rewrite of picker widgets in progress, [see docs for `@mui/x-date-pickers`](/docs/material-pickers/Overview)
 >
@@ -27,7 +27,7 @@ Widgets for date, datetime, time selection, design-system implementation.
 ### Material-UI
 
 ```bash
-npm i --save @ui-schema/material-pickers @material-ui/pickers
+npm i --save @xy-form/material-pickers @material-ui/pickers
 ```
 
 - extra `date` keywords:
@@ -73,9 +73,9 @@ Wrap the editor some where with the pickers provider and add the widgets:
 ```jsx harmony
 import React from 'react';
 
-import {UIGenerator} from "@ui-schema/ui-schema";
-import {widgets} from "@ui-schema/ds-material";
-import {TimePicker, DatePicker, DateTimePicker} from "@ui-schema/material-pickers";
+import {UIGenerator} from "@xy-form/ui-schema";
+import {widgets} from "@xy-form/ds-material";
+import {TimePicker, DatePicker, DateTimePicker} from "@xy-form/material-pickers";
 import {MuiPickersUtilsProvider} from "@material-ui/pickers";
 import LuxonAdapter from "@date-io/luxon";
 

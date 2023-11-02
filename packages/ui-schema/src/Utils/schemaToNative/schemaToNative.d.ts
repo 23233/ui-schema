@@ -1,4 +1,4 @@
-import { StoreSchemaType } from '@ui-schema/ui-schema/CommonTypings'
+import { StoreSchemaType } from '@xy-form/ui-schema/CommonTypings'
 
 export function mapSchema<K extends {}>(inputProps: K, schema: StoreSchemaType): K
 

@@ -1,4 +1,4 @@
-import { DndIntents, DndDragIntentKeys, DataKeys } from '@ui-schema/kit-dnd/KitDnd'
+import { DndIntents, DndDragIntentKeys, DataKeys } from '@xy-form/kit-dnd/KitDnd'
 
 /**
  * calculating the result of a drag-move action towards what store changes the keys may need to do

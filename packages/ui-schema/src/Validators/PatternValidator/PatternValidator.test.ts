@@ -1,8 +1,8 @@
 import { OrderedMap } from 'immutable'
 import { describe, test, expect } from '@jest/globals'
-import { validatePattern, patternValidator, ERROR_PATTERN } from '@ui-schema/ui-schema/Validators/PatternValidator'
-import { createValidatorErrors } from '@ui-schema/ui-schema/ValidatorErrors/ValidatorErrors'
-import { SchemaTypesType } from '@ui-schema/ui-schema'
+import { validatePattern, patternValidator, ERROR_PATTERN } from '@xy-form/ui-schema/Validators/PatternValidator'
+import { createValidatorErrors } from '@xy-form/ui-schema/ValidatorErrors/ValidatorErrors'
+import { SchemaTypesType } from '@xy-form/ui-schema'
 
 describe('validatePattern', () => {
     test.each([

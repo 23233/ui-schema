@@ -1,12 +1,12 @@
 import React from 'react'
 import { Map, List, OrderedMap } from 'immutable'
-import { Trans, beautifyKey, extractValue, memo, WidgetProps, StoreKeys, tt, StoreSchemaType, useUIMeta } from '@ui-schema/ui-schema'
-import { ValidityHelperText } from '@ui-schema/ds-material/Component/LocaleHelperText'
-import { MuiWidgetBinding } from '@ui-schema/ds-material/widgetsBinding'
+import { Trans, beautifyKey, extractValue, memo, WidgetProps, StoreKeys, tt, StoreSchemaType, useUIMeta } from '@xy-form/ui-schema'
+import { ValidityHelperText } from '@xy-form/ds-material/Component/LocaleHelperText'
+import { MuiWidgetBinding } from '@xy-form/ds-material/widgetsBinding'
 import Box from '@mui/material/Box'
-import { TitleBoxRead } from '@ui-schema/ds-material/Component/TitleBoxRead'
+import { TitleBoxRead } from '@xy-form/ds-material/Component/TitleBoxRead'
 import Typography from '@mui/material/Typography'
-import { UIMetaReadContextType } from '@ui-schema/ui-schema/UIMetaReadContext'
+import { UIMetaReadContextType } from '@xy-form/ui-schema/UIMetaReadContext'
 
 const checkActive = (list: List<any>, name: string | undefined | number) => list && list.contains && typeof list.contains(name) !== 'undefined' ? list.contains(name) : false
 

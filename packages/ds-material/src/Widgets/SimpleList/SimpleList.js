@@ -5,11 +5,11 @@ import FormLabel from '@mui/material/FormLabel';
 import IconButton from '@mui/material/IconButton';
 import Add from '@mui/icons-material/Add';
 import Remove from '@mui/icons-material/Remove';
-import {TransTitle, extractValue, memo, PluginStack} from '@ui-schema/ui-schema';
-import {ValidityHelperText} from '@ui-schema/ds-material/Component/LocaleHelperText';
-import {AccessTooltipIcon} from '@ui-schema/ds-material/Component/Tooltip';
-import {ListButton} from '@ui-schema/ds-material/Component/ListButton';
-import {Trans} from '@ui-schema/ui-schema/Translate/Trans';
+import {TransTitle, extractValue, memo, PluginStack} from '@xy-form/ui-schema';
+import {ValidityHelperText} from '@xy-form/ds-material/Component/LocaleHelperText';
+import {AccessTooltipIcon} from '@xy-form/ds-material/Component/Tooltip';
+import {ListButton} from '@xy-form/ds-material/Component/ListButton';
+import {Trans} from '@xy-form/ui-schema/Translate/Trans';
 import {Map} from 'immutable';
 
 export const SimpleListItemBase = (
