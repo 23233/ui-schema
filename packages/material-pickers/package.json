@@ -1,6 +1,6 @@
 {
     "name": "@xy-form/material-pickers",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Date+Time Pickers for UI-Schema with Material-UI",
     "homepage": "https://ui-schema.bemit.codes",
     "author": "Michael Becker <michael@bemit.codes>",
@@ -45,8 +45,8 @@
         "@types/luxon": "^2.3.0",
         "@types/react": "^17.0",
         "@types/react-dom": "^17.0",
-        "@xy-form/ds-material": "^0.0.1",
-        "@xy-form/ui-schema": "^0.0.1",
+        "@xy-form/ds-material": "^0.0.2",
+        "@xy-form/ui-schema": "^0.0.2",
         "immutable": "^4.0.0",
         "luxon": "^2.3.0",
         "react": "^17.0",

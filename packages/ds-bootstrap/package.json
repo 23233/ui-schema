@@ -1,6 +1,6 @@
 {
     "name": "@xy-form/ds-bootstrap",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Bootstrap Binding for UI-Schema",
     "homepage": "https://ui-schema.bemit.codes",
     "author": "Michael Becker <michael@bemit.codes>",

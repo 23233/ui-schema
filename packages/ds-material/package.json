@@ -1,6 +1,6 @@
 {
     "name": "@xy-form/ds-material",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Material-UI Binding for UI-Schema",
     "homepage": "https://ui-schema.bemit.codes",
     "author": "Michael Becker <michael@bemit.codes>",
@@ -39,7 +39,7 @@
         "@mui/icons-material": "^5.1",
         "@mui/material": "^5.1",
         "@types/react": "^17.0",
-        "@xy-form/ui-schema": "^0.0.1",
+        "@xy-form/ui-schema": "^0.0.2",
         "immutable": "^4.0.0",
         "react": "^17.0",
         "react-dom": "^17.0"

@@ -1,6 +1,6 @@
 {
     "name": "@xy-form/material-dnd",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Drag and Drop Tools and Widgets for UI-Schema with Material-UI",
     "homepage": "https://ui-schema.bemit.codes",
     "author": "Michael Becker <michael@bemit.codes>",
@@ -38,7 +38,7 @@
         "@mui/icons-material": "^5.1",
         "@mui/material": "^5.1",
         "@types/react": "^17.0",
-        "@xy-form/kit-dnd": "^0.0.1",
+        "@xy-form/kit-dnd": "^0.0.2",
         "immutable": "^4.0.0",
         "react": "^17.0",
         "react-dnd": "^14.0.0",

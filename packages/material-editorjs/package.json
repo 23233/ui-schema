@@ -1,6 +1,6 @@
 {
     "name": "@xy-form/material-editorjs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "EditorJS for UI-Schema with Material-UI",
     "homepage": "https://ui-schema.bemit.codes",
     "author": "Michael Becker <michael@bemit.codes>",
@@ -43,8 +43,8 @@
         "@mui/material": "^5.1",
         "@mui/system": "^5.1",
         "@types/react": "^17.0",
-        "@xy-form/ds-material": "^0.0.1",
-        "@xy-form/ui-schema": "^0.0.1",
+        "@xy-form/ds-material": "^0.0.2",
+        "@xy-form/ui-schema": "^0.0.2",
         "immutable": "^4.0.0",
         "react": "^17.0",
         "react-dom": "^17.0",
